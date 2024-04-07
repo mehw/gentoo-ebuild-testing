@@ -1,0 +1,32 @@
+cd /var/db/repos/localrepo/media-sound/audacity
+cp audacity-3.4.2-r{1,2}.ebuild
+patch -p1 < .../audacity-3.4.2-r2-3.patch
+
+The ASM_NASM compiler identification is unknown
+Didn't find assembler:
+CMakeLists.txt:280: include( CMakeDetermineASM_NASMCompiler )
+
+Package xproto was not found in the pkg-config search path.
+Perhaps you should add the directory containing `xproto.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'xproto', required by 'x11', not found
+Package 'kbproto', required by 'x11', not found
+Package 'xextproto', required by 'xext', not found
+Package 'xproto', required by 'xrender', not found
+Package 'renderproto', required by 'xrender', not found
+Package 'xproto', required by 'xau', not found
+Package 'xproto', required by 'xdmcp', not found
+
+--- a/audacity-3.4.2-r2.ebuild	2024-04-07 10:28:37.004944521 +0000
++++ b/audacity-3.4.2-r2.ebuild	2024-04-07 18:50:46.108000000 +0000
+@@ -112,8 +112,10 @@
+ "
+ DEPEND="${RDEPEND}
+ 	dev-libs/rapidjson
++	x11-base/xorg-proto
+ 	test? ( <dev-cpp/catch-3:0 )"
+ BDEPEND="
++	dev-lang/nasm
+ 	sys-devel/gettext
+ 	virtual/pkgconfig
+ "

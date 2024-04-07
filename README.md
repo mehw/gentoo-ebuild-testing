@@ -26,3 +26,19 @@ emerge --depclean
 rm /var/cache/binpkgs/media-sound/audacity/audacity-3.4.2-r1-*
 emerge -k =media-sound/audacity-3.4.2-r1
 ```
+
+## media-sound/audacity-3.4.2-r2
+
+USE="-alsa -audiocom -ffmpeg -flac -id3tag -ladspa -lv2 -mpg123 -ogg -opus -portmixer -sbsms -test -twolame -vamp -vorbis -wavpack" ABI_X86="(64)"
+
+__[SUCCESS](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r2/3/)__
+
+```
+cd /var/db/repos/localrepo/media-sound/audacity
+cp audacity-3.4.2-r{1,2}.ebuild
+patch -p1 < .../audacity-3.4.2-r2-3.patch
+ebuild audacity-3.4.2-r2.ebuild manifest
+emerge --unmerge media-sound/audacity
+emerge --depclean
+emerge -k =media-sound/audacity-3.4.2-r2
+```
