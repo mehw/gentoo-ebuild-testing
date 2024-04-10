@@ -1,0 +1,931 @@
+1712592500: Started emerge on: Apr 08, 2024 16:08:19
+1712592500:  *** emerge --autounmask-continue --regex-search-auto=y net-misc/dhcpcd sudo
+1712592502:  >>> emerge (1 of 8) acct-group/nullmail-0-r2 to /
+1712592502:  === (1 of 8) Cleaning (acct-group/nullmail-0-r2::/var/db/repos/gentoo/acct-group/nullmail/nullmail-0-r2.ebuild)
+1712592502:  === (1 of 8) Compiling/Merging (acct-group/nullmail-0-r2::/var/db/repos/gentoo/acct-group/nullmail/nullmail-0-r2.ebuild)
+1712592506:  === (1 of 8) Merging (acct-group/nullmail-0-r2::/var/db/repos/gentoo/acct-group/nullmail/nullmail-0-r2.ebuild)
+1712592508:  >>> AUTOCLEAN: acct-group/nullmail:0
+1712592509:  === (1 of 8) Post-Build Cleaning (acct-group/nullmail-0-r2::/var/db/repos/gentoo/acct-group/nullmail/nullmail-0-r2.ebuild)
+1712592509:  ::: completed emerge (1 of 8) acct-group/nullmail-0-r2 to /
+1712592509:  >>> emerge (2 of 8) acct-user/nullmail-0-r2 to /
+1712592509:  === (2 of 8) Cleaning (acct-user/nullmail-0-r2::/var/db/repos/gentoo/acct-user/nullmail/nullmail-0-r2.ebuild)
+1712592509:  === (2 of 8) Compiling/Merging (acct-user/nullmail-0-r2::/var/db/repos/gentoo/acct-user/nullmail/nullmail-0-r2.ebuild)
+1712592513:  === (2 of 8) Merging (acct-user/nullmail-0-r2::/var/db/repos/gentoo/acct-user/nullmail/nullmail-0-r2.ebuild)
+1712592515:  >>> AUTOCLEAN: acct-user/nullmail:0
+1712592516:  === (2 of 8) Post-Build Cleaning (acct-user/nullmail-0-r2::/var/db/repos/gentoo/acct-user/nullmail/nullmail-0-r2.ebuild)
+1712592516:  ::: completed emerge (2 of 8) acct-user/nullmail-0-r2 to /
+1712592516:  >>> emerge (3 of 8) app-admin/metalog-20230719 to /
+1712592516:  === (3 of 8) Cleaning (app-admin/metalog-20230719::/var/db/repos/gentoo/app-admin/metalog/metalog-20230719.ebuild)
+1712592516:  === (3 of 8) Compiling/Merging (app-admin/metalog-20230719::/var/db/repos/gentoo/app-admin/metalog/metalog-20230719.ebuild)
+1712592534:  === (3 of 8) Merging (app-admin/metalog-20230719::/var/db/repos/gentoo/app-admin/metalog/metalog-20230719.ebuild)
+1712592535:  >>> AUTOCLEAN: app-admin/metalog:0
+1712592536:  === (3 of 8) Post-Build Cleaning (app-admin/metalog-20230719::/var/db/repos/gentoo/app-admin/metalog/metalog-20230719.ebuild)
+1712592536:  ::: completed emerge (3 of 8) app-admin/metalog-20230719 to /
+1712592536:  >>> emerge (4 of 8) net-misc/dhcpcd-10.0.6-r2 to /
+1712592536:  === (4 of 8) Cleaning (net-misc/dhcpcd-10.0.6-r2::/var/db/repos/gentoo/net-misc/dhcpcd/dhcpcd-10.0.6-r2.ebuild)
+1712592536:  === (4 of 8) Compiling/Merging (net-misc/dhcpcd-10.0.6-r2::/var/db/repos/gentoo/net-misc/dhcpcd/dhcpcd-10.0.6-r2.ebuild)
+1712592548:  === (4 of 8) Merging (net-misc/dhcpcd-10.0.6-r2::/var/db/repos/gentoo/net-misc/dhcpcd/dhcpcd-10.0.6-r2.ebuild)
+1712592549:  >>> AUTOCLEAN: net-misc/dhcpcd:0
+1712592549:  === Unmerging... (net-misc/dhcpcd-10.0.6-r2)
+1712592550:  >>> unmerge success: net-misc/dhcpcd-10.0.6-r2
+1712592551:  === (4 of 8) Updating world file (net-misc/dhcpcd-10.0.6-r2)
+1712592551:  === (4 of 8) Post-Build Cleaning (net-misc/dhcpcd-10.0.6-r2::/var/db/repos/gentoo/net-misc/dhcpcd/dhcpcd-10.0.6-r2.ebuild)
+1712592551:  ::: completed emerge (4 of 8) net-misc/dhcpcd-10.0.6-r2 to /
+1712592551:  >>> emerge (5 of 8) virtual/logger-0-r1 to /
+1712592551:  === (5 of 8) Cleaning (virtual/logger-0-r1::/var/db/repos/gentoo/virtual/logger/logger-0-r1.ebuild)
+1712592551:  === (5 of 8) Compiling/Merging (virtual/logger-0-r1::/var/db/repos/gentoo/virtual/logger/logger-0-r1.ebuild)
+1712592555:  === (5 of 8) Merging (virtual/logger-0-r1::/var/db/repos/gentoo/virtual/logger/logger-0-r1.ebuild)
+1712592556:  >>> AUTOCLEAN: virtual/logger:0
+1712592557:  === (5 of 8) Post-Build Cleaning (virtual/logger-0-r1::/var/db/repos/gentoo/virtual/logger/logger-0-r1.ebuild)
+1712592557:  ::: completed emerge (5 of 8) virtual/logger-0-r1 to /
+1712592557:  >>> emerge (6 of 8) mail-mta/nullmailer-2.2-r2 to /
+1712592557:  === (6 of 8) Cleaning (mail-mta/nullmailer-2.2-r2::/var/db/repos/gentoo/mail-mta/nullmailer/nullmailer-2.2-r2.ebuild)
+1712592557:  === (6 of 8) Compiling/Merging (mail-mta/nullmailer-2.2-r2::/var/db/repos/gentoo/mail-mta/nullmailer/nullmailer-2.2-r2.ebuild)
+1712592579:  === (6 of 8) Merging (mail-mta/nullmailer-2.2-r2::/var/db/repos/gentoo/mail-mta/nullmailer/nullmailer-2.2-r2.ebuild)
+1712592580:  >>> AUTOCLEAN: mail-mta/nullmailer:0
+1712592581:  === (6 of 8) Post-Build Cleaning (mail-mta/nullmailer-2.2-r2::/var/db/repos/gentoo/mail-mta/nullmailer/nullmailer-2.2-r2.ebuild)
+1712592581:  ::: completed emerge (6 of 8) mail-mta/nullmailer-2.2-r2 to /
+1712592582:  >>> emerge (7 of 8) virtual/mta-1-r2 to /
+1712592582:  === (7 of 8) Cleaning (virtual/mta-1-r2::/var/db/repos/gentoo/virtual/mta/mta-1-r2.ebuild)
+1712592582:  === (7 of 8) Compiling/Merging (virtual/mta-1-r2::/var/db/repos/gentoo/virtual/mta/mta-1-r2.ebuild)
+1712592585:  === (7 of 8) Merging (virtual/mta-1-r2::/var/db/repos/gentoo/virtual/mta/mta-1-r2.ebuild)
+1712592587:  >>> AUTOCLEAN: virtual/mta:0
+1712592588:  === (7 of 8) Post-Build Cleaning (virtual/mta-1-r2::/var/db/repos/gentoo/virtual/mta/mta-1-r2.ebuild)
+1712592588:  ::: completed emerge (7 of 8) virtual/mta-1-r2 to /
+1712592588:  >>> emerge (8 of 8) app-admin/sudo-1.9.15_p5 to /
+1712592588:  === (8 of 8) Cleaning (app-admin/sudo-1.9.15_p5::/var/db/repos/gentoo/app-admin/sudo/sudo-1.9.15_p5.ebuild)
+1712592588:  === (8 of 8) Compiling/Merging (app-admin/sudo-1.9.15_p5::/var/db/repos/gentoo/app-admin/sudo/sudo-1.9.15_p5.ebuild)
+1712592664:  === (8 of 8) Merging (app-admin/sudo-1.9.15_p5::/var/db/repos/gentoo/app-admin/sudo/sudo-1.9.15_p5.ebuild)
+1712592665:  >>> AUTOCLEAN: app-admin/sudo:0
+1712592667:  === (8 of 8) Updating world file (app-admin/sudo-1.9.15_p5)
+1712592667:  === (8 of 8) Post-Build Cleaning (app-admin/sudo-1.9.15_p5::/var/db/repos/gentoo/app-admin/sudo/sudo-1.9.15_p5.ebuild)
+1712592667:  ::: completed emerge (8 of 8) app-admin/sudo-1.9.15_p5 to /
+1712592667:  *** Finished. Cleaning up...
+1712592667:  *** exiting successfully.
+1712592667:  *** terminating.
+1712683127: Started emerge on: Apr 09, 2024 17:18:47
+1712683127:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --verbose iwdevtools
+1712683131:  >>> emerge (1 of 1) app-portage/iwdevtools-0.12.11 to /
+1712683131:  === (1 of 1) Cleaning (app-portage/iwdevtools-0.12.11::/var/db/repos/gentoo/app-portage/iwdevtools/iwdevtools-0.12.11.ebuild)
+1712683131:  === (1 of 1) Compiling/Packaging (app-portage/iwdevtools-0.12.11::/var/db/repos/gentoo/app-portage/iwdevtools/iwdevtools-0.12.11.ebuild)
+1712683141:  === (1 of 1) Merging (app-portage/iwdevtools-0.12.11::/var/db/repos/gentoo/app-portage/iwdevtools/iwdevtools-0.12.11.ebuild)
+1712683142:  >>> AUTOCLEAN: app-portage/iwdevtools:0
+1712683145:  === (1 of 1) Updating world file (app-portage/iwdevtools-0.12.11)
+1712683145:  === (1 of 1) Post-Build Cleaning (app-portage/iwdevtools-0.12.11::/var/db/repos/gentoo/app-portage/iwdevtools/iwdevtools-0.12.11.ebuild)
+1712683145:  ::: completed emerge (1 of 1) app-portage/iwdevtools-0.12.11 to /
+1712683145:  *** Finished. Cleaning up...
+1712683145:  *** exiting successfully.
+1712683145:  *** terminating.
+1712683188: Started emerge on: Apr 09, 2024 17:19:47
+1712683188:  *** emerge --newuse --update --ask --deep --with-bdeps=y --binpkg-respect-use=y --regex-search-auto=y --verbose @world
+1712683202:  >>> emerge (1 of 12) sys-devel/gettext-0.22.4 to /
+1712683202:  === (1 of 12) Cleaning (sys-devel/gettext-0.22.4::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.22.4.ebuild)
+1712683203:  === (1 of 12) Compiling/Packaging (sys-devel/gettext-0.22.4::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.22.4.ebuild)
+1712683559:  === (1 of 12) Merging (sys-devel/gettext-0.22.4::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.22.4.ebuild)
+1712683563:  >>> AUTOCLEAN: sys-devel/gettext:0
+1712683563:  === Unmerging... (sys-devel/gettext-0.22.4)
+1712683565:  >>> unmerge success: sys-devel/gettext-0.22.4
+1712683568:  === (1 of 12) Post-Build Cleaning (sys-devel/gettext-0.22.4::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.22.4.ebuild)
+1712683568:  ::: completed emerge (1 of 12) sys-devel/gettext-0.22.4 to /
+1712683568:  >>> emerge (2 of 12) app-crypt/libb2-0.98.1-r3 to /
+1712683568:  === (2 of 12) Cleaning (app-crypt/libb2-0.98.1-r3::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r3.ebuild)
+1712683569:  === (2 of 12) Compiling/Packaging (app-crypt/libb2-0.98.1-r3::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r3.ebuild)
+1712683594:  === (2 of 12) Merging (app-crypt/libb2-0.98.1-r3::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r3.ebuild)
+1712683597:  >>> AUTOCLEAN: app-crypt/libb2:0
+1712683597:  === Unmerging... (app-crypt/libb2-0.98.1-r3)
+1712683598:  >>> unmerge success: app-crypt/libb2-0.98.1-r3
+1712683601:  === (2 of 12) Post-Build Cleaning (app-crypt/libb2-0.98.1-r3::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r3.ebuild)
+1712683601:  ::: completed emerge (2 of 12) app-crypt/libb2-0.98.1-r3 to /
+1712683601:  >>> emerge (3 of 12) sys-libs/pam-1.5.3-r1 to /
+1712683601:  === (3 of 12) Cleaning (sys-libs/pam-1.5.3-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.3-r1.ebuild)
+1712683601:  === (3 of 12) Compiling/Packaging (sys-libs/pam-1.5.3-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.3-r1.ebuild)
+1712683688:  === (3 of 12) Merging (sys-libs/pam-1.5.3-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.3-r1.ebuild)
+1712683692:  >>> AUTOCLEAN: sys-libs/pam:0
+1712683692:  === Unmerging... (sys-libs/pam-1.5.3-r1)
+1712683693:  >>> unmerge success: sys-libs/pam-1.5.3-r1
+1712683696:  === (3 of 12) Post-Build Cleaning (sys-libs/pam-1.5.3-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.3-r1.ebuild)
+1712683696:  ::: completed emerge (3 of 12) sys-libs/pam-1.5.3-r1 to /
+1712683696:  >>> emerge (4 of 12) app-crypt/rhash-1.4.3 to /
+1712683696:  === (4 of 12) Cleaning (app-crypt/rhash-1.4.3::/var/db/repos/gentoo/app-crypt/rhash/rhash-1.4.3.ebuild)
+1712683697:  === (4 of 12) Compiling/Packaging (app-crypt/rhash-1.4.3::/var/db/repos/gentoo/app-crypt/rhash/rhash-1.4.3.ebuild)
+1712683713:  === (4 of 12) Merging (app-crypt/rhash-1.4.3::/var/db/repos/gentoo/app-crypt/rhash/rhash-1.4.3.ebuild)
+1712683715:  >>> AUTOCLEAN: app-crypt/rhash:0
+1712683718:  === (4 of 12) Post-Build Cleaning (app-crypt/rhash-1.4.3::/var/db/repos/gentoo/app-crypt/rhash/rhash-1.4.3.ebuild)
+1712683718:  ::: completed emerge (4 of 12) app-crypt/rhash-1.4.3 to /
+1712683718:  >>> emerge (5 of 12) dev-libs/libuv-1.48.0 to /
+1712683718:  === (5 of 12) Cleaning (dev-libs/libuv-1.48.0::/var/db/repos/gentoo/dev-libs/libuv/libuv-1.48.0.ebuild)
+1712683718:  === (5 of 12) Compiling/Packaging (dev-libs/libuv-1.48.0::/var/db/repos/gentoo/dev-libs/libuv/libuv-1.48.0.ebuild)
+1712683745:  === (5 of 12) Merging (dev-libs/libuv-1.48.0::/var/db/repos/gentoo/dev-libs/libuv/libuv-1.48.0.ebuild)
+1712683748:  >>> AUTOCLEAN: dev-libs/libuv:0
+1712683751:  === (5 of 12) Post-Build Cleaning (dev-libs/libuv-1.48.0::/var/db/repos/gentoo/dev-libs/libuv/libuv-1.48.0.ebuild)
+1712683751:  ::: completed emerge (5 of 12) dev-libs/libuv-1.48.0 to /
+1712683751:  >>> emerge (6 of 12) app-arch/libarchive-3.7.2-r3 to /
+1712683751:  === (6 of 12) Cleaning (app-arch/libarchive-3.7.2-r3::/var/db/repos/gentoo/app-arch/libarchive/libarchive-3.7.2-r3.ebuild)
+1712683751:  === (6 of 12) Compiling/Packaging (app-arch/libarchive-3.7.2-r3::/var/db/repos/gentoo/app-arch/libarchive/libarchive-3.7.2-r3.ebuild)
+1712683813:  === (6 of 12) Merging (app-arch/libarchive-3.7.2-r3::/var/db/repos/gentoo/app-arch/libarchive/libarchive-3.7.2-r3.ebuild)
+1712683816:  >>> AUTOCLEAN: app-arch/libarchive:0
+1712683818:  === (6 of 12) Post-Build Cleaning (app-arch/libarchive-3.7.2-r3::/var/db/repos/gentoo/app-arch/libarchive/libarchive-3.7.2-r3.ebuild)
+1712683818:  ::: completed emerge (6 of 12) app-arch/libarchive-3.7.2-r3 to /
+1712683818:  >>> emerge (7 of 12) net-misc/iputils-20240117 to /
+1712683818:  === (7 of 12) Cleaning (net-misc/iputils-20240117::/var/db/repos/gentoo/net-misc/iputils/iputils-20240117.ebuild)
+1712683818:  === (7 of 12) Compiling/Packaging (net-misc/iputils-20240117::/var/db/repos/gentoo/net-misc/iputils/iputils-20240117.ebuild)
+1712683830:  === (7 of 12) Merging (net-misc/iputils-20240117::/var/db/repos/gentoo/net-misc/iputils/iputils-20240117.ebuild)
+1712683833:  >>> AUTOCLEAN: net-misc/iputils:0
+1712683833:  === Unmerging... (net-misc/iputils-20240117)
+1712683834:  >>> unmerge success: net-misc/iputils-20240117
+1712683837:  === (7 of 12) Post-Build Cleaning (net-misc/iputils-20240117::/var/db/repos/gentoo/net-misc/iputils/iputils-20240117.ebuild)
+1712683837:  ::: completed emerge (7 of 12) net-misc/iputils-20240117 to /
+1712683837:  >>> emerge (8 of 12) dev-libs/jsoncpp-1.9.5 to /
+1712683837:  === (8 of 12) Cleaning (dev-libs/jsoncpp-1.9.5::/var/db/repos/gentoo/dev-libs/jsoncpp/jsoncpp-1.9.5.ebuild)
+1712683837:  === (8 of 12) Compiling/Packaging (dev-libs/jsoncpp-1.9.5::/var/db/repos/gentoo/dev-libs/jsoncpp/jsoncpp-1.9.5.ebuild)
+1712683850:  === (8 of 12) Merging (dev-libs/jsoncpp-1.9.5::/var/db/repos/gentoo/dev-libs/jsoncpp/jsoncpp-1.9.5.ebuild)
+1712683853:  >>> AUTOCLEAN: dev-libs/jsoncpp:0
+1712683855:  === (8 of 12) Post-Build Cleaning (dev-libs/jsoncpp-1.9.5::/var/db/repos/gentoo/dev-libs/jsoncpp/jsoncpp-1.9.5.ebuild)
+1712683855:  ::: completed emerge (8 of 12) dev-libs/jsoncpp-1.9.5 to /
+1712683855:  >>> emerge (9 of 12) app-portage/portage-utils-0.96.1 to /
+1712683855:  === (9 of 12) Cleaning (app-portage/portage-utils-0.96.1::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.96.1.ebuild)
+1712683855:  === (9 of 12) Compiling/Packaging (app-portage/portage-utils-0.96.1::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.96.1.ebuild)
+1712683901:  === (9 of 12) Merging (app-portage/portage-utils-0.96.1::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.96.1.ebuild)
+1712683904:  >>> AUTOCLEAN: app-portage/portage-utils:0
+1712683904:  === Unmerging... (app-portage/portage-utils-0.96.1)
+1712683905:  >>> unmerge success: app-portage/portage-utils-0.96.1
+1712683908:  === (9 of 12) Post-Build Cleaning (app-portage/portage-utils-0.96.1::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.96.1.ebuild)
+1712683908:  ::: completed emerge (9 of 12) app-portage/portage-utils-0.96.1 to /
+1712683908:  >>> emerge (10 of 12) dev-build/cmake-3.28.3 to /
+1712683908:  === (10 of 12) Cleaning (dev-build/cmake-3.28.3::/var/db/repos/gentoo/dev-build/cmake/cmake-3.28.3.ebuild)
+1712683909:  === (10 of 12) Compiling/Packaging (dev-build/cmake-3.28.3::/var/db/repos/gentoo/dev-build/cmake/cmake-3.28.3.ebuild)
+1712684410:  === (10 of 12) Merging (dev-build/cmake-3.28.3::/var/db/repos/gentoo/dev-build/cmake/cmake-3.28.3.ebuild)
+1712684414:  >>> AUTOCLEAN: dev-build/cmake:0
+1712684418:  === (10 of 12) Post-Build Cleaning (dev-build/cmake-3.28.3::/var/db/repos/gentoo/dev-build/cmake/cmake-3.28.3.ebuild)
+1712684418:  ::: completed emerge (10 of 12) dev-build/cmake-3.28.3 to /
+1712684418:  >>> emerge (11 of 12) net-libs/nghttp2-1.61.0 to /
+1712684418:  === (11 of 12) Cleaning (net-libs/nghttp2-1.61.0::/var/db/repos/gentoo/net-libs/nghttp2/nghttp2-1.61.0.ebuild)
+1712684419:  === (11 of 12) Compiling/Packaging (net-libs/nghttp2-1.61.0::/var/db/repos/gentoo/net-libs/nghttp2/nghttp2-1.61.0.ebuild)
+1712684438:  === (11 of 12) Merging (net-libs/nghttp2-1.61.0::/var/db/repos/gentoo/net-libs/nghttp2/nghttp2-1.61.0.ebuild)
+1712684441:  >>> AUTOCLEAN: net-libs/nghttp2:0
+1712684444:  === (11 of 12) Post-Build Cleaning (net-libs/nghttp2-1.61.0::/var/db/repos/gentoo/net-libs/nghttp2/nghttp2-1.61.0.ebuild)
+1712684444:  ::: completed emerge (11 of 12) net-libs/nghttp2-1.61.0 to /
+1712684444:  >>> emerge (12 of 12) net-misc/curl-8.7.1-r1 to /
+1712684444:  === (12 of 12) Cleaning (net-misc/curl-8.7.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-8.7.1-r1.ebuild)
+1712684444:  === (12 of 12) Compiling/Packaging (net-misc/curl-8.7.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-8.7.1-r1.ebuild)
+1712684532:  === (12 of 12) Merging (net-misc/curl-8.7.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-8.7.1-r1.ebuild)
+1712684537:  >>> AUTOCLEAN: net-misc/curl:0
+1712684537:  === Unmerging... (net-misc/curl-8.7.1-r1)
+1712684538:  >>> unmerge success: net-misc/curl-8.7.1-r1
+1712684541:  === (12 of 12) Post-Build Cleaning (net-misc/curl-8.7.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-8.7.1-r1.ebuild)
+1712684541:  ::: completed emerge (12 of 12) net-misc/curl-8.7.1-r1 to /
+1712684541:  *** Finished. Cleaning up...
+1712684541:  *** exiting successfully.
+1712684541:  *** terminating.
+1712684616: Started emerge on: Apr 09, 2024 17:43:35
+1712684616:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --depclean
+1712684616:  >>> depclean
+1712684618:  *** exiting successfully.
+1712684618:  *** terminating.
+1712684715: Started emerge on: Apr 09, 2024 17:45:14
+1712684715:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --verbose media-sound/audacity
+1712684747:  >>> emerge (1 of 104) media-libs/libogg-1.3.5-r1 to /
+1712684747:  === (1 of 104) Cleaning (media-libs/libogg-1.3.5-r1::/var/db/repos/gentoo/media-libs/libogg/libogg-1.3.5-r1.ebuild)
+1712684747:  === (1 of 104) Compiling/Packaging (media-libs/libogg-1.3.5-r1::/var/db/repos/gentoo/media-libs/libogg/libogg-1.3.5-r1.ebuild)
+1712684762:  === (1 of 104) Merging (media-libs/libogg-1.3.5-r1::/var/db/repos/gentoo/media-libs/libogg/libogg-1.3.5-r1.ebuild)
+1712684765:  >>> AUTOCLEAN: media-libs/libogg:0
+1712684767:  === (1 of 104) Post-Build Cleaning (media-libs/libogg-1.3.5-r1::/var/db/repos/gentoo/media-libs/libogg/libogg-1.3.5-r1.ebuild)
+1712684767:  ::: completed emerge (1 of 104) media-libs/libogg-1.3.5-r1 to /
+1712684767:  >>> emerge (2 of 104) dev-libs/lzo-2.10 to /
+1712684767:  === (2 of 104) Cleaning (dev-libs/lzo-2.10::/var/db/repos/gentoo/dev-libs/lzo/lzo-2.10.ebuild)
+1712684767:  === (2 of 104) Compiling/Packaging (dev-libs/lzo-2.10::/var/db/repos/gentoo/dev-libs/lzo/lzo-2.10.ebuild)
+1712684798:  === (2 of 104) Merging (dev-libs/lzo-2.10::/var/db/repos/gentoo/dev-libs/lzo/lzo-2.10.ebuild)
+1712684801:  >>> AUTOCLEAN: dev-libs/lzo:2
+1712684803:  === (2 of 104) Post-Build Cleaning (dev-libs/lzo-2.10::/var/db/repos/gentoo/dev-libs/lzo/lzo-2.10.ebuild)
+1712684803:  ::: completed emerge (2 of 104) dev-libs/lzo-2.10 to /
+1712684803:  >>> emerge (3 of 104) sys-apps/hwdata-0.376 to /
+1712684803:  === (3 of 104) Cleaning (sys-apps/hwdata-0.376::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.376.ebuild)
+1712684803:  === (3 of 104) Compiling/Packaging (sys-apps/hwdata-0.376::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.376.ebuild)
+1712684809:  === (3 of 104) Merging (sys-apps/hwdata-0.376::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.376.ebuild)
+1712684812:  >>> AUTOCLEAN: sys-apps/hwdata:0
+1712684815:  === (3 of 104) Post-Build Cleaning (sys-apps/hwdata-0.376::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.376.ebuild)
+1712684815:  ::: completed emerge (3 of 104) sys-apps/hwdata-0.376 to /
+1712684815:  >>> emerge (4 of 104) sys-devel/llvm-common-17.0.6 to /
+1712684815:  === (4 of 104) Cleaning (sys-devel/llvm-common-17.0.6::/var/db/repos/gentoo/sys-devel/llvm-common/llvm-common-17.0.6.ebuild)
+1712684815:  === (4 of 104) Compiling/Packaging (sys-devel/llvm-common-17.0.6::/var/db/repos/gentoo/sys-devel/llvm-common/llvm-common-17.0.6.ebuild)
+1712684833:  === (4 of 104) Merging (sys-devel/llvm-common-17.0.6::/var/db/repos/gentoo/sys-devel/llvm-common/llvm-common-17.0.6.ebuild)
+1712684836:  >>> AUTOCLEAN: sys-devel/llvm-common:0
+1712684838:  === (4 of 104) Post-Build Cleaning (sys-devel/llvm-common-17.0.6::/var/db/repos/gentoo/sys-devel/llvm-common/llvm-common-17.0.6.ebuild)
+1712684838:  ::: completed emerge (4 of 104) sys-devel/llvm-common-17.0.6 to /
+1712684838:  >>> emerge (5 of 104) acct-group/messagebus-0-r3 to /
+1712684838:  === (5 of 104) Cleaning (acct-group/messagebus-0-r3::/var/db/repos/gentoo/acct-group/messagebus/messagebus-0-r3.ebuild)
+1712684838:  === (5 of 104) Compiling/Packaging (acct-group/messagebus-0-r3::/var/db/repos/gentoo/acct-group/messagebus/messagebus-0-r3.ebuild)
+1712684843:  === (5 of 104) Merging (acct-group/messagebus-0-r3::/var/db/repos/gentoo/acct-group/messagebus/messagebus-0-r3.ebuild)
+1712684846:  >>> AUTOCLEAN: acct-group/messagebus:0
+1712684849:  === (5 of 104) Post-Build Cleaning (acct-group/messagebus-0-r3::/var/db/repos/gentoo/acct-group/messagebus/messagebus-0-r3.ebuild)
+1712684849:  ::: completed emerge (5 of 104) acct-group/messagebus-0-r3 to /
+1712684849:  >>> emerge (6 of 104) media-libs/alsa-topology-conf-1.2.5.1 to /
+1712684849:  === (6 of 104) Cleaning (media-libs/alsa-topology-conf-1.2.5.1::/var/db/repos/gentoo/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1.ebuild)
+1712684849:  === (6 of 104) Compiling/Packaging (media-libs/alsa-topology-conf-1.2.5.1::/var/db/repos/gentoo/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1.ebuild)
+1712684854:  === (6 of 104) Merging (media-libs/alsa-topology-conf-1.2.5.1::/var/db/repos/gentoo/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1.ebuild)
+1712684857:  >>> AUTOCLEAN: media-libs/alsa-topology-conf:0
+1712684859:  === (6 of 104) Post-Build Cleaning (media-libs/alsa-topology-conf-1.2.5.1::/var/db/repos/gentoo/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1.ebuild)
+1712684859:  ::: completed emerge (6 of 104) media-libs/alsa-topology-conf-1.2.5.1 to /
+1712684859:  >>> emerge (7 of 104) media-libs/alsa-ucm-conf-1.2.10-r1 to /
+1712684859:  === (7 of 104) Cleaning (media-libs/alsa-ucm-conf-1.2.10-r1::/var/db/repos/gentoo/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1.ebuild)
+1712684859:  === (7 of 104) Compiling/Packaging (media-libs/alsa-ucm-conf-1.2.10-r1::/var/db/repos/gentoo/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1.ebuild)
+1712684865:  === (7 of 104) Merging (media-libs/alsa-ucm-conf-1.2.10-r1::/var/db/repos/gentoo/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1.ebuild)
+1712684868:  >>> AUTOCLEAN: media-libs/alsa-ucm-conf:0
+1712684870:  === (7 of 104) Post-Build Cleaning (media-libs/alsa-ucm-conf-1.2.10-r1::/var/db/repos/gentoo/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1.ebuild)
+1712684870:  ::: completed emerge (7 of 104) media-libs/alsa-ucm-conf-1.2.10-r1 to /
+1712684870:  >>> emerge (8 of 104) media-fonts/liberation-fonts-2.1.5 to /
+1712684870:  === (8 of 104) Cleaning (media-fonts/liberation-fonts-2.1.5::/var/db/repos/gentoo/media-fonts/liberation-fonts/liberation-fonts-2.1.5.ebuild)
+1712684871:  === (8 of 104) Compiling/Packaging (media-fonts/liberation-fonts-2.1.5::/var/db/repos/gentoo/media-fonts/liberation-fonts/liberation-fonts-2.1.5.ebuild)
+1712684878:  === (8 of 104) Merging (media-fonts/liberation-fonts-2.1.5::/var/db/repos/gentoo/media-fonts/liberation-fonts/liberation-fonts-2.1.5.ebuild)
+1712684880:  >>> AUTOCLEAN: media-fonts/liberation-fonts:0
+1712684883:  === (8 of 104) Post-Build Cleaning (media-fonts/liberation-fonts-2.1.5::/var/db/repos/gentoo/media-fonts/liberation-fonts/liberation-fonts-2.1.5.ebuild)
+1712684883:  ::: completed emerge (8 of 104) media-fonts/liberation-fonts-2.1.5 to /
+1712684883:  >>> emerge (9 of 104) acct-user/messagebus-0-r3 to /
+1712684883:  === (9 of 104) Cleaning (acct-user/messagebus-0-r3::/var/db/repos/gentoo/acct-user/messagebus/messagebus-0-r3.ebuild)
+1712684883:  === (9 of 104) Compiling/Packaging (acct-user/messagebus-0-r3::/var/db/repos/gentoo/acct-user/messagebus/messagebus-0-r3.ebuild)
+1712684888:  === (9 of 104) Merging (acct-user/messagebus-0-r3::/var/db/repos/gentoo/acct-user/messagebus/messagebus-0-r3.ebuild)
+1712684891:  >>> AUTOCLEAN: acct-user/messagebus:0
+1712684893:  === (9 of 104) Post-Build Cleaning (acct-user/messagebus-0-r3::/var/db/repos/gentoo/acct-user/messagebus/messagebus-0-r3.ebuild)
+1712684893:  ::: completed emerge (9 of 104) acct-user/messagebus-0-r3 to /
+1712684893:  >>> emerge (10 of 104) virtual/ttf-fonts-1-r2 to /
+1712684893:  === (10 of 104) Cleaning (virtual/ttf-fonts-1-r2::/var/db/repos/gentoo/virtual/ttf-fonts/ttf-fonts-1-r2.ebuild)
+1712684893:  === (10 of 104) Compiling/Packaging (virtual/ttf-fonts-1-r2::/var/db/repos/gentoo/virtual/ttf-fonts/ttf-fonts-1-r2.ebuild)
+1712684898:  === (10 of 104) Merging (virtual/ttf-fonts-1-r2::/var/db/repos/gentoo/virtual/ttf-fonts/ttf-fonts-1-r2.ebuild)
+1712684901:  >>> AUTOCLEAN: virtual/ttf-fonts:0
+1712684903:  === (10 of 104) Post-Build Cleaning (virtual/ttf-fonts-1-r2::/var/db/repos/gentoo/virtual/ttf-fonts/ttf-fonts-1-r2.ebuild)
+1712684903:  ::: completed emerge (10 of 104) virtual/ttf-fonts-1-r2 to /
+1712684903:  >>> emerge (11 of 104) dev-libs/gobject-introspection-common-1.78.1 to /
+1712684903:  === (11 of 104) Cleaning (dev-libs/gobject-introspection-common-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1.ebuild)
+1712684903:  === (11 of 104) Compiling/Packaging (dev-libs/gobject-introspection-common-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1.ebuild)
+1712684909:  === (11 of 104) Merging (dev-libs/gobject-introspection-common-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1.ebuild)
+1712684912:  >>> AUTOCLEAN: dev-libs/gobject-introspection-common:0
+1712684914:  === (11 of 104) Post-Build Cleaning (dev-libs/gobject-introspection-common-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1.ebuild)
+1712684914:  ::: completed emerge (11 of 104) dev-libs/gobject-introspection-common-1.78.1 to /
+1712684914:  >>> emerge (12 of 104) dev-libs/vala-common-0.56.16 to /
+1712684914:  === (12 of 104) Cleaning (dev-libs/vala-common-0.56.16::/var/db/repos/gentoo/dev-libs/vala-common/vala-common-0.56.16.ebuild)
+1712684914:  === (12 of 104) Compiling/Packaging (dev-libs/vala-common-0.56.16::/var/db/repos/gentoo/dev-libs/vala-common/vala-common-0.56.16.ebuild)
+1712684921:  === (12 of 104) Merging (dev-libs/vala-common-0.56.16::/var/db/repos/gentoo/dev-libs/vala-common/vala-common-0.56.16.ebuild)
+1712684923:  >>> AUTOCLEAN: dev-libs/vala-common:0
+1712684927:  === (12 of 104) Post-Build Cleaning (dev-libs/vala-common-0.56.16::/var/db/repos/gentoo/dev-libs/vala-common/vala-common-0.56.16.ebuild)
+1712684927:  ::: completed emerge (12 of 104) dev-libs/vala-common-0.56.16 to /
+1712684927:  >>> emerge (13 of 104) x11-themes/hicolor-icon-theme-0.17 to /
+1712684927:  === (13 of 104) Cleaning (x11-themes/hicolor-icon-theme-0.17::/var/db/repos/gentoo/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17.ebuild)
+1712684927:  === (13 of 104) Compiling/Packaging (x11-themes/hicolor-icon-theme-0.17::/var/db/repos/gentoo/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17.ebuild)
+1712684936:  === (13 of 104) Merging (x11-themes/hicolor-icon-theme-0.17::/var/db/repos/gentoo/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17.ebuild)
+1712684939:  >>> AUTOCLEAN: x11-themes/hicolor-icon-theme:0
+1712684942:  === (13 of 104) Post-Build Cleaning (x11-themes/hicolor-icon-theme-0.17::/var/db/repos/gentoo/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17.ebuild)
+1712684942:  ::: completed emerge (13 of 104) x11-themes/hicolor-icon-theme-0.17 to /
+1712684942:  >>> emerge (14 of 104) dev-libs/libltdl-2.4.7-r1 to /
+1712684942:  === (14 of 104) Cleaning (dev-libs/libltdl-2.4.7-r1::/var/db/repos/gentoo/dev-libs/libltdl/libltdl-2.4.7-r1.ebuild)
+1712684942:  === (14 of 104) Compiling/Packaging (dev-libs/libltdl-2.4.7-r1::/var/db/repos/gentoo/dev-libs/libltdl/libltdl-2.4.7-r1.ebuild)
+1712684958:  === (14 of 104) Merging (dev-libs/libltdl-2.4.7-r1::/var/db/repos/gentoo/dev-libs/libltdl/libltdl-2.4.7-r1.ebuild)
+1712684960:  >>> AUTOCLEAN: dev-libs/libltdl:0
+1712684963:  === (14 of 104) Post-Build Cleaning (dev-libs/libltdl-2.4.7-r1::/var/db/repos/gentoo/dev-libs/libltdl/libltdl-2.4.7-r1.ebuild)
+1712684963:  ::: completed emerge (14 of 104) dev-libs/libltdl-2.4.7-r1 to /
+1712684963:  >>> emerge (15 of 104) media-libs/libpng-1.6.43 to /
+1712684963:  === (15 of 104) Cleaning (media-libs/libpng-1.6.43::/var/db/repos/gentoo/media-libs/libpng/libpng-1.6.43.ebuild)
+1712684963:  === (15 of 104) Compiling/Packaging (media-libs/libpng-1.6.43::/var/db/repos/gentoo/media-libs/libpng/libpng-1.6.43.ebuild)
+1712684981:  === (15 of 104) Merging (media-libs/libpng-1.6.43::/var/db/repos/gentoo/media-libs/libpng/libpng-1.6.43.ebuild)
+1712684984:  >>> AUTOCLEAN: media-libs/libpng:0
+1712684986:  === (15 of 104) Post-Build Cleaning (media-libs/libpng-1.6.43::/var/db/repos/gentoo/media-libs/libpng/libpng-1.6.43.ebuild)
+1712684986:  ::: completed emerge (15 of 104) media-libs/libpng-1.6.43 to /
+1712684986:  >>> emerge (16 of 104) app-eselect/eselect-wxwidgets-20230114-r1 to /
+1712684986:  === (16 of 104) Cleaning (app-eselect/eselect-wxwidgets-20230114-r1::/var/db/repos/gentoo/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1.ebuild)
+1712684987:  === (16 of 104) Compiling/Packaging (app-eselect/eselect-wxwidgets-20230114-r1::/var/db/repos/gentoo/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1.ebuild)
+1712684993:  === (16 of 104) Merging (app-eselect/eselect-wxwidgets-20230114-r1::/var/db/repos/gentoo/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1.ebuild)
+1712684995:  >>> AUTOCLEAN: app-eselect/eselect-wxwidgets:0
+1712684998:  === (16 of 104) Post-Build Cleaning (app-eselect/eselect-wxwidgets-20230114-r1::/var/db/repos/gentoo/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1.ebuild)
+1712684998:  ::: completed emerge (16 of 104) app-eselect/eselect-wxwidgets-20230114-r1 to /
+1712684998:  >>> emerge (17 of 104) app-eselect/eselect-fontconfig-20220403 to /
+1712684998:  === (17 of 104) Cleaning (app-eselect/eselect-fontconfig-20220403::/var/db/repos/gentoo/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403.ebuild)
+1712684998:  === (17 of 104) Compiling/Packaging (app-eselect/eselect-fontconfig-20220403::/var/db/repos/gentoo/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403.ebuild)
+1712685003:  === (17 of 104) Merging (app-eselect/eselect-fontconfig-20220403::/var/db/repos/gentoo/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403.ebuild)
+1712685006:  >>> AUTOCLEAN: app-eselect/eselect-fontconfig:0
+1712685008:  === (17 of 104) Post-Build Cleaning (app-eselect/eselect-fontconfig-20220403::/var/db/repos/gentoo/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403.ebuild)
+1712685008:  ::: completed emerge (17 of 104) app-eselect/eselect-fontconfig-20220403 to /
+1712685008:  >>> emerge (18 of 104) app-eselect/eselect-mpg123-0.1-r1 to /
+1712685008:  === (18 of 104) Cleaning (app-eselect/eselect-mpg123-0.1-r1::/var/db/repos/gentoo/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1.ebuild)
+1712685008:  === (18 of 104) Compiling/Packaging (app-eselect/eselect-mpg123-0.1-r1::/var/db/repos/gentoo/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1.ebuild)
+1712685013:  === (18 of 104) Merging (app-eselect/eselect-mpg123-0.1-r1::/var/db/repos/gentoo/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1.ebuild)
+1712685016:  >>> AUTOCLEAN: app-eselect/eselect-mpg123:0
+1712685018:  === (18 of 104) Post-Build Cleaning (app-eselect/eselect-mpg123-0.1-r1::/var/db/repos/gentoo/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1.ebuild)
+1712685018:  ::: completed emerge (18 of 104) app-eselect/eselect-mpg123-0.1-r1 to /
+1712685018:  >>> emerge (19 of 104) sys-libs/binutils-libs-2.41-r5 to /
+1712685018:  === (19 of 104) Cleaning (sys-libs/binutils-libs-2.41-r5::/var/db/repos/gentoo/sys-libs/binutils-libs/binutils-libs-2.41-r5.ebuild)
+1712685018:  === (19 of 104) Compiling/Packaging (sys-libs/binutils-libs-2.41-r5::/var/db/repos/gentoo/sys-libs/binutils-libs/binutils-libs-2.41-r5.ebuild)
+1712685105:  === (19 of 104) Merging (sys-libs/binutils-libs-2.41-r5::/var/db/repos/gentoo/sys-libs/binutils-libs/binutils-libs-2.41-r5.ebuild)
+1712685108:  >>> AUTOCLEAN: sys-libs/binutils-libs:0
+1712685112:  === (19 of 104) Post-Build Cleaning (sys-libs/binutils-libs-2.41-r5::/var/db/repos/gentoo/sys-libs/binutils-libs/binutils-libs-2.41-r5.ebuild)
+1712685112:  ::: completed emerge (19 of 104) sys-libs/binutils-libs-2.41-r5 to /
+1712685112:  >>> emerge (20 of 104) media-libs/flac-1.4.3 to /
+1712685112:  === (20 of 104) Cleaning (media-libs/flac-1.4.3::/var/db/repos/gentoo/media-libs/flac/flac-1.4.3.ebuild)
+1712685112:  === (20 of 104) Compiling/Packaging (media-libs/flac-1.4.3::/var/db/repos/gentoo/media-libs/flac/flac-1.4.3.ebuild)
+1712685147:  === (20 of 104) Merging (media-libs/flac-1.4.3::/var/db/repos/gentoo/media-libs/flac/flac-1.4.3.ebuild)
+1712685149:  >>> AUTOCLEAN: media-libs/flac:0
+1712685152:  === (20 of 104) Post-Build Cleaning (media-libs/flac-1.4.3::/var/db/repos/gentoo/media-libs/flac/flac-1.4.3.ebuild)
+1712685152:  ::: completed emerge (20 of 104) media-libs/flac-1.4.3 to /
+1712685152:  >>> emerge (21 of 104) dev-util/glib-utils-2.78.3 to /
+1712685152:  === (21 of 104) Cleaning (dev-util/glib-utils-2.78.3::/var/db/repos/gentoo/dev-util/glib-utils/glib-utils-2.78.3.ebuild)
+1712685152:  === (21 of 104) Compiling/Packaging (dev-util/glib-utils-2.78.3::/var/db/repos/gentoo/dev-util/glib-utils/glib-utils-2.78.3.ebuild)
+1712685160:  === (21 of 104) Merging (dev-util/glib-utils-2.78.3::/var/db/repos/gentoo/dev-util/glib-utils/glib-utils-2.78.3.ebuild)
+1712685163:  >>> AUTOCLEAN: dev-util/glib-utils:0
+1712685167:  === (21 of 104) Post-Build Cleaning (dev-util/glib-utils-2.78.3::/var/db/repos/gentoo/dev-util/glib-utils/glib-utils-2.78.3.ebuild)
+1712685167:  ::: completed emerge (21 of 104) dev-util/glib-utils-2.78.3 to /
+1712685167:  >>> emerge (22 of 104) app-text/docbook-xml-dtd-4.3-r2 to /
+1712685167:  === (22 of 104) Cleaning (app-text/docbook-xml-dtd-4.3-r2::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.3-r2.ebuild)
+1712685167:  === (22 of 104) Compiling/Packaging (app-text/docbook-xml-dtd-4.3-r2::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.3-r2.ebuild)
+1712685173:  === (22 of 104) Merging (app-text/docbook-xml-dtd-4.3-r2::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.3-r2.ebuild)
+1712685177:  >>> AUTOCLEAN: app-text/docbook-xml-dtd:4.3
+1712685180:  === (22 of 104) Post-Build Cleaning (app-text/docbook-xml-dtd-4.3-r2::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.3-r2.ebuild)
+1712685180:  ::: completed emerge (22 of 104) app-text/docbook-xml-dtd-4.3-r2 to /
+1712685180:  >>> emerge (23 of 104) app-text/docbook-xml-dtd-4.4-r3 to /
+1712685180:  === (23 of 104) Cleaning (app-text/docbook-xml-dtd-4.4-r3::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.4-r3.ebuild)
+1712685180:  === (23 of 104) Compiling/Packaging (app-text/docbook-xml-dtd-4.4-r3::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.4-r3.ebuild)
+1712685186:  === (23 of 104) Merging (app-text/docbook-xml-dtd-4.4-r3::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.4-r3.ebuild)
+1712685190:  >>> AUTOCLEAN: app-text/docbook-xml-dtd:4.4
+1712685193:  === (23 of 104) Post-Build Cleaning (app-text/docbook-xml-dtd-4.4-r3::/var/db/repos/gentoo/app-text/docbook-xml-dtd/docbook-xml-dtd-4.4-r3.ebuild)
+1712685193:  ::: completed emerge (23 of 104) app-text/docbook-xml-dtd-4.4-r3 to /
+1712685193:  >>> emerge (24 of 104) dev-python/pygments-2.17.2 to /
+1712685193:  === (24 of 104) Cleaning (dev-python/pygments-2.17.2::/var/db/repos/gentoo/dev-python/pygments/pygments-2.17.2.ebuild)
+1712685193:  === (24 of 104) Compiling/Packaging (dev-python/pygments-2.17.2::/var/db/repos/gentoo/dev-python/pygments/pygments-2.17.2.ebuild)
+1712685209:  === (24 of 104) Merging (dev-python/pygments-2.17.2::/var/db/repos/gentoo/dev-python/pygments/pygments-2.17.2.ebuild)
+1712685212:  >>> AUTOCLEAN: dev-python/pygments:0
+1712685216:  === (24 of 104) Post-Build Cleaning (dev-python/pygments-2.17.2::/var/db/repos/gentoo/dev-python/pygments/pygments-2.17.2.ebuild)
+1712685216:  ::: completed emerge (24 of 104) dev-python/pygments-2.17.2 to /
+1712685216:  >>> emerge (25 of 104) sys-apps/lsb-release-3.3 to /
+1712685216:  === (25 of 104) Cleaning (sys-apps/lsb-release-3.3::/var/db/repos/gentoo/sys-apps/lsb-release/lsb-release-3.3.ebuild)
+1712685216:  === (25 of 104) Compiling/Packaging (sys-apps/lsb-release-3.3::/var/db/repos/gentoo/sys-apps/lsb-release/lsb-release-3.3.ebuild)
+1712685222:  === (25 of 104) Merging (sys-apps/lsb-release-3.3::/var/db/repos/gentoo/sys-apps/lsb-release/lsb-release-3.3.ebuild)
+1712685225:  >>> AUTOCLEAN: sys-apps/lsb-release:0
+1712685227:  === (25 of 104) Post-Build Cleaning (sys-apps/lsb-release-3.3::/var/db/repos/gentoo/sys-apps/lsb-release/lsb-release-3.3.ebuild)
+1712685227:  ::: completed emerge (25 of 104) sys-apps/lsb-release-3.3 to /
+1712685227:  >>> emerge (26 of 104) media-libs/freetype-2.13.2 to /
+1712685227:  === (26 of 104) Cleaning (media-libs/freetype-2.13.2::/var/db/repos/gentoo/media-libs/freetype/freetype-2.13.2.ebuild)
+1712685227:  === (26 of 104) Compiling/Packaging (media-libs/freetype-2.13.2::/var/db/repos/gentoo/media-libs/freetype/freetype-2.13.2.ebuild)
+1712685261:  === (26 of 104) Merging (media-libs/freetype-2.13.2::/var/db/repos/gentoo/media-libs/freetype/freetype-2.13.2.ebuild)
+1712685263:  >>> AUTOCLEAN: media-libs/freetype:2
+1712685266:  === (26 of 104) Post-Build Cleaning (media-libs/freetype-2.13.2::/var/db/repos/gentoo/media-libs/freetype/freetype-2.13.2.ebuild)
+1712685266:  ::: completed emerge (26 of 104) media-libs/freetype-2.13.2 to /
+1712685266:  >>> emerge (27 of 104) x11-libs/xtrans-1.5.0 to /
+1712685266:  === (27 of 104) Cleaning (x11-libs/xtrans-1.5.0::/var/db/repos/gentoo/x11-libs/xtrans/xtrans-1.5.0.ebuild)
+1712685266:  === (27 of 104) Compiling/Packaging (x11-libs/xtrans-1.5.0::/var/db/repos/gentoo/x11-libs/xtrans/xtrans-1.5.0.ebuild)
+1712685279:  === (27 of 104) Merging (x11-libs/xtrans-1.5.0::/var/db/repos/gentoo/x11-libs/xtrans/xtrans-1.5.0.ebuild)
+1712685282:  >>> AUTOCLEAN: x11-libs/xtrans:0
+1712685284:  === (27 of 104) Post-Build Cleaning (x11-libs/xtrans-1.5.0::/var/db/repos/gentoo/x11-libs/xtrans/xtrans-1.5.0.ebuild)
+1712685284:  ::: completed emerge (27 of 104) x11-libs/xtrans-1.5.0 to /
+1712685284:  >>> emerge (28 of 104) media-sound/lame-3.100-r3 to /
+1712685284:  === (28 of 104) Cleaning (media-sound/lame-3.100-r3::/var/db/repos/gentoo/media-sound/lame/lame-3.100-r3.ebuild)
+1712685284:  === (28 of 104) Compiling/Packaging (media-sound/lame-3.100-r3::/var/db/repos/gentoo/media-sound/lame/lame-3.100-r3.ebuild)
+1712685323:  === (28 of 104) Merging (media-sound/lame-3.100-r3::/var/db/repos/gentoo/media-sound/lame/lame-3.100-r3.ebuild)
+1712685325:  >>> AUTOCLEAN: media-sound/lame:0
+1712685328:  === (28 of 104) Post-Build Cleaning (media-sound/lame-3.100-r3::/var/db/repos/gentoo/media-sound/lame/lame-3.100-r3.ebuild)
+1712685328:  ::: completed emerge (28 of 104) media-sound/lame-3.100-r3 to /
+1712685328:  >>> emerge (29 of 104) dev-lang/nasm-2.16.01-r1 to /
+1712685328:  === (29 of 104) Cleaning (dev-lang/nasm-2.16.01-r1::/var/db/repos/gentoo/dev-lang/nasm/nasm-2.16.01-r1.ebuild)
+1712685328:  === (29 of 104) Compiling/Packaging (dev-lang/nasm-2.16.01-r1::/var/db/repos/gentoo/dev-lang/nasm/nasm-2.16.01-r1.ebuild)
+1712685366:  === (29 of 104) Merging (dev-lang/nasm-2.16.01-r1::/var/db/repos/gentoo/dev-lang/nasm/nasm-2.16.01-r1.ebuild)
+1712685368:  >>> AUTOCLEAN: dev-lang/nasm:0
+1712685371:  === (29 of 104) Post-Build Cleaning (dev-lang/nasm-2.16.01-r1::/var/db/repos/gentoo/dev-lang/nasm/nasm-2.16.01-r1.ebuild)
+1712685371:  ::: completed emerge (29 of 104) dev-lang/nasm-2.16.01-r1 to /
+1712685371:  >>> emerge (30 of 104) media-libs/libsoundtouch-2.3.2 to /
+1712685371:  === (30 of 104) Cleaning (media-libs/libsoundtouch-2.3.2::/var/db/repos/gentoo/media-libs/libsoundtouch/libsoundtouch-2.3.2.ebuild)
+1712685371:  === (30 of 104) Compiling/Packaging (media-libs/libsoundtouch-2.3.2::/var/db/repos/gentoo/media-libs/libsoundtouch/libsoundtouch-2.3.2.ebuild)
+1712685404:  === (30 of 104) Merging (media-libs/libsoundtouch-2.3.2::/var/db/repos/gentoo/media-libs/libsoundtouch/libsoundtouch-2.3.2.ebuild)
+1712685406:  >>> AUTOCLEAN: media-libs/libsoundtouch:0
+1712685409:  === (30 of 104) Post-Build Cleaning (media-libs/libsoundtouch-2.3.2::/var/db/repos/gentoo/media-libs/libsoundtouch/libsoundtouch-2.3.2.ebuild)
+1712685409:  ::: completed emerge (30 of 104) media-libs/libsoundtouch-2.3.2 to /
+1712685409:  >>> emerge (31 of 104) media-libs/portaudio-19.07.00-r2 to /
+1712685409:  === (31 of 104) Cleaning (media-libs/portaudio-19.07.00-r2::/var/db/repos/gentoo/media-libs/portaudio/portaudio-19.07.00-r2.ebuild)
+1712685409:  === (31 of 104) Compiling/Packaging (media-libs/portaudio-19.07.00-r2::/var/db/repos/gentoo/media-libs/portaudio/portaudio-19.07.00-r2.ebuild)
+1712685437:  === (31 of 104) Merging (media-libs/portaudio-19.07.00-r2::/var/db/repos/gentoo/media-libs/portaudio/portaudio-19.07.00-r2.ebuild)
+1712685440:  >>> AUTOCLEAN: media-libs/portaudio:0
+1712685443:  === (31 of 104) Post-Build Cleaning (media-libs/portaudio-19.07.00-r2::/var/db/repos/gentoo/media-libs/portaudio/portaudio-19.07.00-r2.ebuild)
+1712685443:  ::: completed emerge (31 of 104) media-libs/portaudio-19.07.00-r2 to /
+1712685443:  >>> emerge (32 of 104) dev-libs/icu-74.2 to /
+1712685443:  === (32 of 104) Cleaning (dev-libs/icu-74.2::/var/db/repos/gentoo/dev-libs/icu/icu-74.2.ebuild)
+1712685443:  === (32 of 104) Compiling/Packaging (dev-libs/icu-74.2::/var/db/repos/gentoo/dev-libs/icu/icu-74.2.ebuild)
+1712685599:  === (32 of 104) Merging (dev-libs/icu-74.2::/var/db/repos/gentoo/dev-libs/icu/icu-74.2.ebuild)
+1712685602:  >>> AUTOCLEAN: dev-libs/icu:0
+1712685607:  === (32 of 104) Post-Build Cleaning (dev-libs/icu-74.2::/var/db/repos/gentoo/dev-libs/icu/icu-74.2.ebuild)
+1712685607:  ::: completed emerge (32 of 104) dev-libs/icu-74.2 to /
+1712685607:  >>> emerge (33 of 104) app-text/hunspell-1.7.2 to /
+1712685607:  === (33 of 104) Cleaning (app-text/hunspell-1.7.2::/var/db/repos/gentoo/app-text/hunspell/hunspell-1.7.2.ebuild)
+1712685607:  === (33 of 104) Compiling/Packaging (app-text/hunspell-1.7.2::/var/db/repos/gentoo/app-text/hunspell/hunspell-1.7.2.ebuild)
+1712685657:  === (33 of 104) Merging (app-text/hunspell-1.7.2::/var/db/repos/gentoo/app-text/hunspell/hunspell-1.7.2.ebuild)
+1712685659:  >>> AUTOCLEAN: app-text/hunspell:0
+1712685662:  === (33 of 104) Post-Build Cleaning (app-text/hunspell-1.7.2::/var/db/repos/gentoo/app-text/hunspell/hunspell-1.7.2.ebuild)
+1712685662:  ::: completed emerge (33 of 104) app-text/hunspell-1.7.2 to /
+1712685662:  >>> emerge (34 of 104) x11-base/xcb-proto-1.16.0 to /
+1712685662:  === (34 of 104) Cleaning (x11-base/xcb-proto-1.16.0::/var/db/repos/gentoo/x11-base/xcb-proto/xcb-proto-1.16.0.ebuild)
+1712685662:  === (34 of 104) Compiling/Packaging (x11-base/xcb-proto-1.16.0::/var/db/repos/gentoo/x11-base/xcb-proto/xcb-proto-1.16.0.ebuild)
+1712685672:  === (34 of 104) Merging (x11-base/xcb-proto-1.16.0::/var/db/repos/gentoo/x11-base/xcb-proto/xcb-proto-1.16.0.ebuild)
+1712685675:  >>> AUTOCLEAN: x11-base/xcb-proto:0
+1712685677:  === (34 of 104) Post-Build Cleaning (x11-base/xcb-proto-1.16.0::/var/db/repos/gentoo/x11-base/xcb-proto/xcb-proto-1.16.0.ebuild)
+1712685677:  ::: completed emerge (34 of 104) x11-base/xcb-proto-1.16.0 to /
+1712685677:  >>> emerge (35 of 104) media-libs/alsa-lib-1.2.10-r2 to /
+1712685677:  === (35 of 104) Cleaning (media-libs/alsa-lib-1.2.10-r2::/var/db/repos/gentoo/media-libs/alsa-lib/alsa-lib-1.2.10-r2.ebuild)
+1712685677:  === (35 of 104) Compiling/Packaging (media-libs/alsa-lib-1.2.10-r2::/var/db/repos/gentoo/media-libs/alsa-lib/alsa-lib-1.2.10-r2.ebuild)
+1712685726:  === (35 of 104) Merging (media-libs/alsa-lib-1.2.10-r2::/var/db/repos/gentoo/media-libs/alsa-lib/alsa-lib-1.2.10-r2.ebuild)
+1712685729:  >>> AUTOCLEAN: media-libs/alsa-lib:0
+1712685731:  === (35 of 104) Post-Build Cleaning (media-libs/alsa-lib-1.2.10-r2::/var/db/repos/gentoo/media-libs/alsa-lib/alsa-lib-1.2.10-r2.ebuild)
+1712685731:  ::: completed emerge (35 of 104) media-libs/alsa-lib-1.2.10-r2 to /
+1712685731:  >>> emerge (36 of 104) media-libs/libvorbis-1.3.7-r1 to /
+1712685731:  === (36 of 104) Cleaning (media-libs/libvorbis-1.3.7-r1::/var/db/repos/gentoo/media-libs/libvorbis/libvorbis-1.3.7-r1.ebuild)
+1712685731:  === (36 of 104) Compiling/Packaging (media-libs/libvorbis-1.3.7-r1::/var/db/repos/gentoo/media-libs/libvorbis/libvorbis-1.3.7-r1.ebuild)
+1712685762:  === (36 of 104) Merging (media-libs/libvorbis-1.3.7-r1::/var/db/repos/gentoo/media-libs/libvorbis/libvorbis-1.3.7-r1.ebuild)
+1712685765:  >>> AUTOCLEAN: media-libs/libvorbis:0
+1712685768:  === (36 of 104) Post-Build Cleaning (media-libs/libvorbis-1.3.7-r1::/var/db/repos/gentoo/media-libs/libvorbis/libvorbis-1.3.7-r1.ebuild)
+1712685768:  ::: completed emerge (36 of 104) media-libs/libvorbis-1.3.7-r1 to /
+1712685768:  >>> emerge (37 of 104) media-sound/mpg123-base-1.32.3 to /
+1712685768:  === (37 of 104) Cleaning (media-sound/mpg123-base-1.32.3::/var/db/repos/gentoo/media-sound/mpg123-base/mpg123-base-1.32.3.ebuild)
+1712685768:  === (37 of 104) Compiling/Packaging (media-sound/mpg123-base-1.32.3::/var/db/repos/gentoo/media-sound/mpg123-base/mpg123-base-1.32.3.ebuild)
+1712685797:  === (37 of 104) Merging (media-sound/mpg123-base-1.32.3::/var/db/repos/gentoo/media-sound/mpg123-base/mpg123-base-1.32.3.ebuild)
+1712685800:  >>> AUTOCLEAN: media-sound/mpg123-base:0
+1712685802:  === (37 of 104) Post-Build Cleaning (media-sound/mpg123-base-1.32.3::/var/db/repos/gentoo/media-sound/mpg123-base/mpg123-base-1.32.3.ebuild)
+1712685802:  ::: completed emerge (37 of 104) media-sound/mpg123-base-1.32.3 to /
+1712685802:  >>> emerge (38 of 104) app-eselect/eselect-rust-20210703 to /
+1712685802:  === (38 of 104) Cleaning (app-eselect/eselect-rust-20210703::/var/db/repos/gentoo/app-eselect/eselect-rust/eselect-rust-20210703.ebuild)
+1712685803:  === (38 of 104) Compiling/Packaging (app-eselect/eselect-rust-20210703::/var/db/repos/gentoo/app-eselect/eselect-rust/eselect-rust-20210703.ebuild)
+1712685816:  === (38 of 104) Merging (app-eselect/eselect-rust-20210703::/var/db/repos/gentoo/app-eselect/eselect-rust/eselect-rust-20210703.ebuild)
+1712685818:  >>> AUTOCLEAN: app-eselect/eselect-rust:0
+1712685821:  === (38 of 104) Post-Build Cleaning (app-eselect/eselect-rust-20210703::/var/db/repos/gentoo/app-eselect/eselect-rust/eselect-rust-20210703.ebuild)
+1712685821:  ::: completed emerge (38 of 104) app-eselect/eselect-rust-20210703 to /
+1712685821:  >>> emerge (39 of 104) dev-lang/rust-bin-1.75.0 to /
+1712685821:  === (39 of 104) Cleaning (dev-lang/rust-bin-1.75.0::/var/db/repos/gentoo/dev-lang/rust-bin/rust-bin-1.75.0.ebuild)
+1712685822:  === (39 of 104) Compiling/Packaging (dev-lang/rust-bin-1.75.0::/var/db/repos/gentoo/dev-lang/rust-bin/rust-bin-1.75.0.ebuild)
+1712685864:  === (39 of 104) Merging (dev-lang/rust-bin-1.75.0::/var/db/repos/gentoo/dev-lang/rust-bin/rust-bin-1.75.0.ebuild)
+1712685868:  >>> AUTOCLEAN: dev-lang/rust-bin:stable
+1712685879:  === (39 of 104) Post-Build Cleaning (dev-lang/rust-bin-1.75.0::/var/db/repos/gentoo/dev-lang/rust-bin/rust-bin-1.75.0.ebuild)
+1712685879:  ::: completed emerge (39 of 104) dev-lang/rust-bin-1.75.0 to /
+1712685879:  >>> emerge (40 of 104) virtual/rust-1.75.0-r1 to /
+1712685879:  === (40 of 104) Cleaning (virtual/rust-1.75.0-r1::/var/db/repos/gentoo/virtual/rust/rust-1.75.0-r1.ebuild)
+1712685879:  === (40 of 104) Compiling/Packaging (virtual/rust-1.75.0-r1::/var/db/repos/gentoo/virtual/rust/rust-1.75.0-r1.ebuild)
+1712685884:  === (40 of 104) Merging (virtual/rust-1.75.0-r1::/var/db/repos/gentoo/virtual/rust/rust-1.75.0-r1.ebuild)
+1712685887:  >>> AUTOCLEAN: virtual/rust:0
+1712685890:  === (40 of 104) Post-Build Cleaning (virtual/rust-1.75.0-r1::/var/db/repos/gentoo/virtual/rust/rust-1.75.0-r1.ebuild)
+1712685890:  ::: completed emerge (40 of 104) virtual/rust-1.75.0-r1 to /
+1712685890:  >>> emerge (41 of 104) dev-python/docutils-0.20.1-r1 to /
+1712685890:  === (41 of 104) Cleaning (dev-python/docutils-0.20.1-r1::/var/db/repos/gentoo/dev-python/docutils/docutils-0.20.1-r1.ebuild)
+1712685890:  === (41 of 104) Compiling/Packaging (dev-python/docutils-0.20.1-r1::/var/db/repos/gentoo/dev-python/docutils/docutils-0.20.1-r1.ebuild)
+1712685924:  === (41 of 104) Merging (dev-python/docutils-0.20.1-r1::/var/db/repos/gentoo/dev-python/docutils/docutils-0.20.1-r1.ebuild)
+1712685927:  >>> AUTOCLEAN: dev-python/docutils:0
+1712685930:  === (41 of 104) Post-Build Cleaning (dev-python/docutils-0.20.1-r1::/var/db/repos/gentoo/dev-python/docutils/docutils-0.20.1-r1.ebuild)
+1712685930:  ::: completed emerge (41 of 104) dev-python/docutils-0.20.1-r1 to /
+1712685930:  >>> emerge (42 of 104) dev-util/gdbus-codegen-2.78.3 to /
+1712685930:  === (42 of 104) Cleaning (dev-util/gdbus-codegen-2.78.3::/var/db/repos/gentoo/dev-util/gdbus-codegen/gdbus-codegen-2.78.3.ebuild)
+1712685930:  === (42 of 104) Compiling/Packaging (dev-util/gdbus-codegen-2.78.3::/var/db/repos/gentoo/dev-util/gdbus-codegen/gdbus-codegen-2.78.3.ebuild)
+1712685940:  === (42 of 104) Merging (dev-util/gdbus-codegen-2.78.3::/var/db/repos/gentoo/dev-util/gdbus-codegen/gdbus-codegen-2.78.3.ebuild)
+1712685943:  >>> AUTOCLEAN: dev-util/gdbus-codegen:0
+1712685947:  === (42 of 104) Post-Build Cleaning (dev-util/gdbus-codegen-2.78.3::/var/db/repos/gentoo/dev-util/gdbus-codegen/gdbus-codegen-2.78.3.ebuild)
+1712685947:  ::: completed emerge (42 of 104) dev-util/gdbus-codegen-2.78.3 to /
+1712685947:  >>> emerge (43 of 104) dev-python/mako-1.3.2 to /
+1712685947:  === (43 of 104) Cleaning (dev-python/mako-1.3.2::/var/db/repos/gentoo/dev-python/mako/mako-1.3.2.ebuild)
+1712685947:  === (43 of 104) Compiling/Packaging (dev-python/mako-1.3.2::/var/db/repos/gentoo/dev-python/mako/mako-1.3.2.ebuild)
+1712685958:  === (43 of 104) Merging (dev-python/mako-1.3.2::/var/db/repos/gentoo/dev-python/mako/mako-1.3.2.ebuild)
+1712685961:  >>> AUTOCLEAN: dev-python/mako:0
+1712685963:  === (43 of 104) Post-Build Cleaning (dev-python/mako-1.3.2::/var/db/repos/gentoo/dev-python/mako/mako-1.3.2.ebuild)
+1712685963:  ::: completed emerge (43 of 104) dev-python/mako-1.3.2 to /
+1712685963:  >>> emerge (44 of 104) app-text/xmlto-0.0.28-r11 to /
+1712685963:  === (44 of 104) Cleaning (app-text/xmlto-0.0.28-r11::/var/db/repos/gentoo/app-text/xmlto/xmlto-0.0.28-r11.ebuild)
+1712685963:  === (44 of 104) Compiling/Packaging (app-text/xmlto-0.0.28-r11::/var/db/repos/gentoo/app-text/xmlto/xmlto-0.0.28-r11.ebuild)
+1712685979:  === (44 of 104) Merging (app-text/xmlto-0.0.28-r11::/var/db/repos/gentoo/app-text/xmlto/xmlto-0.0.28-r11.ebuild)
+1712685982:  >>> AUTOCLEAN: app-text/xmlto:0
+1712685984:  === (44 of 104) Post-Build Cleaning (app-text/xmlto-0.0.28-r11::/var/db/repos/gentoo/app-text/xmlto/xmlto-0.0.28-r11.ebuild)
+1712685984:  ::: completed emerge (44 of 104) app-text/xmlto-0.0.28-r11 to /
+1712685984:  >>> emerge (45 of 104) dev-libs/elfutils-0.190 to /
+1712685984:  === (45 of 104) Cleaning (dev-libs/elfutils-0.190::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.190.ebuild)
+1712685984:  === (45 of 104) Compiling/Packaging (dev-libs/elfutils-0.190::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.190.ebuild)
+1712686037:  === (45 of 104) Merging (dev-libs/elfutils-0.190::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.190.ebuild)
+1712686039:  >>> AUTOCLEAN: dev-libs/elfutils:0
+1712686042:  === (45 of 104) Post-Build Cleaning (dev-libs/elfutils-0.190::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.190.ebuild)
+1712686042:  ::: completed emerge (45 of 104) dev-libs/elfutils-0.190 to /
+1712686042:  >>> emerge (46 of 104) virtual/libelf-3-r1 to /
+1712686042:  === (46 of 104) Cleaning (virtual/libelf-3-r1::/var/db/repos/gentoo/virtual/libelf/libelf-3-r1.ebuild)
+1712686042:  === (46 of 104) Compiling/Packaging (virtual/libelf-3-r1::/var/db/repos/gentoo/virtual/libelf/libelf-3-r1.ebuild)
+1712686047:  === (46 of 104) Merging (virtual/libelf-3-r1::/var/db/repos/gentoo/virtual/libelf/libelf-3-r1.ebuild)
+1712686050:  >>> AUTOCLEAN: virtual/libelf:0
+1712686053:  === (46 of 104) Post-Build Cleaning (virtual/libelf-3-r1::/var/db/repos/gentoo/virtual/libelf/libelf-3-r1.ebuild)
+1712686053:  ::: completed emerge (46 of 104) virtual/libelf-3-r1 to /
+1712686053:  >>> emerge (47 of 104) x11-base/xorg-proto-2023.2 to /
+1712686053:  === (47 of 104) Cleaning (x11-base/xorg-proto-2023.2::/var/db/repos/gentoo/x11-base/xorg-proto/xorg-proto-2023.2.ebuild)
+1712686053:  === (47 of 104) Compiling/Packaging (x11-base/xorg-proto-2023.2::/var/db/repos/gentoo/x11-base/xorg-proto/xorg-proto-2023.2.ebuild)
+1712686063:  === (47 of 104) Merging (x11-base/xorg-proto-2023.2::/var/db/repos/gentoo/x11-base/xorg-proto/xorg-proto-2023.2.ebuild)
+1712686065:  >>> AUTOCLEAN: x11-base/xorg-proto:0
+1712686068:  === (47 of 104) Post-Build Cleaning (x11-base/xorg-proto-2023.2::/var/db/repos/gentoo/x11-base/xorg-proto/xorg-proto-2023.2.ebuild)
+1712686068:  ::: completed emerge (47 of 104) x11-base/xorg-proto-2023.2 to /
+1712686068:  >>> emerge (48 of 104) media-libs/fontconfig-2.14.2-r3 to /
+1712686068:  === (48 of 104) Cleaning (media-libs/fontconfig-2.14.2-r3::/var/db/repos/gentoo/media-libs/fontconfig/fontconfig-2.14.2-r3.ebuild)
+1712686068:  === (48 of 104) Compiling/Packaging (media-libs/fontconfig-2.14.2-r3::/var/db/repos/gentoo/media-libs/fontconfig/fontconfig-2.14.2-r3.ebuild)
+1712686094:  === (48 of 104) Merging (media-libs/fontconfig-2.14.2-r3::/var/db/repos/gentoo/media-libs/fontconfig/fontconfig-2.14.2-r3.ebuild)
+1712686097:  >>> AUTOCLEAN: media-libs/fontconfig:1.0
+1712686102:  === (48 of 104) Post-Build Cleaning (media-libs/fontconfig-2.14.2-r3::/var/db/repos/gentoo/media-libs/fontconfig/fontconfig-2.14.2-r3.ebuild)
+1712686102:  ::: completed emerge (48 of 104) media-libs/fontconfig-2.14.2-r3 to /
+1712686102:  >>> emerge (49 of 104) media-libs/libjpeg-turbo-3.0.0 to /
+1712686102:  === (49 of 104) Cleaning (media-libs/libjpeg-turbo-3.0.0::/var/db/repos/gentoo/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0.ebuild)
+1712686102:  === (49 of 104) Compiling/Packaging (media-libs/libjpeg-turbo-3.0.0::/var/db/repos/gentoo/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0.ebuild)
+1712686130:  === (49 of 104) Merging (media-libs/libjpeg-turbo-3.0.0::/var/db/repos/gentoo/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0.ebuild)
+1712686132:  >>> AUTOCLEAN: media-libs/libjpeg-turbo:0
+1712686135:  === (49 of 104) Post-Build Cleaning (media-libs/libjpeg-turbo-3.0.0::/var/db/repos/gentoo/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0.ebuild)
+1712686135:  ::: completed emerge (49 of 104) media-libs/libjpeg-turbo-3.0.0 to /
+1712686135:  >>> emerge (50 of 104) dev-libs/fribidi-1.0.13 to /
+1712686135:  === (50 of 104) Cleaning (dev-libs/fribidi-1.0.13::/var/db/repos/gentoo/dev-libs/fribidi/fribidi-1.0.13.ebuild)
+1712686135:  === (50 of 104) Compiling/Packaging (dev-libs/fribidi-1.0.13::/var/db/repos/gentoo/dev-libs/fribidi/fribidi-1.0.13.ebuild)
+1712686149:  === (50 of 104) Merging (dev-libs/fribidi-1.0.13::/var/db/repos/gentoo/dev-libs/fribidi/fribidi-1.0.13.ebuild)
+1712686152:  >>> AUTOCLEAN: dev-libs/fribidi:0
+1712686155:  === (50 of 104) Post-Build Cleaning (dev-libs/fribidi-1.0.13::/var/db/repos/gentoo/dev-libs/fribidi/fribidi-1.0.13.ebuild)
+1712686155:  ::: completed emerge (50 of 104) dev-libs/fribidi-1.0.13 to /
+1712686155:  >>> emerge (51 of 104) media-libs/portsmf-239 to /
+1712686155:  === (51 of 104) Cleaning (media-libs/portsmf-239::/var/db/repos/gentoo/media-libs/portsmf/portsmf-239.ebuild)
+1712686155:  === (51 of 104) Compiling/Packaging (media-libs/portsmf-239::/var/db/repos/gentoo/media-libs/portsmf/portsmf-239.ebuild)
+1712686165:  === (51 of 104) Merging (media-libs/portsmf-239::/var/db/repos/gentoo/media-libs/portsmf/portsmf-239.ebuild)
+1712686167:  >>> AUTOCLEAN: media-libs/portsmf:0
+1712686170:  === (51 of 104) Post-Build Cleaning (media-libs/portsmf-239::/var/db/repos/gentoo/media-libs/portsmf/portsmf-239.ebuild)
+1712686170:  ::: completed emerge (51 of 104) media-libs/portsmf-239 to /
+1712686170:  >>> emerge (52 of 104) media-libs/soxr-0.1.3-r1 to /
+1712686170:  === (52 of 104) Cleaning (media-libs/soxr-0.1.3-r1::/var/db/repos/gentoo/media-libs/soxr/soxr-0.1.3-r1.ebuild)
+1712686170:  === (52 of 104) Compiling/Packaging (media-libs/soxr-0.1.3-r1::/var/db/repos/gentoo/media-libs/soxr/soxr-0.1.3-r1.ebuild)
+1712686185:  === (52 of 104) Merging (media-libs/soxr-0.1.3-r1::/var/db/repos/gentoo/media-libs/soxr/soxr-0.1.3-r1.ebuild)
+1712686188:  >>> AUTOCLEAN: media-libs/soxr:0
+1712686190:  === (52 of 104) Post-Build Cleaning (media-libs/soxr-0.1.3-r1::/var/db/repos/gentoo/media-libs/soxr/soxr-0.1.3-r1.ebuild)
+1712686190:  ::: completed emerge (52 of 104) media-libs/soxr-0.1.3-r1 to /
+1712686190:  >>> emerge (53 of 104) dev-libs/rapidjson-1.1.0-r4 to /
+1712686190:  === (53 of 104) Cleaning (dev-libs/rapidjson-1.1.0-r4::/var/db/repos/gentoo/dev-libs/rapidjson/rapidjson-1.1.0-r4.ebuild)
+1712686190:  === (53 of 104) Compiling/Packaging (dev-libs/rapidjson-1.1.0-r4::/var/db/repos/gentoo/dev-libs/rapidjson/rapidjson-1.1.0-r4.ebuild)
+1712686198:  === (53 of 104) Merging (dev-libs/rapidjson-1.1.0-r4::/var/db/repos/gentoo/dev-libs/rapidjson/rapidjson-1.1.0-r4.ebuild)
+1712686200:  >>> AUTOCLEAN: dev-libs/rapidjson:0
+1712686203:  === (53 of 104) Post-Build Cleaning (dev-libs/rapidjson-1.1.0-r4::/var/db/repos/gentoo/dev-libs/rapidjson/rapidjson-1.1.0-r4.ebuild)
+1712686203:  ::: completed emerge (53 of 104) dev-libs/rapidjson-1.1.0-r4 to /
+1712686203:  >>> emerge (54 of 104) media-gfx/graphite2-1.3.14_p20210810-r3 to /
+1712686203:  === (54 of 104) Cleaning (media-gfx/graphite2-1.3.14_p20210810-r3::/var/db/repos/gentoo/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3.ebuild)
+1712686203:  === (54 of 104) Compiling/Packaging (media-gfx/graphite2-1.3.14_p20210810-r3::/var/db/repos/gentoo/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3.ebuild)
+1712686216:  === (54 of 104) Merging (media-gfx/graphite2-1.3.14_p20210810-r3::/var/db/repos/gentoo/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3.ebuild)
+1712686218:  >>> AUTOCLEAN: media-gfx/graphite2:0
+1712686221:  === (54 of 104) Post-Build Cleaning (media-gfx/graphite2-1.3.14_p20210810-r3::/var/db/repos/gentoo/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3.ebuild)
+1712686221:  ::: completed emerge (54 of 104) media-gfx/graphite2-1.3.14_p20210810-r3 to /
+1712686221:  >>> emerge (55 of 104) x11-libs/pixman-0.43.4 to /
+1712686221:  === (55 of 104) Cleaning (x11-libs/pixman-0.43.4::/var/db/repos/gentoo/x11-libs/pixman/pixman-0.43.4.ebuild)
+1712686222:  === (55 of 104) Compiling/Packaging (x11-libs/pixman-0.43.4::/var/db/repos/gentoo/x11-libs/pixman/pixman-0.43.4.ebuild)
+1712686244:  === (55 of 104) Merging (x11-libs/pixman-0.43.4::/var/db/repos/gentoo/x11-libs/pixman/pixman-0.43.4.ebuild)
+1712686247:  >>> AUTOCLEAN: x11-libs/pixman:0
+1712686249:  === (55 of 104) Post-Build Cleaning (x11-libs/pixman-0.43.4::/var/db/repos/gentoo/x11-libs/pixman/pixman-0.43.4.ebuild)
+1712686249:  ::: completed emerge (55 of 104) x11-libs/pixman-0.43.4 to /
+1712686249:  >>> emerge (56 of 104) x11-libs/libpciaccess-0.18 to /
+1712686249:  === (56 of 104) Cleaning (x11-libs/libpciaccess-0.18::/var/db/repos/gentoo/x11-libs/libpciaccess/libpciaccess-0.18.ebuild)
+1712686249:  === (56 of 104) Compiling/Packaging (x11-libs/libpciaccess-0.18::/var/db/repos/gentoo/x11-libs/libpciaccess/libpciaccess-0.18.ebuild)
+1712686261:  === (56 of 104) Merging (x11-libs/libpciaccess-0.18::/var/db/repos/gentoo/x11-libs/libpciaccess/libpciaccess-0.18.ebuild)
+1712686264:  >>> AUTOCLEAN: x11-libs/libpciaccess:0
+1712686266:  === (56 of 104) Post-Build Cleaning (x11-libs/libpciaccess-0.18::/var/db/repos/gentoo/x11-libs/libpciaccess/libpciaccess-0.18.ebuild)
+1712686266:  ::: completed emerge (56 of 104) x11-libs/libpciaccess-0.18 to /
+1712686266:  >>> emerge (57 of 104) sys-apps/dbus-1.15.8 to /
+1712686266:  === (57 of 104) Cleaning (sys-apps/dbus-1.15.8::/var/db/repos/gentoo/sys-apps/dbus/dbus-1.15.8.ebuild)
+1712686266:  === (57 of 104) Compiling/Packaging (sys-apps/dbus-1.15.8::/var/db/repos/gentoo/sys-apps/dbus/dbus-1.15.8.ebuild)
+1712686292:  === (57 of 104) Merging (sys-apps/dbus-1.15.8::/var/db/repos/gentoo/sys-apps/dbus/dbus-1.15.8.ebuild)
+1712686295:  >>> AUTOCLEAN: sys-apps/dbus:0
+1712686298:  === (57 of 104) Post-Build Cleaning (sys-apps/dbus-1.15.8::/var/db/repos/gentoo/sys-apps/dbus/dbus-1.15.8.ebuild)
+1712686298:  ::: completed emerge (57 of 104) sys-apps/dbus-1.15.8 to /
+1712686298:  >>> emerge (58 of 104) media-libs/opus-1.5.1-r1 to /
+1712686298:  === (58 of 104) Cleaning (media-libs/opus-1.5.1-r1::/var/db/repos/gentoo/media-libs/opus/opus-1.5.1-r1.ebuild)
+1712686298:  === (58 of 104) Compiling/Packaging (media-libs/opus-1.5.1-r1::/var/db/repos/gentoo/media-libs/opus/opus-1.5.1-r1.ebuild)
+1712686323:  === (58 of 104) Merging (media-libs/opus-1.5.1-r1::/var/db/repos/gentoo/media-libs/opus/opus-1.5.1-r1.ebuild)
+1712686325:  >>> AUTOCLEAN: media-libs/opus:0
+1712686328:  === (58 of 104) Post-Build Cleaning (media-libs/opus-1.5.1-r1::/var/db/repos/gentoo/media-libs/opus/opus-1.5.1-r1.ebuild)
+1712686328:  ::: completed emerge (58 of 104) media-libs/opus-1.5.1-r1 to /
+1712686328:  >>> emerge (59 of 104) media-libs/libsndfile-1.2.2-r2 to /
+1712686328:  === (59 of 104) Cleaning (media-libs/libsndfile-1.2.2-r2::/var/db/repos/gentoo/media-libs/libsndfile/libsndfile-1.2.2-r2.ebuild)
+1712686328:  === (59 of 104) Compiling/Packaging (media-libs/libsndfile-1.2.2-r2::/var/db/repos/gentoo/media-libs/libsndfile/libsndfile-1.2.2-r2.ebuild)
+1712686374:  === (59 of 104) Merging (media-libs/libsndfile-1.2.2-r2::/var/db/repos/gentoo/media-libs/libsndfile/libsndfile-1.2.2-r2.ebuild)
+1712686376:  >>> AUTOCLEAN: media-libs/libsndfile:0
+1712686379:  === (59 of 104) Post-Build Cleaning (media-libs/libsndfile-1.2.2-r2::/var/db/repos/gentoo/media-libs/libsndfile/libsndfile-1.2.2-r2.ebuild)
+1712686379:  ::: completed emerge (59 of 104) media-libs/libsndfile-1.2.2-r2 to /
+1712686379:  >>> emerge (60 of 104) x11-libs/libXau-1.0.11 to /
+1712686379:  === (60 of 104) Cleaning (x11-libs/libXau-1.0.11::/var/db/repos/gentoo/x11-libs/libXau/libXau-1.0.11.ebuild)
+1712686379:  === (60 of 104) Compiling/Packaging (x11-libs/libXau-1.0.11::/var/db/repos/gentoo/x11-libs/libXau/libXau-1.0.11.ebuild)
+1712686398:  === (60 of 104) Merging (x11-libs/libXau-1.0.11::/var/db/repos/gentoo/x11-libs/libXau/libXau-1.0.11.ebuild)
+1712686400:  >>> AUTOCLEAN: x11-libs/libXau:0
+1712686403:  === (60 of 104) Post-Build Cleaning (x11-libs/libXau-1.0.11::/var/db/repos/gentoo/x11-libs/libXau/libXau-1.0.11.ebuild)
+1712686403:  ::: completed emerge (60 of 104) x11-libs/libXau-1.0.11 to /
+1712686403:  >>> emerge (61 of 104) x11-libs/libXdmcp-1.1.5 to /
+1712686403:  === (61 of 104) Cleaning (x11-libs/libXdmcp-1.1.5::/var/db/repos/gentoo/x11-libs/libXdmcp/libXdmcp-1.1.5.ebuild)
+1712686403:  === (61 of 104) Compiling/Packaging (x11-libs/libXdmcp-1.1.5::/var/db/repos/gentoo/x11-libs/libXdmcp/libXdmcp-1.1.5.ebuild)
+1712686422:  === (61 of 104) Merging (x11-libs/libXdmcp-1.1.5::/var/db/repos/gentoo/x11-libs/libXdmcp/libXdmcp-1.1.5.ebuild)
+1712686425:  >>> AUTOCLEAN: x11-libs/libXdmcp:0
+1712686428:  === (61 of 104) Post-Build Cleaning (x11-libs/libXdmcp-1.1.5::/var/db/repos/gentoo/x11-libs/libXdmcp/libXdmcp-1.1.5.ebuild)
+1712686428:  ::: completed emerge (61 of 104) x11-libs/libXdmcp-1.1.5 to /
+1712686428:  >>> emerge (62 of 104) x11-libs/libICE-1.1.1-r1 to /
+1712686428:  === (62 of 104) Cleaning (x11-libs/libICE-1.1.1-r1::/var/db/repos/gentoo/x11-libs/libICE/libICE-1.1.1-r1.ebuild)
+1712686428:  === (62 of 104) Compiling/Packaging (x11-libs/libICE-1.1.1-r1::/var/db/repos/gentoo/x11-libs/libICE/libICE-1.1.1-r1.ebuild)
+1712686449:  === (62 of 104) Merging (x11-libs/libICE-1.1.1-r1::/var/db/repos/gentoo/x11-libs/libICE/libICE-1.1.1-r1.ebuild)
+1712686451:  >>> AUTOCLEAN: x11-libs/libICE:0
+1712686454:  === (62 of 104) Post-Build Cleaning (x11-libs/libICE-1.1.1-r1::/var/db/repos/gentoo/x11-libs/libICE/libICE-1.1.1-r1.ebuild)
+1712686454:  ::: completed emerge (62 of 104) x11-libs/libICE-1.1.1-r1 to /
+1712686454:  >>> emerge (63 of 104) x11-libs/libdrm-2.4.120 to /
+1712686454:  === (63 of 104) Cleaning (x11-libs/libdrm-2.4.120::/var/db/repos/gentoo/x11-libs/libdrm/libdrm-2.4.120.ebuild)
+1712686454:  === (63 of 104) Compiling/Packaging (x11-libs/libdrm-2.4.120::/var/db/repos/gentoo/x11-libs/libdrm/libdrm-2.4.120.ebuild)
+1712686471:  === (63 of 104) Merging (x11-libs/libdrm-2.4.120::/var/db/repos/gentoo/x11-libs/libdrm/libdrm-2.4.120.ebuild)
+1712686474:  >>> AUTOCLEAN: x11-libs/libdrm:0
+1712686476:  === (63 of 104) Post-Build Cleaning (x11-libs/libdrm-2.4.120::/var/db/repos/gentoo/x11-libs/libdrm/libdrm-2.4.120.ebuild)
+1712686476:  ::: completed emerge (63 of 104) x11-libs/libdrm-2.4.120 to /
+1712686476:  >>> emerge (64 of 104) x11-libs/libxshmfence-1.3.2 to /
+1712686476:  === (64 of 104) Cleaning (x11-libs/libxshmfence-1.3.2::/var/db/repos/gentoo/x11-libs/libxshmfence/libxshmfence-1.3.2.ebuild)
+1712686476:  === (64 of 104) Compiling/Packaging (x11-libs/libxshmfence-1.3.2::/var/db/repos/gentoo/x11-libs/libxshmfence/libxshmfence-1.3.2.ebuild)
+1712686495:  === (64 of 104) Merging (x11-libs/libxshmfence-1.3.2::/var/db/repos/gentoo/x11-libs/libxshmfence/libxshmfence-1.3.2.ebuild)
+1712686497:  >>> AUTOCLEAN: x11-libs/libxshmfence:0
+1712686500:  === (64 of 104) Post-Build Cleaning (x11-libs/libxshmfence-1.3.2::/var/db/repos/gentoo/x11-libs/libxshmfence/libxshmfence-1.3.2.ebuild)
+1712686500:  ::: completed emerge (64 of 104) x11-libs/libxshmfence-1.3.2 to /
+1712686500:  >>> emerge (65 of 104) x11-libs/libxcb-1.16.1 to /
+1712686500:  === (65 of 104) Cleaning (x11-libs/libxcb-1.16.1::/var/db/repos/gentoo/x11-libs/libxcb/libxcb-1.16.1.ebuild)
+1712686500:  === (65 of 104) Compiling/Packaging (x11-libs/libxcb-1.16.1::/var/db/repos/gentoo/x11-libs/libxcb/libxcb-1.16.1.ebuild)
+1712686540:  === (65 of 104) Merging (x11-libs/libxcb-1.16.1::/var/db/repos/gentoo/x11-libs/libxcb/libxcb-1.16.1.ebuild)
+1712686542:  >>> AUTOCLEAN: x11-libs/libxcb:0
+1712686545:  === (65 of 104) Post-Build Cleaning (x11-libs/libxcb-1.16.1::/var/db/repos/gentoo/x11-libs/libxcb/libxcb-1.16.1.ebuild)
+1712686545:  ::: completed emerge (65 of 104) x11-libs/libxcb-1.16.1 to /
+1712686545:  >>> emerge (66 of 104) x11-libs/libSM-1.2.4 to /
+1712686545:  === (66 of 104) Cleaning (x11-libs/libSM-1.2.4::/var/db/repos/gentoo/x11-libs/libSM/libSM-1.2.4.ebuild)
+1712686545:  === (66 of 104) Compiling/Packaging (x11-libs/libSM-1.2.4::/var/db/repos/gentoo/x11-libs/libSM/libSM-1.2.4.ebuild)
+1712686565:  === (66 of 104) Merging (x11-libs/libSM-1.2.4::/var/db/repos/gentoo/x11-libs/libSM/libSM-1.2.4.ebuild)
+1712686567:  >>> AUTOCLEAN: x11-libs/libSM:0
+1712686570:  === (66 of 104) Post-Build Cleaning (x11-libs/libSM-1.2.4::/var/db/repos/gentoo/x11-libs/libSM/libSM-1.2.4.ebuild)
+1712686570:  ::: completed emerge (66 of 104) x11-libs/libSM-1.2.4 to /
+1712686570:  >>> emerge (67 of 104) x11-misc/compose-tables-1.8.7 to /
+1712686570:  === (67 of 104) Cleaning (x11-misc/compose-tables-1.8.7::/var/db/repos/gentoo/x11-misc/compose-tables/compose-tables-1.8.7.ebuild)
+1712686570:  === (67 of 104) Compiling/Packaging (x11-misc/compose-tables-1.8.7::/var/db/repos/gentoo/x11-misc/compose-tables/compose-tables-1.8.7.ebuild)
+1712686593:  === (67 of 104) Merging (x11-misc/compose-tables-1.8.7::/var/db/repos/gentoo/x11-misc/compose-tables/compose-tables-1.8.7.ebuild)
+1712686596:  >>> AUTOCLEAN: x11-misc/compose-tables:0
+1712686599:  === (67 of 104) Post-Build Cleaning (x11-misc/compose-tables-1.8.7::/var/db/repos/gentoo/x11-misc/compose-tables/compose-tables-1.8.7.ebuild)
+1712686599:  ::: completed emerge (67 of 104) x11-misc/compose-tables-1.8.7 to /
+1712686599:  >>> emerge (68 of 104) x11-libs/xcb-util-keysyms-0.4.1 to /
+1712686599:  === (68 of 104) Cleaning (x11-libs/xcb-util-keysyms-0.4.1::/var/db/repos/gentoo/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1.ebuild)
+1712686599:  === (68 of 104) Compiling/Packaging (x11-libs/xcb-util-keysyms-0.4.1::/var/db/repos/gentoo/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1.ebuild)
+1712686617:  === (68 of 104) Merging (x11-libs/xcb-util-keysyms-0.4.1::/var/db/repos/gentoo/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1.ebuild)
+1712686620:  >>> AUTOCLEAN: x11-libs/xcb-util-keysyms:0
+1712686623:  === (68 of 104) Post-Build Cleaning (x11-libs/xcb-util-keysyms-0.4.1::/var/db/repos/gentoo/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1.ebuild)
+1712686623:  ::: completed emerge (68 of 104) x11-libs/xcb-util-keysyms-0.4.1 to /
+1712686623:  >>> emerge (69 of 104) x11-libs/libX11-1.8.7 to /
+1712686623:  === (69 of 104) Cleaning (x11-libs/libX11-1.8.7::/var/db/repos/gentoo/x11-libs/libX11/libX11-1.8.7.ebuild)
+1712686623:  === (69 of 104) Compiling/Packaging (x11-libs/libX11-1.8.7::/var/db/repos/gentoo/x11-libs/libX11/libX11-1.8.7.ebuild)
+1712686680:  === (69 of 104) Merging (x11-libs/libX11-1.8.7::/var/db/repos/gentoo/x11-libs/libX11/libX11-1.8.7.ebuild)
+1712686682:  >>> AUTOCLEAN: x11-libs/libX11:0
+1712686685:  === (69 of 104) Post-Build Cleaning (x11-libs/libX11-1.8.7::/var/db/repos/gentoo/x11-libs/libX11/libX11-1.8.7.ebuild)
+1712686685:  ::: completed emerge (69 of 104) x11-libs/libX11-1.8.7 to /
+1712686685:  >>> emerge (70 of 104) x11-libs/libXext-1.3.6 to /
+1712686685:  === (70 of 104) Cleaning (x11-libs/libXext-1.3.6::/var/db/repos/gentoo/x11-libs/libXext/libXext-1.3.6.ebuild)
+1712686685:  === (70 of 104) Compiling/Packaging (x11-libs/libXext-1.3.6::/var/db/repos/gentoo/x11-libs/libXext/libXext-1.3.6.ebuild)
+1712686705:  === (70 of 104) Merging (x11-libs/libXext-1.3.6::/var/db/repos/gentoo/x11-libs/libXext/libXext-1.3.6.ebuild)
+1712686707:  >>> AUTOCLEAN: x11-libs/libXext:0
+1712686710:  === (70 of 104) Post-Build Cleaning (x11-libs/libXext-1.3.6::/var/db/repos/gentoo/x11-libs/libXext/libXext-1.3.6.ebuild)
+1712686710:  ::: completed emerge (70 of 104) x11-libs/libXext-1.3.6 to /
+1712686710:  >>> emerge (71 of 104) x11-libs/libXfixes-6.0.1 to /
+1712686710:  === (71 of 104) Cleaning (x11-libs/libXfixes-6.0.1::/var/db/repos/gentoo/x11-libs/libXfixes/libXfixes-6.0.1.ebuild)
+1712686710:  === (71 of 104) Compiling/Packaging (x11-libs/libXfixes-6.0.1::/var/db/repos/gentoo/x11-libs/libXfixes/libXfixes-6.0.1.ebuild)
+1712686728:  === (71 of 104) Merging (x11-libs/libXfixes-6.0.1::/var/db/repos/gentoo/x11-libs/libXfixes/libXfixes-6.0.1.ebuild)
+1712686731:  >>> AUTOCLEAN: x11-libs/libXfixes:0
+1712686733:  === (71 of 104) Post-Build Cleaning (x11-libs/libXfixes-6.0.1::/var/db/repos/gentoo/x11-libs/libXfixes/libXfixes-6.0.1.ebuild)
+1712686733:  ::: completed emerge (71 of 104) x11-libs/libXfixes-6.0.1 to /
+1712686733:  >>> emerge (72 of 104) x11-libs/libXrender-0.9.11 to /
+1712686733:  === (72 of 104) Cleaning (x11-libs/libXrender-0.9.11::/var/db/repos/gentoo/x11-libs/libXrender/libXrender-0.9.11.ebuild)
+1712686734:  === (72 of 104) Compiling/Packaging (x11-libs/libXrender-0.9.11::/var/db/repos/gentoo/x11-libs/libXrender/libXrender-0.9.11.ebuild)
+1712686751:  === (72 of 104) Merging (x11-libs/libXrender-0.9.11::/var/db/repos/gentoo/x11-libs/libXrender/libXrender-0.9.11.ebuild)
+1712686754:  >>> AUTOCLEAN: x11-libs/libXrender:0
+1712686756:  === (72 of 104) Post-Build Cleaning (x11-libs/libXrender-0.9.11::/var/db/repos/gentoo/x11-libs/libXrender/libXrender-0.9.11.ebuild)
+1712686756:  ::: completed emerge (72 of 104) x11-libs/libXrender-0.9.11 to /
+1712686756:  >>> emerge (73 of 104) x11-libs/libXxf86vm-1.1.5 to /
+1712686756:  === (73 of 104) Cleaning (x11-libs/libXxf86vm-1.1.5::/var/db/repos/gentoo/x11-libs/libXxf86vm/libXxf86vm-1.1.5.ebuild)
+1712686756:  === (73 of 104) Compiling/Packaging (x11-libs/libXxf86vm-1.1.5::/var/db/repos/gentoo/x11-libs/libXxf86vm/libXxf86vm-1.1.5.ebuild)
+1712686775:  === (73 of 104) Merging (x11-libs/libXxf86vm-1.1.5::/var/db/repos/gentoo/x11-libs/libXxf86vm/libXxf86vm-1.1.5.ebuild)
+1712686778:  >>> AUTOCLEAN: x11-libs/libXxf86vm:0
+1712686780:  === (73 of 104) Post-Build Cleaning (x11-libs/libXxf86vm-1.1.5::/var/db/repos/gentoo/x11-libs/libXxf86vm/libXxf86vm-1.1.5.ebuild)
+1712686780:  ::: completed emerge (73 of 104) x11-libs/libXxf86vm-1.1.5 to /
+1712686780:  >>> emerge (74 of 104) x11-libs/libXi-1.8.1 to /
+1712686780:  === (74 of 104) Cleaning (x11-libs/libXi-1.8.1::/var/db/repos/gentoo/x11-libs/libXi/libXi-1.8.1.ebuild)
+1712686780:  === (74 of 104) Compiling/Packaging (x11-libs/libXi-1.8.1::/var/db/repos/gentoo/x11-libs/libXi/libXi-1.8.1.ebuild)
+1712686801:  === (74 of 104) Merging (x11-libs/libXi-1.8.1::/var/db/repos/gentoo/x11-libs/libXi/libXi-1.8.1.ebuild)
+1712686803:  >>> AUTOCLEAN: x11-libs/libXi:0
+1712686806:  === (74 of 104) Post-Build Cleaning (x11-libs/libXi-1.8.1::/var/db/repos/gentoo/x11-libs/libXi/libXi-1.8.1.ebuild)
+1712686806:  ::: completed emerge (74 of 104) x11-libs/libXi-1.8.1 to /
+1712686806:  >>> emerge (75 of 104) media-libs/libglvnd-1.7.0 to /
+1712686806:  === (75 of 104) Cleaning (media-libs/libglvnd-1.7.0::/var/db/repos/gentoo/media-libs/libglvnd/libglvnd-1.7.0.ebuild)
+1712686806:  === (75 of 104) Compiling/Packaging (media-libs/libglvnd-1.7.0::/var/db/repos/gentoo/media-libs/libglvnd/libglvnd-1.7.0.ebuild)
+1712686823:  === (75 of 104) Merging (media-libs/libglvnd-1.7.0::/var/db/repos/gentoo/media-libs/libglvnd/libglvnd-1.7.0.ebuild)
+1712686825:  >>> AUTOCLEAN: media-libs/libglvnd:0
+1712686828:  === (75 of 104) Post-Build Cleaning (media-libs/libglvnd-1.7.0::/var/db/repos/gentoo/media-libs/libglvnd/libglvnd-1.7.0.ebuild)
+1712686828:  ::: completed emerge (75 of 104) media-libs/libglvnd-1.7.0 to /
+1712686828:  >>> emerge (76 of 104) x11-libs/libXrandr-1.5.4 to /
+1712686828:  === (76 of 104) Cleaning (x11-libs/libXrandr-1.5.4::/var/db/repos/gentoo/x11-libs/libXrandr/libXrandr-1.5.4.ebuild)
+1712686828:  === (76 of 104) Compiling/Packaging (x11-libs/libXrandr-1.5.4::/var/db/repos/gentoo/x11-libs/libXrandr/libXrandr-1.5.4.ebuild)
+1712686847:  === (76 of 104) Merging (x11-libs/libXrandr-1.5.4::/var/db/repos/gentoo/x11-libs/libXrandr/libXrandr-1.5.4.ebuild)
+1712686849:  >>> AUTOCLEAN: x11-libs/libXrandr:0
+1712686852:  === (76 of 104) Post-Build Cleaning (x11-libs/libXrandr-1.5.4::/var/db/repos/gentoo/x11-libs/libXrandr/libXrandr-1.5.4.ebuild)
+1712686852:  ::: completed emerge (76 of 104) x11-libs/libXrandr-1.5.4 to /
+1712686852:  >>> emerge (77 of 104) x11-libs/libXcomposite-0.4.6 to /
+1712686852:  === (77 of 104) Cleaning (x11-libs/libXcomposite-0.4.6::/var/db/repos/gentoo/x11-libs/libXcomposite/libXcomposite-0.4.6.ebuild)
+1712686852:  === (77 of 104) Compiling/Packaging (x11-libs/libXcomposite-0.4.6::/var/db/repos/gentoo/x11-libs/libXcomposite/libXcomposite-0.4.6.ebuild)
+1712686869:  === (77 of 104) Merging (x11-libs/libXcomposite-0.4.6::/var/db/repos/gentoo/x11-libs/libXcomposite/libXcomposite-0.4.6.ebuild)
+1712686872:  >>> AUTOCLEAN: x11-libs/libXcomposite:0
+1712686875:  === (77 of 104) Post-Build Cleaning (x11-libs/libXcomposite-0.4.6::/var/db/repos/gentoo/x11-libs/libXcomposite/libXcomposite-0.4.6.ebuild)
+1712686875:  ::: completed emerge (77 of 104) x11-libs/libXcomposite-0.4.6 to /
+1712686875:  >>> emerge (78 of 104) x11-libs/libXcursor-1.2.2 to /
+1712686875:  === (78 of 104) Cleaning (x11-libs/libXcursor-1.2.2::/var/db/repos/gentoo/x11-libs/libXcursor/libXcursor-1.2.2.ebuild)
+1712686875:  === (78 of 104) Compiling/Packaging (x11-libs/libXcursor-1.2.2::/var/db/repos/gentoo/x11-libs/libXcursor/libXcursor-1.2.2.ebuild)
+1712686894:  === (78 of 104) Merging (x11-libs/libXcursor-1.2.2::/var/db/repos/gentoo/x11-libs/libXcursor/libXcursor-1.2.2.ebuild)
+1712686897:  >>> AUTOCLEAN: x11-libs/libXcursor:0
+1712686899:  === (78 of 104) Post-Build Cleaning (x11-libs/libXcursor-1.2.2::/var/db/repos/gentoo/x11-libs/libXcursor/libXcursor-1.2.2.ebuild)
+1712686899:  ::: completed emerge (78 of 104) x11-libs/libXcursor-1.2.2 to /
+1712686899:  >>> emerge (79 of 104) x11-libs/libXdamage-1.1.6 to /
+1712686899:  === (79 of 104) Cleaning (x11-libs/libXdamage-1.1.6::/var/db/repos/gentoo/x11-libs/libXdamage/libXdamage-1.1.6.ebuild)
+1712686899:  === (79 of 104) Compiling/Packaging (x11-libs/libXdamage-1.1.6::/var/db/repos/gentoo/x11-libs/libXdamage/libXdamage-1.1.6.ebuild)
+1712686917:  === (79 of 104) Merging (x11-libs/libXdamage-1.1.6::/var/db/repos/gentoo/x11-libs/libXdamage/libXdamage-1.1.6.ebuild)
+1712686920:  >>> AUTOCLEAN: x11-libs/libXdamage:0
+1712686922:  === (79 of 104) Post-Build Cleaning (x11-libs/libXdamage-1.1.6::/var/db/repos/gentoo/x11-libs/libXdamage/libXdamage-1.1.6.ebuild)
+1712686922:  ::: completed emerge (79 of 104) x11-libs/libXdamage-1.1.6 to /
+1712686922:  >>> emerge (80 of 104) x11-libs/libXtst-1.2.4 to /
+1712686922:  === (80 of 104) Cleaning (x11-libs/libXtst-1.2.4::/var/db/repos/gentoo/x11-libs/libXtst/libXtst-1.2.4.ebuild)
+1712686922:  === (80 of 104) Compiling/Packaging (x11-libs/libXtst-1.2.4::/var/db/repos/gentoo/x11-libs/libXtst/libXtst-1.2.4.ebuild)
+1712686941:  === (80 of 104) Merging (x11-libs/libXtst-1.2.4::/var/db/repos/gentoo/x11-libs/libXtst/libXtst-1.2.4.ebuild)
+1712686943:  >>> AUTOCLEAN: x11-libs/libXtst:0
+1712686946:  === (80 of 104) Post-Build Cleaning (x11-libs/libXtst-1.2.4::/var/db/repos/gentoo/x11-libs/libXtst/libXtst-1.2.4.ebuild)
+1712686946:  ::: completed emerge (80 of 104) x11-libs/libXtst-1.2.4 to /
+1712686946:  >>> emerge (81 of 104) dev-libs/glib-2.78.3 to /
+1712686946:  === (81 of 104) Cleaning (dev-libs/glib-2.78.3::/var/db/repos/gentoo/dev-libs/glib/glib-2.78.3.ebuild)
+1712686946:  === (81 of 104) Compiling/Packaging (dev-libs/glib-2.78.3::/var/db/repos/gentoo/dev-libs/glib/glib-2.78.3.ebuild)
+1712687014:  === (81 of 104) Merging (dev-libs/glib-2.78.3::/var/db/repos/gentoo/dev-libs/glib/glib-2.78.3.ebuild)
+1712687017:  >>> AUTOCLEAN: dev-libs/glib:2
+1712687021:  === (81 of 104) Post-Build Cleaning (dev-libs/glib-2.78.3::/var/db/repos/gentoo/dev-libs/glib/glib-2.78.3.ebuild)
+1712687021:  ::: completed emerge (81 of 104) dev-libs/glib-2.78.3 to /
+1712687021:  >>> emerge (82 of 104) x11-misc/shared-mime-info-2.4-r1 to /
+1712687021:  === (82 of 104) Cleaning (x11-misc/shared-mime-info-2.4-r1::/var/db/repos/gentoo/x11-misc/shared-mime-info/shared-mime-info-2.4-r1.ebuild)
+1712687021:  === (82 of 104) Compiling/Packaging (x11-misc/shared-mime-info-2.4-r1::/var/db/repos/gentoo/x11-misc/shared-mime-info/shared-mime-info-2.4-r1.ebuild)
+1712687036:  === (82 of 104) Merging (x11-misc/shared-mime-info-2.4-r1::/var/db/repos/gentoo/x11-misc/shared-mime-info/shared-mime-info-2.4-r1.ebuild)
+1712687039:  >>> AUTOCLEAN: x11-misc/shared-mime-info:0
+1712687043:  === (82 of 104) Post-Build Cleaning (x11-misc/shared-mime-info-2.4-r1::/var/db/repos/gentoo/x11-misc/shared-mime-info/shared-mime-info-2.4-r1.ebuild)
+1712687043:  ::: completed emerge (82 of 104) x11-misc/shared-mime-info-2.4-r1 to /
+1712687043:  >>> emerge (83 of 104) dev-util/desktop-file-utils-0.27 to /
+1712687043:  === (83 of 104) Cleaning (dev-util/desktop-file-utils-0.27::/var/db/repos/gentoo/dev-util/desktop-file-utils/desktop-file-utils-0.27.ebuild)
+1712687043:  === (83 of 104) Compiling/Packaging (dev-util/desktop-file-utils-0.27::/var/db/repos/gentoo/dev-util/desktop-file-utils/desktop-file-utils-0.27.ebuild)
+1712687053:  === (83 of 104) Merging (dev-util/desktop-file-utils-0.27::/var/db/repos/gentoo/dev-util/desktop-file-utils/desktop-file-utils-0.27.ebuild)
+1712687056:  >>> AUTOCLEAN: dev-util/desktop-file-utils:0
+1712687059:  === (83 of 104) Post-Build Cleaning (dev-util/desktop-file-utils-0.27::/var/db/repos/gentoo/dev-util/desktop-file-utils/desktop-file-utils-0.27.ebuild)
+1712687059:  ::: completed emerge (83 of 104) dev-util/desktop-file-utils-0.27 to /
+1712687059:  >>> emerge (84 of 104) x11-libs/cairo-1.18.0 to /
+1712687059:  === (84 of 104) Cleaning (x11-libs/cairo-1.18.0::/var/db/repos/gentoo/x11-libs/cairo/cairo-1.18.0.ebuild)
+1712687059:  === (84 of 104) Compiling/Packaging (x11-libs/cairo-1.18.0::/var/db/repos/gentoo/x11-libs/cairo/cairo-1.18.0.ebuild)
+1712687100:  === (84 of 104) Merging (x11-libs/cairo-1.18.0::/var/db/repos/gentoo/x11-libs/cairo/cairo-1.18.0.ebuild)
+1712687102:  >>> AUTOCLEAN: x11-libs/cairo:0
+1712687105:  === (84 of 104) Post-Build Cleaning (x11-libs/cairo-1.18.0::/var/db/repos/gentoo/x11-libs/cairo/cairo-1.18.0.ebuild)
+1712687105:  ::: completed emerge (84 of 104) x11-libs/cairo-1.18.0 to /
+1712687105:  >>> emerge (85 of 104) app-text/enchant-2.6.1 to /
+1712687105:  === (85 of 104) Cleaning (app-text/enchant-2.6.1::/var/db/repos/gentoo/app-text/enchant/enchant-2.6.1.ebuild)
+1712687105:  === (85 of 104) Compiling/Packaging (app-text/enchant-2.6.1::/var/db/repos/gentoo/app-text/enchant/enchant-2.6.1.ebuild)
+1712687156:  === (85 of 104) Merging (app-text/enchant-2.6.1::/var/db/repos/gentoo/app-text/enchant/enchant-2.6.1.ebuild)
+1712687158:  >>> AUTOCLEAN: app-text/enchant:2
+1712687161:  === (85 of 104) Post-Build Cleaning (app-text/enchant-2.6.1::/var/db/repos/gentoo/app-text/enchant/enchant-2.6.1.ebuild)
+1712687161:  ::: completed emerge (85 of 104) app-text/enchant-2.6.1 to /
+1712687161:  >>> emerge (86 of 104) dev-libs/gobject-introspection-1.78.1 to /
+1712687161:  === (86 of 104) Cleaning (dev-libs/gobject-introspection-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection/gobject-introspection-1.78.1.ebuild)
+1712687161:  === (86 of 104) Compiling/Packaging (dev-libs/gobject-introspection-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection/gobject-introspection-1.78.1.ebuild)
+1712687207:  === (86 of 104) Merging (dev-libs/gobject-introspection-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection/gobject-introspection-1.78.1.ebuild)
+1712687210:  >>> AUTOCLEAN: dev-libs/gobject-introspection:0
+1712687213:  === (86 of 104) Post-Build Cleaning (dev-libs/gobject-introspection-1.78.1::/var/db/repos/gentoo/dev-libs/gobject-introspection/gobject-introspection-1.78.1.ebuild)
+1712687213:  ::: completed emerge (86 of 104) dev-libs/gobject-introspection-1.78.1 to /
+1712687213:  >>> emerge (87 of 104) dev-lang/vala-0.56.16 to /
+1712687213:  === (87 of 104) Cleaning (dev-lang/vala-0.56.16::/var/db/repos/gentoo/dev-lang/vala/vala-0.56.16.ebuild)
+1712687213:  === (87 of 104) Compiling/Packaging (dev-lang/vala-0.56.16::/var/db/repos/gentoo/dev-lang/vala/vala-0.56.16.ebuild)
+1712687286:  === (87 of 104) Merging (dev-lang/vala-0.56.16::/var/db/repos/gentoo/dev-lang/vala/vala-0.56.16.ebuild)
+1712687289:  >>> AUTOCLEAN: dev-lang/vala:0.56
+1712687292:  === (87 of 104) Post-Build Cleaning (dev-lang/vala-0.56.16::/var/db/repos/gentoo/dev-lang/vala/vala-0.56.16.ebuild)
+1712687292:  ::: completed emerge (87 of 104) dev-lang/vala-0.56.16 to /
+1712687292:  >>> emerge (88 of 104) media-libs/portmidi-2.0.4 to /
+1712687292:  === (88 of 104) Cleaning (media-libs/portmidi-2.0.4::/var/db/repos/gentoo/media-libs/portmidi/portmidi-2.0.4.ebuild)
+1712687292:  === (88 of 104) Compiling/Packaging (media-libs/portmidi-2.0.4::/var/db/repos/gentoo/media-libs/portmidi/portmidi-2.0.4.ebuild)
+1712687301:  === (88 of 104) Merging (media-libs/portmidi-2.0.4::/var/db/repos/gentoo/media-libs/portmidi/portmidi-2.0.4.ebuild)
+1712687303:  >>> AUTOCLEAN: media-libs/portmidi:0
+1712687306:  === (88 of 104) Post-Build Cleaning (media-libs/portmidi-2.0.4::/var/db/repos/gentoo/media-libs/portmidi/portmidi-2.0.4.ebuild)
+1712687306:  ::: completed emerge (88 of 104) media-libs/portmidi-2.0.4 to /
+1712687306:  >>> emerge (89 of 104) x11-libs/gdk-pixbuf-2.42.10-r1 to /
+1712687306:  === (89 of 104) Cleaning (x11-libs/gdk-pixbuf-2.42.10-r1::/var/db/repos/gentoo/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1.ebuild)
+1712687306:  === (89 of 104) Compiling/Packaging (x11-libs/gdk-pixbuf-2.42.10-r1::/var/db/repos/gentoo/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1.ebuild)
+1712687329:  === (89 of 104) Merging (x11-libs/gdk-pixbuf-2.42.10-r1::/var/db/repos/gentoo/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1.ebuild)
+1712687332:  >>> AUTOCLEAN: x11-libs/gdk-pixbuf:2
+1712687335:  === (89 of 104) Post-Build Cleaning (x11-libs/gdk-pixbuf-2.42.10-r1::/var/db/repos/gentoo/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1.ebuild)
+1712687335:  ::: completed emerge (89 of 104) x11-libs/gdk-pixbuf-2.42.10-r1 to /
+1712687335:  >>> emerge (90 of 104) media-libs/harfbuzz-8.3.0 to /
+1712687335:  === (90 of 104) Cleaning (media-libs/harfbuzz-8.3.0::/var/db/repos/gentoo/media-libs/harfbuzz/harfbuzz-8.3.0.ebuild)
+1712687335:  === (90 of 104) Compiling/Packaging (media-libs/harfbuzz-8.3.0::/var/db/repos/gentoo/media-libs/harfbuzz/harfbuzz-8.3.0.ebuild)
+1712687451:  === (90 of 104) Merging (media-libs/harfbuzz-8.3.0::/var/db/repos/gentoo/media-libs/harfbuzz/harfbuzz-8.3.0.ebuild)
+1712687453:  >>> AUTOCLEAN: media-libs/harfbuzz:0
+1712687456:  === (90 of 104) Post-Build Cleaning (media-libs/harfbuzz-8.3.0::/var/db/repos/gentoo/media-libs/harfbuzz/harfbuzz-8.3.0.ebuild)
+1712687456:  ::: completed emerge (90 of 104) media-libs/harfbuzz-8.3.0 to /
+1712687456:  >>> emerge (91 of 104) app-accessibility/at-spi2-core-2.50.2 to /
+1712687456:  === (91 of 104) Cleaning (app-accessibility/at-spi2-core-2.50.2::/var/db/repos/gentoo/app-accessibility/at-spi2-core/at-spi2-core-2.50.2.ebuild)
+1712687456:  === (91 of 104) Compiling/Packaging (app-accessibility/at-spi2-core-2.50.2::/var/db/repos/gentoo/app-accessibility/at-spi2-core/at-spi2-core-2.50.2.ebuild)
+1712687479:  === (91 of 104) Merging (app-accessibility/at-spi2-core-2.50.2::/var/db/repos/gentoo/app-accessibility/at-spi2-core/at-spi2-core-2.50.2.ebuild)
+1712687482:  >>> AUTOCLEAN: app-accessibility/at-spi2-core:2
+1712687485:  === (91 of 104) Post-Build Cleaning (app-accessibility/at-spi2-core-2.50.2::/var/db/repos/gentoo/app-accessibility/at-spi2-core/at-spi2-core-2.50.2.ebuild)
+1712687485:  ::: completed emerge (91 of 104) app-accessibility/at-spi2-core-2.50.2 to /
+1712687485:  >>> emerge (92 of 104) x11-libs/pango-1.52.1 to /
+1712687485:  === (92 of 104) Cleaning (x11-libs/pango-1.52.1::/var/db/repos/gentoo/x11-libs/pango/pango-1.52.1.ebuild)
+1712687485:  === (92 of 104) Compiling/Packaging (x11-libs/pango-1.52.1::/var/db/repos/gentoo/x11-libs/pango/pango-1.52.1.ebuild)
+1712687518:  === (92 of 104) Merging (x11-libs/pango-1.52.1::/var/db/repos/gentoo/x11-libs/pango/pango-1.52.1.ebuild)
+1712687521:  >>> AUTOCLEAN: x11-libs/pango:0
+1712687524:  === (92 of 104) Post-Build Cleaning (x11-libs/pango-1.52.1::/var/db/repos/gentoo/x11-libs/pango/pango-1.52.1.ebuild)
+1712687524:  ::: completed emerge (92 of 104) x11-libs/pango-1.52.1 to /
+1712687524:  >>> emerge (93 of 104) dev-util/gtk-update-icon-cache-3.24.40 to /
+1712687524:  === (93 of 104) Cleaning (dev-util/gtk-update-icon-cache-3.24.40::/var/db/repos/gentoo/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40.ebuild)
+1712687524:  === (93 of 104) Compiling/Packaging (dev-util/gtk-update-icon-cache-3.24.40::/var/db/repos/gentoo/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40.ebuild)
+1712687535:  === (93 of 104) Merging (dev-util/gtk-update-icon-cache-3.24.40::/var/db/repos/gentoo/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40.ebuild)
+1712687538:  >>> AUTOCLEAN: dev-util/gtk-update-icon-cache:0
+1712687541:  === (93 of 104) Post-Build Cleaning (dev-util/gtk-update-icon-cache-3.24.40::/var/db/repos/gentoo/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40.ebuild)
+1712687541:  ::: completed emerge (93 of 104) dev-util/gtk-update-icon-cache-3.24.40 to /
+1712687541:  >>> emerge (94 of 104) gnome-base/librsvg-2.57.0 to /
+1712687541:  === (94 of 104) Cleaning (gnome-base/librsvg-2.57.0::/var/db/repos/gentoo/gnome-base/librsvg/librsvg-2.57.0.ebuild)
+1712687541:  === (94 of 104) Compiling/Packaging (gnome-base/librsvg-2.57.0::/var/db/repos/gentoo/gnome-base/librsvg/librsvg-2.57.0.ebuild)
+1712687709:  === (94 of 104) Merging (gnome-base/librsvg-2.57.0::/var/db/repos/gentoo/gnome-base/librsvg/librsvg-2.57.0.ebuild)
+1712687712:  >>> AUTOCLEAN: gnome-base/librsvg:2
+1712687717:  === (94 of 104) Post-Build Cleaning (gnome-base/librsvg-2.57.0::/var/db/repos/gentoo/gnome-base/librsvg/librsvg-2.57.0.ebuild)
+1712687717:  ::: completed emerge (94 of 104) gnome-base/librsvg-2.57.0 to /
+1712687717:  >>> emerge (95 of 104) sys-devel/llvm-17.0.6 to /
+1712687717:  === (95 of 104) Cleaning (sys-devel/llvm-17.0.6::/var/db/repos/gentoo/sys-devel/llvm/llvm-17.0.6.ebuild)
+1712687718:  === (95 of 104) Compiling/Packaging (sys-devel/llvm-17.0.6::/var/db/repos/gentoo/sys-devel/llvm/llvm-17.0.6.ebuild)
+1712691535:  === (95 of 104) Merging (sys-devel/llvm-17.0.6::/var/db/repos/gentoo/sys-devel/llvm/llvm-17.0.6.ebuild)
+1712691539:  >>> AUTOCLEAN: sys-devel/llvm:17
+1712691545:  === (95 of 104) Post-Build Cleaning (sys-devel/llvm-17.0.6::/var/db/repos/gentoo/sys-devel/llvm/llvm-17.0.6.ebuild)
+1712691545:  ::: completed emerge (95 of 104) sys-devel/llvm-17.0.6 to /
+1712691545:  >>> emerge (96 of 104) sys-devel/llvm-toolchain-symlinks-17 to /
+1712691545:  === (96 of 104) Cleaning (sys-devel/llvm-toolchain-symlinks-17::/var/db/repos/gentoo/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17.ebuild)
+1712691545:  === (96 of 104) Compiling/Packaging (sys-devel/llvm-toolchain-symlinks-17::/var/db/repos/gentoo/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17.ebuild)
+1712691550:  === (96 of 104) Merging (sys-devel/llvm-toolchain-symlinks-17::/var/db/repos/gentoo/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17.ebuild)
+1712691553:  >>> AUTOCLEAN: sys-devel/llvm-toolchain-symlinks:17
+1712691556:  === (96 of 104) Post-Build Cleaning (sys-devel/llvm-toolchain-symlinks-17::/var/db/repos/gentoo/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17.ebuild)
+1712691556:  ::: completed emerge (96 of 104) sys-devel/llvm-toolchain-symlinks-17 to /
+1712691556:  >>> emerge (97 of 104) sys-devel/llvmgold-17 to /
+1712691556:  === (97 of 104) Cleaning (sys-devel/llvmgold-17::/var/db/repos/gentoo/sys-devel/llvmgold/llvmgold-17.ebuild)
+1712691556:  === (97 of 104) Compiling/Packaging (sys-devel/llvmgold-17::/var/db/repos/gentoo/sys-devel/llvmgold/llvmgold-17.ebuild)
+1712691561:  === (97 of 104) Merging (sys-devel/llvmgold-17::/var/db/repos/gentoo/sys-devel/llvmgold/llvmgold-17.ebuild)
+1712691564:  >>> AUTOCLEAN: sys-devel/llvmgold:0
+1712691566:  === (97 of 104) Post-Build Cleaning (sys-devel/llvmgold-17::/var/db/repos/gentoo/sys-devel/llvmgold/llvmgold-17.ebuild)
+1712691566:  ::: completed emerge (97 of 104) sys-devel/llvmgold-17 to /
+1712691566:  >>> emerge (98 of 104) media-libs/mesa-24.0.4 to /
+1712691566:  === (98 of 104) Cleaning (media-libs/mesa-24.0.4::/var/db/repos/gentoo/media-libs/mesa/mesa-24.0.4.ebuild)
+1712691566:  === (98 of 104) Compiling/Packaging (media-libs/mesa-24.0.4::/var/db/repos/gentoo/media-libs/mesa/mesa-24.0.4.ebuild)
+1712692105:  === (98 of 104) Merging (media-libs/mesa-24.0.4::/var/db/repos/gentoo/media-libs/mesa/mesa-24.0.4.ebuild)
+1712692108:  >>> AUTOCLEAN: media-libs/mesa:0
+1712692113:  === (98 of 104) Post-Build Cleaning (media-libs/mesa-24.0.4::/var/db/repos/gentoo/media-libs/mesa/mesa-24.0.4.ebuild)
+1712692113:  ::: completed emerge (98 of 104) media-libs/mesa-24.0.4 to /
+1712692113:  >>> emerge (99 of 104) media-libs/libepoxy-1.5.10-r2 to /
+1712692113:  === (99 of 104) Cleaning (media-libs/libepoxy-1.5.10-r2::/var/db/repos/gentoo/media-libs/libepoxy/libepoxy-1.5.10-r2.ebuild)
+1712692113:  === (99 of 104) Compiling/Packaging (media-libs/libepoxy-1.5.10-r2::/var/db/repos/gentoo/media-libs/libepoxy/libepoxy-1.5.10-r2.ebuild)
+1712692141:  === (99 of 104) Merging (media-libs/libepoxy-1.5.10-r2::/var/db/repos/gentoo/media-libs/libepoxy/libepoxy-1.5.10-r2.ebuild)
+1712692144:  >>> AUTOCLEAN: media-libs/libepoxy:0
+1712692148:  === (99 of 104) Post-Build Cleaning (media-libs/libepoxy-1.5.10-r2::/var/db/repos/gentoo/media-libs/libepoxy/libepoxy-1.5.10-r2.ebuild)
+1712692148:  ::: completed emerge (99 of 104) media-libs/libepoxy-1.5.10-r2 to /
+1712692148:  >>> emerge (100 of 104) x11-libs/gtk+-3.24.39 to /
+1712692148:  === (100 of 104) Cleaning (x11-libs/gtk+-3.24.39::/var/db/repos/gentoo/x11-libs/gtk+/gtk+-3.24.39.ebuild)
+1712692148:  === (100 of 104) Compiling/Packaging (x11-libs/gtk+-3.24.39::/var/db/repos/gentoo/x11-libs/gtk+/gtk+-3.24.39.ebuild)
+1712692482:  === (100 of 104) Merging (x11-libs/gtk+-3.24.39::/var/db/repos/gentoo/x11-libs/gtk+/gtk+-3.24.39.ebuild)
+1712692485:  >>> AUTOCLEAN: x11-libs/gtk+:3
+1712692493:  === (100 of 104) Post-Build Cleaning (x11-libs/gtk+-3.24.39::/var/db/repos/gentoo/x11-libs/gtk+/gtk+-3.24.39.ebuild)
+1712692493:  ::: completed emerge (100 of 104) x11-libs/gtk+-3.24.39 to /
+1712692493:  >>> emerge (101 of 104) x11-themes/adwaita-icon-theme-45.0 to /
+1712692493:  === (101 of 104) Cleaning (x11-themes/adwaita-icon-theme-45.0::/var/db/repos/gentoo/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0.ebuild)
+1712692493:  === (101 of 104) Compiling/Packaging (x11-themes/adwaita-icon-theme-45.0::/var/db/repos/gentoo/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0.ebuild)
+1712692503:  === (101 of 104) Merging (x11-themes/adwaita-icon-theme-45.0::/var/db/repos/gentoo/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0.ebuild)
+1712692506:  >>> AUTOCLEAN: x11-themes/adwaita-icon-theme:0
+1712692509:  === (101 of 104) Post-Build Cleaning (x11-themes/adwaita-icon-theme-45.0::/var/db/repos/gentoo/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0.ebuild)
+1712692509:  ::: completed emerge (101 of 104) x11-themes/adwaita-icon-theme-45.0 to /
+1712692509:  >>> emerge (102 of 104) app-text/gspell-1.12.2 to /
+1712692509:  === (102 of 104) Cleaning (app-text/gspell-1.12.2::/var/db/repos/gentoo/app-text/gspell/gspell-1.12.2.ebuild)
+1712692509:  === (102 of 104) Compiling/Packaging (app-text/gspell-1.12.2::/var/db/repos/gentoo/app-text/gspell/gspell-1.12.2.ebuild)
+1712692612:  === (102 of 104) Merging (app-text/gspell-1.12.2::/var/db/repos/gentoo/app-text/gspell/gspell-1.12.2.ebuild)
+1712692619:  >>> AUTOCLEAN: app-text/gspell:0
+1712692624:  === (102 of 104) Post-Build Cleaning (app-text/gspell-1.12.2::/var/db/repos/gentoo/app-text/gspell/gspell-1.12.2.ebuild)
+1712692624:  ::: completed emerge (102 of 104) app-text/gspell-1.12.2 to /
+1712692624:  >>> emerge (103 of 104) x11-libs/wxGTK-3.2.2.1-r3 to /
+1712692624:  === (103 of 104) Cleaning (x11-libs/wxGTK-3.2.2.1-r3::/var/db/repos/gentoo/x11-libs/wxGTK/wxGTK-3.2.2.1-r3.ebuild)
+1712692625:  === (103 of 104) Compiling/Packaging (x11-libs/wxGTK-3.2.2.1-r3::/var/db/repos/gentoo/x11-libs/wxGTK/wxGTK-3.2.2.1-r3.ebuild)
+1712693135:  === (103 of 104) Merging (x11-libs/wxGTK-3.2.2.1-r3::/var/db/repos/gentoo/x11-libs/wxGTK/wxGTK-3.2.2.1-r3.ebuild)
+1712693138:  >>> AUTOCLEAN: x11-libs/wxGTK:3.2-gtk3
+1712693142:  === (103 of 104) Post-Build Cleaning (x11-libs/wxGTK-3.2.2.1-r3::/var/db/repos/gentoo/x11-libs/wxGTK/wxGTK-3.2.2.1-r3.ebuild)
+1712693142:  ::: completed emerge (103 of 104) x11-libs/wxGTK-3.2.2.1-r3 to /
+1712693142:  >>> emerge (104 of 104) media-sound/audacity-3.4.2-r1 to /
+1712693142:  === (104 of 104) Cleaning (media-sound/audacity-3.4.2-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.4.2-r1.ebuild)
+1712693142:  === (104 of 104) Compiling/Packaging (media-sound/audacity-3.4.2-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.4.2-r1.ebuild)
+1712694267:  === (104 of 104) Merging (media-sound/audacity-3.4.2-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.4.2-r1.ebuild)
+1712694270:  >>> AUTOCLEAN: media-sound/audacity:0
+1712694275:  === (104 of 104) Updating world file (media-sound/audacity-3.4.2-r1)
+1712694275:  === (104 of 104) Post-Build Cleaning (media-sound/audacity-3.4.2-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.4.2-r1.ebuild)
+1712694275:  ::: completed emerge (104 of 104) media-sound/audacity-3.4.2-r1 to /
+1712694275:  *** Finished. Cleaning up...
+1712694275:  *** exiting successfully.
+1712694276:  *** terminating.
+1712712739: Started emerge on: Apr 10, 2024 01:32:18
+1712712739:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --verbose gentoolkit
+1712712777:  >>> emerge (1 of 1) app-portage/gentoolkit-0.6.5 to /
+1712712777:  === (1 of 1) Cleaning (app-portage/gentoolkit-0.6.5::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.6.5.ebuild)
+1712712777:  === (1 of 1) Compiling/Packaging (app-portage/gentoolkit-0.6.5::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.6.5.ebuild)
+1712712812:  === (1 of 1) Merging (app-portage/gentoolkit-0.6.5::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.6.5.ebuild)
+1712712818:  >>> AUTOCLEAN: app-portage/gentoolkit:0
+1712712823:  === (1 of 1) Updating world file (app-portage/gentoolkit-0.6.5)
+1712712823:  === (1 of 1) Post-Build Cleaning (app-portage/gentoolkit-0.6.5::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.6.5.ebuild)
+1712712823:  ::: completed emerge (1 of 1) app-portage/gentoolkit-0.6.5 to /
+1712712823:  *** Finished. Cleaning up...
+1712712823:  *** exiting successfully.
+1712712823:  *** terminating.
