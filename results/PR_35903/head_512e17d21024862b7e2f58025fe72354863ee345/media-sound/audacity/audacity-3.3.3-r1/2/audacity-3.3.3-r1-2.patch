@@ -1,0 +1,20 @@
+Requires audacity-3.4.2-audiocom-std-string.patch from PR 35414, which
+was not included into media-sound/audacity-3.3.3 ebuild after merging.
+
+References:
+ - https://bugs.gentoo.org/920363
+ - https://github.com/gentoo/gentoo/pull/35414
+
+diff -Nuar a/audacity-3.3.3-r1.ebuild b/audacity-3.3.3-r1.ebuild
+--- a/audacity-3.3.3-r1.ebuild	2024-04-08 08:46:13.038864921 +0000
++++ b/audacity-3.3.3-r1.ebuild	2024-04-11 23:30:59.522440714 +0000
+@@ -140,6 +140,9 @@
+ 
+ 	# Allows running tests without conan
+ 	"${FILESDIR}/${PN}-3.3.3-remove-conan-test-dependency.patch"
++
++	# #920363
++	"${FILESDIR}/audacity-3.4.2-audiocom-std-string.patch"
+ )
+ 
+ src_prepare() {
