@@ -241,6 +241,26 @@ rm /var/cache/binpkgs/media-sound/audacity/audacity-3.4.2-r1-*
 emerge -k =media-sound/audacity-3.4.2-r1
 ```
 
+__[SUCCESS](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.4.2-r1/23/)__
+
+USE="*" ABI_X86="(64)"
+
+PS: The '*' here is a non-functional pseudo wildcard, meaning all;
+    media-sound/audacity[alsa] requires media-libs/portaudio[alsa];
+    media-sound/audacity[test] requires x11-base/xorg-server[xvfb].
+
+NOTES: To run the tests (aka USE="test" and FEATURES="test"), don't
+       mount /tmp/.X11-unix in the LXC container, Xvfb requires the
+       /tmp/.X11-unix directory to be owned by the LXC container.
+
+```
+emerge --unmerge media-sound/audacity
+emerge --depclean
+nano /var/cache/binpkgs/Packages # remove audacity-3.4.2-r1 entries
+rm /var/cache/binpkgs/media-sound/audacity/audacity-3.4.2-r1-*
+emerge -k =media-sound/audacity-3.4.2-r1
+```
+
 ## PR 35903 HEAD 05d838a
 
 __LXC container__: _Gentoo amd64 (openrc) (20240406_16:07)_
