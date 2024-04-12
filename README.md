@@ -15,7 +15,7 @@ Head of Gentoo's repo: [gentoo/gentoo#9428b7b](https://github.com/gentoo/gentoo/
 
 ## PR 35903 HEAD 512e17d
 
-Resume from [PR 35903 HEAD 05d838a](#user-content-pr-35903-head-05d838a)
+Resume from [PR 35903 HEAD 05d838a](#user-content-pr-35903-head-05d838a).
 
 Summary of [05d838a..512e17d](https://github.com/gentoo/gentoo/compare/05d838a28b1c2516741f7ff25b2c4e89984e76e8..512e17d21024862b7e2f58025fe72354863ee345), see also [35903#issue-2204604236](https://github.com/gentoo/gentoo/pull/35903#issue-2204604236):
 - fix missing `#include <limits>` for `2.4.2-r3`
