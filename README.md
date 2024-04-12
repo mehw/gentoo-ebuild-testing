@@ -2,6 +2,17 @@ __THIS REPO IS SUBJECT TO FORCED PUSH__
 
 # media-sound/audacity
 
+## PR 35903 HEAD 911aff1
+
+Summary of [512e17d..911aff1](https://github.com/gentoo/gentoo/compare/512e17d21024862b7e2f58025fe72354863ee345..911aff12f7fe07a527a7faa15c78156b1a15b8f7), see also [35903#issuecomment-2050869857](https://github.com/gentoo/gentoo/pull/35903#issuecomment-2050869857):
+- fix compiling failure of [PR 35903 HEAD 512e17d 3.3.3-r1 iteration #2](#user-content-failure-pr-35903-head-512e17d-3.3.3-r1-2).
+
+__LXC container__: _Gentoo amd64 (openrc) (20240408_16:07) container_
+
+Testing PR: [gentoo/gentoo#35903](https://github.com/gentoo/gentoo/pull/35903)  
+Head of PR: [Jamim/gentoo#911aff1](https://github.com/Jamim/gentoo/tree/911aff12f7fe07a527a7faa15c78156b1a15b8f7)  
+Head of Gentoo's repo: [gentoo/gentoo#9428b7b](https://github.com/gentoo/gentoo/tree/9428b7b54576cfaa84da562e1148a804acd6cc30)
+
 ## PR 35903 HEAD 512e17d
 
 Resume from [PR 35903 HEAD 05d838a](#user-content-pr-35903-head-05d838a)
@@ -286,6 +297,8 @@ emerge -k =media-sound/audacity-3.3.3-r1
 ```
 
 <a id="failure-pr-35903-head-512e17d-3.3.3-r1-2" />__[FAILURE](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.3.3-r1/2/)__
+
+Fixed in [PR 35903 HEAD 911aff1](#user-content-pr-35903-head-911aff1).
 
 USE="-* audiocom" ABI_X86="(64)"
 

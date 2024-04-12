@@ -12,6 +12,8 @@ Head of Gentoo's repo: [gentoo/gentoo#9428b7b](https://github.com/gentoo/gentoo/
 
 __FAILURE__
 
+Fixed in [PR 35903 HEAD 911aff1](https://github.com/mehw/gentoo-ebuild-testing/tree/media-sound/audacity#user-content-pr-35903-head-911aff1).
+
 USE="-* audiocom" ABI_X86="(64)"
 
 Requires audacity-3.4.2-audiocom-std-string.patch from PR 35414, which
