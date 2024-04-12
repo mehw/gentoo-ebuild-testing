@@ -12,6 +12,8 @@ Head of Gentoo's repo: [gentoo/gentoo#be766b5](https://github.com/gentoo/gentoo/
 
 __SUCCESS__
 
+Applied suggested [patch](audacity-3.4.2-r2-3.patch) to fix [PR 35903 HEAD 05d838a 3.4.2-r1 iteration #2](https://github.com/mehw/gentoo-ebuild-testing/tree/media-sound/audacity#user-content-failure-pr-35903-head-05d838a-3.4.2-r1-2).
+
 USE="-*" ABI_X86="(64)"
 
 ```

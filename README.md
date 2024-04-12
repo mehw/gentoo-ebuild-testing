@@ -4,6 +4,16 @@ __THIS REPO IS SUBJECT TO FORCED PUSH__
 
 ## PR 35903 HEAD 512e17d
 
+Resume from [PR 35903 HEAD 05d838a](#user-content-pr-35903-head-05d838a)
+
+Summary of [05d838a..512e17d](https://github.com/gentoo/gentoo/compare/05d838a28b1c2516741f7ff25b2c4e89984e76e8..512e17d21024862b7e2f58025fe72354863ee345), see also [35903#issue-2204604236](https://github.com/gentoo/gentoo/pull/35903#issue-2204604236):
+- fix missing `#include <limits>` for `2.4.2-r3`
+- limit `media-video/ffmpeg` to `<5` for `2.4.2-r3`
+- add `x11-base/xorg-proto` to `DEPEND` <sup>[1]</sup>
+- add ASM to `BDEPEND` <sup>[1]</sup>
+
+1. fix compiling failure of [PR 35903 HEAD 05d838a 3.4.2-r1 iteration #2](#user-content-failure-pr-35903-head-05d838a-3.4.2-r1-2).
+
 __LXC container__: _Gentoo amd64 (openrc) (20240408_16:07) container_
 
 Testing PR: [gentoo/gentoo#35903](https://github.com/gentoo/gentoo/pull/35903)  
@@ -275,7 +285,7 @@ rm /var/cache/binpkgs/media-sound/audacity/audacity-3.3.3-r1-*
 emerge -k =media-sound/audacity-3.3.3-r1
 ```
 
-__[FAILURE](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.3.3-r1/2/)__
+<a id="failure-pr-35903-head-512e17d-3.3.3-r1-2" />__[FAILURE](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.3.3-r1/2/)__
 
 USE="-* audiocom" ABI_X86="(64)"
 
@@ -304,7 +314,7 @@ References:
 - [bug#920363](https://bugs.gentoo.org/920363)
 - [gentoo/gentoo#35414](https://github.com/gentoo/gentoo/pull/35414)
 
-Resuming from a previous failure, after the aforementioned patch.
+Resume from [PR 35903 HEAD 512e17d 3.3.3-r1 iteration #2](#user-content-failure-pr-35903-head-512e17d-3.3.3-r1-2), after the aforementioned patch.
 
 ```
 emerge =media-sound/audacity-3.3.3-r1
@@ -348,6 +358,8 @@ emerge -k =media-sound/audacity-3.3.3-r1
 
 ## PR 35903 HEAD 05d838a
 
+All tests here are redone in [PR 35903 HEAD 512e17d](#user-content-pr-35903-head-512e17d).
+
 __LXC container__: _Gentoo amd64 (openrc) (20240406_16:07)_
 
 Testing PR: [gentoo/gentoo#35903](https://github.com/gentoo/gentoo/pull/35903)  
@@ -364,7 +376,9 @@ USE="-*" ABI_X86="(64)"
 emerge =media-sound/audacity-3.4.2-r1
 ```
 
-__[FAILURE](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r1/2/)__
+<a id="failure-pr-35903-head-05d838a-3.4.2-r1-2" />__[FAILURE](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r1/2/)__
+
+Fixed in [PR 35903 HEAD 512e17d](#user-content-pr-35903-head-512e17d).
 
 USE="-*" ABI_X86="(64)"
 
@@ -379,6 +393,8 @@ emerge -k =media-sound/audacity-3.4.2-r1
 ### media-sound/audacity-3.4.2-r2
 
 __[SUCCESS](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r2/3/)__
+
+Applied suggested [patch](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r2/3/audacity-3.4.2-r2-3.patch) to fix [PR 35903 HEAD 05d838a 3.4.2-r1 iteration #2](#user-content-failure-pr-35903-head-05d838a-3.4.2-r1-2).
 
 USE="-*" ABI_X86="(64)"
 

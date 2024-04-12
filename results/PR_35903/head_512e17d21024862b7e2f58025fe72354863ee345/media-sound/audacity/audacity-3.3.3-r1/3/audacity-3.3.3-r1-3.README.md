@@ -20,7 +20,7 @@ References:
 - [bug#920363](https://bugs.gentoo.org/920363)
 - [gentoo/gentoo#35414](https://github.com/gentoo/gentoo/pull/35414)
 
-Resuming from a previous failure, after the aforementioned patch.
+Resume from [PR 35903 HEAD 512e17d 3.3.3-r1 iteration #2](https://github.com/mehw/gentoo-ebuild-testing/tree/media-sound/audacity#user-content-failure-pr-35903-head-512e17d-3.3.3-r1-2), after the aforementioned patch.
 
 ```
 emerge =media-sound/audacity-3.3.3-r1

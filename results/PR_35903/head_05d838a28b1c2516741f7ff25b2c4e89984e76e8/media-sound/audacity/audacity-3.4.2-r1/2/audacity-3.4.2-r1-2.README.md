@@ -12,6 +12,8 @@ Head of Gentoo's repo: [gentoo/gentoo#be766b5](https://github.com/gentoo/gentoo/
 
 __FAILURE__
 
+Fixed in [PR 35903 HEAD 512e17d](https://github.com/mehw/gentoo-ebuild-testing/tree/media-sound/audacity#user-content-pr-35903-head-512e17d).
+
 USE="-*" ABI_X86="(64)"
 
 ```
