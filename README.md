@@ -310,6 +310,18 @@ Resuming from a previous failure, after the aforementioned patch.
 emerge =media-sound/audacity-3.3.3-r1
 ```
 
+__[SUCCESS](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.3.3-r1/4/)__
+
+USE="-* flac" ABI_X86="(64)"
+
+```
+emerge --unmerge media-sound/audacity
+emerge --depclean
+nano /var/cache/binpkgs/Packages # remove audacity-3.3.3-r1 entries
+rm /var/cache/binpkgs/media-sound/audacity/audacity-3.3.3-r1-*
+emerge -k =media-sound/audacity-3.3.3-r1
+```
+
 ## PR 35903 HEAD 05d838a
 
 __LXC container__: _Gentoo amd64 (openrc) (20240406_16:07)_
