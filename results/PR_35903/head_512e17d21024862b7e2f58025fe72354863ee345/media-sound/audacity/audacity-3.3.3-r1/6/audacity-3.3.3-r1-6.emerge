@@ -1,0 +1,647 @@
+1712894031: Started emerge on: Apr 12, 2024 03:53:50
+1712894031:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --verbose --unmerge media-sound/audacity
+1712894036: === Unmerging... (media-sound/audacity-3.3.3-r1)
+1712894039:  >>> unmerge success: media-sound/audacity-3.3.3-r1
+1712894039:  *** exiting successfully.
+1712894039:  *** terminating.
+1712894042: Started emerge on: Apr 12, 2024 03:54:02
+1712894042:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --depclean
+1712894042:  >>> depclean
+1712894051: === Unmerging... (x11-libs/wxGTK-3.2.2.1-r3)
+1712894053:  >>> unmerge success: x11-libs/wxGTK-3.2.2.1-r3
+1712894053: === Unmerging... (media-libs/suil-0.10.20)
+1712894055:  >>> unmerge success: media-libs/suil-0.10.20
+1712894055: === Unmerging... (media-libs/soxr-0.1.3-r1)
+1712894057:  >>> unmerge success: media-libs/soxr-0.1.3-r1
+1712894057: === Unmerging... (media-libs/portsmf-239)
+1712894059:  >>> unmerge success: media-libs/portsmf-239
+1712894059: === Unmerging... (media-libs/portmidi-2.0.4)
+1712894060:  >>> unmerge success: media-libs/portmidi-2.0.4
+1712894060: === Unmerging... (media-libs/portaudio-19.07.00-r2)
+1712894062:  >>> unmerge success: media-libs/portaudio-19.07.00-r2
+1712894062: === Unmerging... (media-libs/lilv-0.24.24)
+1712894063:  >>> unmerge success: media-libs/lilv-0.24.24
+1712894063: === Unmerging... (media-libs/libsoundtouch-2.3.2)
+1712894065:  >>> unmerge success: media-libs/libsoundtouch-2.3.2
+1712894065: === Unmerging... (x11-libs/libXtst-1.2.4)
+1712894067:  >>> unmerge success: x11-libs/libXtst-1.2.4
+1712894067: === Unmerging... (x11-libs/libSM-1.2.4)
+1712894069:  >>> unmerge success: x11-libs/libSM-1.2.4
+1712894069: === Unmerging... (media-libs/sratom-0.6.16)
+1712894070:  >>> unmerge success: media-libs/sratom-0.6.16
+1712894070: === Unmerging... (media-libs/libsndfile-1.2.2-r2)
+1712894072:  >>> unmerge success: media-libs/libsndfile-1.2.2-r2
+1712894072: === Unmerging... (media-libs/libjpeg-turbo-3.0.0)
+1712894074:  >>> unmerge success: media-libs/libjpeg-turbo-3.0.0
+1712894074: === Unmerging... (media-libs/alsa-lib-1.2.10-r2)
+1712894076:  >>> unmerge success: media-libs/alsa-lib-1.2.10-r2
+1712894076: === Unmerging... (app-text/gspell-1.12.2)
+1712894077:  >>> unmerge success: app-text/gspell-1.12.2
+1712894077: === Unmerging... (app-eselect/eselect-wxwidgets-20230114-r1)
+1712894079:  >>> unmerge success: app-eselect/eselect-wxwidgets-20230114-r1
+1712894079: === Unmerging... (x11-libs/libICE-1.1.1-r1)
+1712894081:  >>> unmerge success: x11-libs/libICE-1.1.1-r1
+1712894081: === Unmerging... (media-sound/mpg123-base-1.32.3)
+1712894082:  >>> unmerge success: media-sound/mpg123-base-1.32.3
+1712894082: === Unmerging... (media-sound/lame-3.100-r3)
+1712894084:  >>> unmerge success: media-sound/lame-3.100-r3
+1712894084: === Unmerging... (media-libs/opus-1.5.1-r1)
+1712894086:  >>> unmerge success: media-libs/opus-1.5.1-r1
+1712894086: === Unmerging... (media-libs/lv2-1.18.10)
+1712894087:  >>> unmerge success: media-libs/lv2-1.18.10
+1712894087: === Unmerging... (media-libs/libvorbis-1.3.7-r1)
+1712894089:  >>> unmerge success: media-libs/libvorbis-1.3.7-r1
+1712894089: === Unmerging... (media-libs/flac-1.4.3)
+1712894091:  >>> unmerge success: media-libs/flac-1.4.3
+1712894091: === Unmerging... (media-libs/alsa-ucm-conf-1.2.10-r1)
+1712894093:  >>> unmerge success: media-libs/alsa-ucm-conf-1.2.10-r1
+1712894093: === Unmerging... (media-libs/alsa-topology-conf-1.2.5.1)
+1712894094:  >>> unmerge success: media-libs/alsa-topology-conf-1.2.5.1
+1712894094: === Unmerging... (dev-libs/sord-0.16.16-r1)
+1712894096:  >>> unmerge success: dev-libs/sord-0.16.16-r1
+1712894096: === Unmerging... (dev-libs/icu-74.2)
+1712894097:  >>> unmerge success: dev-libs/icu-74.2
+1712894097: === Unmerging... (dev-lang/nasm-2.16.01-r1)
+1712894099:  >>> unmerge success: dev-lang/nasm-2.16.01-r1
+1712894099: === Unmerging... (app-text/enchant-2.6.1)
+1712894100:  >>> unmerge success: app-text/enchant-2.6.1
+1712894100: === Unmerging... (media-libs/libogg-1.3.5-r1)
+1712894102:  >>> unmerge success: media-libs/libogg-1.3.5-r1
+1712894102: === Unmerging... (dev-python/rdflib-7.0.0)
+1712894104:  >>> unmerge success: dev-python/rdflib-7.0.0
+1712894104: === Unmerging... (dev-python/pygments-2.17.2)
+1712894106:  >>> unmerge success: dev-python/pygments-2.17.2
+1712894106: === Unmerging... (dev-libs/zix-0.4.2)
+1712894107:  >>> unmerge success: dev-libs/zix-0.4.2
+1712894107: === Unmerging... (dev-libs/serd-0.32.2)
+1712894109:  >>> unmerge success: dev-libs/serd-0.32.2
+1712894109: === Unmerging... (dev-libs/libltdl-2.4.7-r1)
+1712894111:  >>> unmerge success: dev-libs/libltdl-2.4.7-r1
+1712894111: === Unmerging... (app-text/hunspell-1.7.2)
+1712894113:  >>> unmerge success: app-text/hunspell-1.7.2
+1712894113: === Unmerging... (app-eselect/eselect-mpg123-0.1-r1)
+1712894114:  >>> unmerge success: app-eselect/eselect-mpg123-0.1-r1
+1712894114: === Unmerging... (dev-python/pyparsing-3.1.2)
+1712894115:  >>> unmerge success: dev-python/pyparsing-3.1.2
+1712894115: === Unmerging... (dev-python/isodate-0.6.1-r1)
+1712894117:  >>> unmerge success: dev-python/isodate-0.6.1-r1
+1712894117: === Unmerging... (dev-python/html5lib-1.1-r1)
+1712894118:  >>> unmerge success: dev-python/html5lib-1.1-r1
+1712894118: === Unmerging... (dev-python/webencodings-0.5.1-r2)
+1712894120:  >>> unmerge success: dev-python/webencodings-0.5.1-r2
+1712894120: === Unmerging... (dev-python/six-1.16.0-r1)
+1712894121:  >>> unmerge success: dev-python/six-1.16.0-r1
+1712894121: === Unmerging... (x11-libs/gtk+-3.24.39)
+1712894124:  >>> unmerge success: x11-libs/gtk+-3.24.39
+1712894124: === Unmerging... (x11-themes/adwaita-icon-theme-45.0)
+1712894126:  >>> unmerge success: x11-themes/adwaita-icon-theme-45.0
+1712894126: === Unmerging... (x11-libs/libXi-1.8.1)
+1712894127:  >>> unmerge success: x11-libs/libXi-1.8.1
+1712894127: === Unmerging... (x11-libs/libXdamage-1.1.6)
+1712894129:  >>> unmerge success: x11-libs/libXdamage-1.1.6
+1712894129: === Unmerging... (x11-libs/libXcursor-1.2.2)
+1712894131:  >>> unmerge success: x11-libs/libXcursor-1.2.2
+1712894131: === Unmerging... (x11-libs/libXcomposite-0.4.6)
+1712894132:  >>> unmerge success: x11-libs/libXcomposite-0.4.6
+1712894132: === Unmerging... (media-libs/libepoxy-1.5.10-r2)
+1712894134:  >>> unmerge success: media-libs/libepoxy-1.5.10-r2
+1712894134: === Unmerging... (dev-util/gtk-update-icon-cache-3.24.40)
+1712894136:  >>> unmerge success: dev-util/gtk-update-icon-cache-3.24.40
+1712894136: === Unmerging... (app-accessibility/at-spi2-core-2.50.2)
+1712894138:  >>> unmerge success: app-accessibility/at-spi2-core-2.50.2
+1712894138: === Unmerging... (x11-themes/hicolor-icon-theme-0.17)
+1712894139:  >>> unmerge success: x11-themes/hicolor-icon-theme-0.17
+1712894139: === Unmerging... (sys-apps/dbus-1.15.8)
+1712894141:  >>> unmerge success: sys-apps/dbus-1.15.8
+1712894141: === Unmerging... (media-libs/mesa-24.0.4)
+1712894143:  >>> unmerge success: media-libs/mesa-24.0.4
+1712894143: === Unmerging... (gnome-base/librsvg-2.57.0)
+1712894145:  >>> unmerge success: gnome-base/librsvg-2.57.0
+1712894145: === Unmerging... (x11-libs/xcb-util-keysyms-0.4.1)
+1712894147:  >>> unmerge success: x11-libs/xcb-util-keysyms-0.4.1
+1712894147: === Unmerging... (x11-libs/pango-1.52.1)
+1712894149:  >>> unmerge success: x11-libs/pango-1.52.1
+1712894149: === Unmerging... (x11-libs/libxshmfence-1.3.2)
+1712894151:  >>> unmerge success: x11-libs/libxshmfence-1.3.2
+1712894151: === Unmerging... (x11-libs/libdrm-2.4.120)
+1712894152:  >>> unmerge success: x11-libs/libdrm-2.4.120
+1712894152: === Unmerging... (x11-libs/libXxf86vm-1.1.5)
+1712894154:  >>> unmerge success: x11-libs/libXxf86vm-1.1.5
+1712894154: === Unmerging... (x11-libs/libXrandr-1.5.4)
+1712894156:  >>> unmerge success: x11-libs/libXrandr-1.5.4
+1712894156: === Unmerging... (x11-libs/libXfixes-6.0.1)
+1712894157:  >>> unmerge success: x11-libs/libXfixes-6.0.1
+1712894157: === Unmerging... (x11-libs/gdk-pixbuf-2.42.10-r1)
+1712894159:  >>> unmerge success: x11-libs/gdk-pixbuf-2.42.10-r1
+1712894159: === Unmerging... (media-libs/libglvnd-1.7.0)
+1712894161:  >>> unmerge success: media-libs/libglvnd-1.7.0
+1712894161: === Unmerging... (acct-user/messagebus-0-r3)
+1712894163:  >>> unmerge success: acct-user/messagebus-0-r3
+1712894163: === Unmerging... (x11-libs/libpciaccess-0.18)
+1712894164:  >>> unmerge success: x11-libs/libpciaccess-0.18
+1712894164: === Unmerging... (media-libs/harfbuzz-8.3.0)
+1712894166:  >>> unmerge success: media-libs/harfbuzz-8.3.0
+1712894166: === Unmerging... (dev-libs/fribidi-1.0.13)
+1712894168:  >>> unmerge success: dev-libs/fribidi-1.0.13
+1712894168: === Unmerging... (acct-group/messagebus-0-r3)
+1712894169:  >>> unmerge success: acct-group/messagebus-0-r3
+1712894169: === Unmerging... (x11-libs/cairo-1.18.0)
+1712894171:  >>> unmerge success: x11-libs/cairo-1.18.0
+1712894171: === Unmerging... (sys-apps/hwdata-0.376)
+1712894173:  >>> unmerge success: sys-apps/hwdata-0.376
+1712894173: === Unmerging... (media-gfx/graphite2-1.3.14_p20210810-r3)
+1712894174:  >>> unmerge success: media-gfx/graphite2-1.3.14_p20210810-r3
+1712894174: === Unmerging... (dev-libs/gobject-introspection-1.78.1)
+1712894176:  >>> unmerge success: dev-libs/gobject-introspection-1.78.1
+1712894176: === Unmerging... (x11-libs/pixman-0.43.4)
+1712894178:  >>> unmerge success: x11-libs/pixman-0.43.4
+1712894178: === Unmerging... (x11-libs/libXrender-0.9.11)
+1712894180:  >>> unmerge success: x11-libs/libXrender-0.9.11
+1712894180: === Unmerging... (x11-libs/libXext-1.3.6)
+1712894181:  >>> unmerge success: x11-libs/libXext-1.3.6
+1712894181: === Unmerging... (media-libs/fontconfig-2.14.2-r3)
+1712894183:  >>> unmerge success: media-libs/fontconfig-2.14.2-r3
+1712894183: === Unmerging... (dev-util/desktop-file-utils-0.27)
+1712894185:  >>> unmerge success: dev-util/desktop-file-utils-0.27
+1712894185: === Unmerging... (dev-libs/lzo-2.10)
+1712894186:  >>> unmerge success: dev-libs/lzo-2.10
+1712894186: === Unmerging... (dev-libs/gobject-introspection-common-1.78.1)
+1712894188:  >>> unmerge success: dev-libs/gobject-introspection-common-1.78.1
+1712894188: === Unmerging... (x11-libs/libX11-1.8.7)
+1712894189:  >>> unmerge success: x11-libs/libX11-1.8.7
+1712894189: === Unmerging... (virtual/ttf-fonts-1-r2)
+1712894191:  >>> unmerge success: virtual/ttf-fonts-1-r2
+1712894191: === Unmerging... (media-libs/freetype-2.13.2)
+1712894193:  >>> unmerge success: media-libs/freetype-2.13.2
+1712894193: === Unmerging... (app-eselect/eselect-fontconfig-20220403)
+1712894194:  >>> unmerge success: app-eselect/eselect-fontconfig-20220403
+1712894194: === Unmerging... (x11-misc/compose-tables-1.8.7)
+1712894195:  >>> unmerge success: x11-misc/compose-tables-1.8.7
+1712894195: === Unmerging... (media-libs/libpng-1.6.43)
+1712894197:  >>> unmerge success: media-libs/libpng-1.6.43
+1712894197: === Unmerging... (media-fonts/liberation-fonts-2.1.5)
+1712894198:  >>> unmerge success: media-fonts/liberation-fonts-2.1.5
+1712894198: === Unmerging... (x11-libs/libxcb-1.16.1)
+1712894200:  >>> unmerge success: x11-libs/libxcb-1.16.1
+1712894200: === Unmerging... (x11-libs/libXdmcp-1.1.5)
+1712894202:  >>> unmerge success: x11-libs/libXdmcp-1.1.5
+1712894202: === Unmerging... (x11-libs/libXau-1.0.11)
+1712894203:  >>> unmerge success: x11-libs/libXau-1.0.11
+1712894203: === Unmerging... (x11-base/xorg-proto-2023.2)
+1712894205:  >>> unmerge success: x11-base/xorg-proto-2023.2
+1712894205: === Unmerging... (x11-misc/shared-mime-info-2.4-r1)
+1712894207:  >>> unmerge success: x11-misc/shared-mime-info-2.4-r1
+1712894207: === Unmerging... (dev-libs/glib-2.78.3)
+1712894209:  >>> unmerge success: dev-libs/glib-2.78.3
+1712894209: === Unmerging... (virtual/libelf-3-r1)
+1712894210:  >>> unmerge success: virtual/libelf-3-r1
+1712894210: === Unmerging... (dev-libs/elfutils-0.190)
+1712894212:  >>> unmerge success: dev-libs/elfutils-0.190
+1712894212: === Unmerging... (sys-devel/llvmgold-17)
+1712894214:  >>> unmerge success: sys-devel/llvmgold-17
+1712894214: === Unmerging... (sys-devel/llvm-toolchain-symlinks-17)
+1712894215:  >>> unmerge success: sys-devel/llvm-toolchain-symlinks-17
+1712894215: === Unmerging... (sys-devel/llvm-17.0.6)
+1712894217:  >>> unmerge success: sys-devel/llvm-17.0.6
+1712894217: === Unmerging... (sys-devel/llvm-common-17.0.6)
+1712894219:  >>> unmerge success: sys-devel/llvm-common-17.0.6
+1712894219:  *** exiting successfully.
+1712894219:  *** terminating.
+1712894304: Started emerge on: Apr 12, 2024 03:58:24
+1712894304:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --usepkg --verbose =media-sound/audacity-3.3.3-r1
+1712894314:  >>> emerge (1 of 86) x11-base/xorg-proto-2023.2 to /
+1712894314:  === (1 of 86) Merging Binary (x11-base/xorg-proto-2023.2::/var/cache/binpkgs/x11-base/xorg-proto/xorg-proto-2023.2-1.gpkg.tar)
+1712894316:  >>> AUTOCLEAN: x11-base/xorg-proto:0
+1712894318:  === (1 of 86) Post-Build Cleaning (x11-base/xorg-proto-2023.2::/var/cache/binpkgs/x11-base/xorg-proto/xorg-proto-2023.2-1.gpkg.tar)
+1712894318:  ::: completed emerge (1 of 86) x11-base/xorg-proto-2023.2 to /
+1712894318:  >>> emerge (2 of 86) dev-libs/gobject-introspection-common-1.78.1 to /
+1712894318:  === (2 of 86) Merging Binary (dev-libs/gobject-introspection-common-1.78.1::/var/cache/binpkgs/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1-1.gpkg.tar)
+1712894320:  >>> AUTOCLEAN: dev-libs/gobject-introspection-common:0
+1712894322:  === (2 of 86) Post-Build Cleaning (dev-libs/gobject-introspection-common-1.78.1::/var/cache/binpkgs/dev-libs/gobject-introspection-common/gobject-introspection-common-1.78.1-1.gpkg.tar)
+1712894322:  ::: completed emerge (2 of 86) dev-libs/gobject-introspection-common-1.78.1 to /
+1712894322:  >>> emerge (3 of 86) x11-misc/compose-tables-1.8.7 to /
+1712894322:  === (3 of 86) Merging Binary (x11-misc/compose-tables-1.8.7::/var/cache/binpkgs/x11-misc/compose-tables/compose-tables-1.8.7-1.gpkg.tar)
+1712894324:  >>> AUTOCLEAN: x11-misc/compose-tables:0
+1712894326:  === (3 of 86) Post-Build Cleaning (x11-misc/compose-tables-1.8.7::/var/cache/binpkgs/x11-misc/compose-tables/compose-tables-1.8.7-1.gpkg.tar)
+1712894326:  ::: completed emerge (3 of 86) x11-misc/compose-tables-1.8.7 to /
+1712894326:  >>> emerge (4 of 86) x11-themes/hicolor-icon-theme-0.17 to /
+1712894326:  === (4 of 86) Merging Binary (x11-themes/hicolor-icon-theme-0.17::/var/cache/binpkgs/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17-1.gpkg.tar)
+1712894328:  >>> AUTOCLEAN: x11-themes/hicolor-icon-theme:0
+1712894330:  === (4 of 86) Post-Build Cleaning (x11-themes/hicolor-icon-theme-0.17::/var/cache/binpkgs/x11-themes/hicolor-icon-theme/hicolor-icon-theme-0.17-1.gpkg.tar)
+1712894330:  ::: completed emerge (4 of 86) x11-themes/hicolor-icon-theme-0.17 to /
+1712894330:  >>> emerge (5 of 86) sys-apps/hwdata-0.376 to /
+1712894330:  === (5 of 86) Merging Binary (sys-apps/hwdata-0.376::/var/cache/binpkgs/sys-apps/hwdata/hwdata-0.376-1.gpkg.tar)
+1712894332:  >>> AUTOCLEAN: sys-apps/hwdata:0
+1712894334:  === (5 of 86) Post-Build Cleaning (sys-apps/hwdata-0.376::/var/cache/binpkgs/sys-apps/hwdata/hwdata-0.376-1.gpkg.tar)
+1712894334:  ::: completed emerge (5 of 86) sys-apps/hwdata-0.376 to /
+1712894334:  >>> emerge (6 of 86) sys-devel/llvm-common-17.0.6 to /
+1712894334:  === (6 of 86) Merging Binary (sys-devel/llvm-common-17.0.6::/var/cache/binpkgs/sys-devel/llvm-common/llvm-common-17.0.6-1.gpkg.tar)
+1712894336:  >>> AUTOCLEAN: sys-devel/llvm-common:0
+1712894338:  === (6 of 86) Post-Build Cleaning (sys-devel/llvm-common-17.0.6::/var/cache/binpkgs/sys-devel/llvm-common/llvm-common-17.0.6-1.gpkg.tar)
+1712894338:  ::: completed emerge (6 of 86) sys-devel/llvm-common-17.0.6 to /
+1712894338:  >>> emerge (7 of 86) acct-group/messagebus-0-r3 to /
+1712894338:  === (7 of 86) Merging Binary (acct-group/messagebus-0-r3::/var/cache/binpkgs/acct-group/messagebus/messagebus-0-r3-1.gpkg.tar)
+1712894340:  >>> AUTOCLEAN: acct-group/messagebus:0
+1712894342:  === (7 of 86) Post-Build Cleaning (acct-group/messagebus-0-r3::/var/cache/binpkgs/acct-group/messagebus/messagebus-0-r3-1.gpkg.tar)
+1712894342:  ::: completed emerge (7 of 86) acct-group/messagebus-0-r3 to /
+1712894342:  >>> emerge (8 of 86) media-libs/alsa-topology-conf-1.2.5.1 to /
+1712894342:  === (8 of 86) Merging Binary (media-libs/alsa-topology-conf-1.2.5.1::/var/cache/binpkgs/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1-1.gpkg.tar)
+1712894344:  >>> AUTOCLEAN: media-libs/alsa-topology-conf:0
+1712894345:  === (8 of 86) Post-Build Cleaning (media-libs/alsa-topology-conf-1.2.5.1::/var/cache/binpkgs/media-libs/alsa-topology-conf/alsa-topology-conf-1.2.5.1-1.gpkg.tar)
+1712894345:  ::: completed emerge (8 of 86) media-libs/alsa-topology-conf-1.2.5.1 to /
+1712894345:  >>> emerge (9 of 86) media-libs/alsa-ucm-conf-1.2.10-r1 to /
+1712894345:  === (9 of 86) Merging Binary (media-libs/alsa-ucm-conf-1.2.10-r1::/var/cache/binpkgs/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1-1.gpkg.tar)
+1712894348:  >>> AUTOCLEAN: media-libs/alsa-ucm-conf:0
+1712894349:  === (9 of 86) Post-Build Cleaning (media-libs/alsa-ucm-conf-1.2.10-r1::/var/cache/binpkgs/media-libs/alsa-ucm-conf/alsa-ucm-conf-1.2.10-r1-1.gpkg.tar)
+1712894349:  ::: completed emerge (9 of 86) media-libs/alsa-ucm-conf-1.2.10-r1 to /
+1712894349:  >>> emerge (10 of 86) media-fonts/liberation-fonts-2.1.5 to /
+1712894349:  === (10 of 86) Merging Binary (media-fonts/liberation-fonts-2.1.5::/var/cache/binpkgs/media-fonts/liberation-fonts/liberation-fonts-2.1.5-1.gpkg.tar)
+1712894352:  >>> AUTOCLEAN: media-fonts/liberation-fonts:0
+1712894354:  === (10 of 86) Post-Build Cleaning (media-fonts/liberation-fonts-2.1.5::/var/cache/binpkgs/media-fonts/liberation-fonts/liberation-fonts-2.1.5-1.gpkg.tar)
+1712894354:  ::: completed emerge (10 of 86) media-fonts/liberation-fonts-2.1.5 to /
+1712894354:  >>> emerge (11 of 86) media-libs/libpng-1.6.43 to /
+1712894354:  === (11 of 86) Merging Binary (media-libs/libpng-1.6.43::/var/cache/binpkgs/media-libs/libpng/libpng-1.6.43-1.gpkg.tar)
+1712894356:  >>> AUTOCLEAN: media-libs/libpng:0
+1712894358:  === (11 of 86) Post-Build Cleaning (media-libs/libpng-1.6.43::/var/cache/binpkgs/media-libs/libpng/libpng-1.6.43-1.gpkg.tar)
+1712894358:  ::: completed emerge (11 of 86) media-libs/libpng-1.6.43 to /
+1712894358:  >>> emerge (12 of 86) media-libs/libogg-1.3.5-r1 to /
+1712894358:  === (12 of 86) Merging Binary (media-libs/libogg-1.3.5-r1::/var/cache/binpkgs/media-libs/libogg/libogg-1.3.5-r1-1.gpkg.tar)
+1712894360:  >>> AUTOCLEAN: media-libs/libogg:0
+1712894362:  === (12 of 86) Post-Build Cleaning (media-libs/libogg-1.3.5-r1::/var/cache/binpkgs/media-libs/libogg/libogg-1.3.5-r1-1.gpkg.tar)
+1712894362:  ::: completed emerge (12 of 86) media-libs/libogg-1.3.5-r1 to /
+1712894362:  >>> emerge (13 of 86) media-sound/lame-3.100-r3 to /
+1712894362:  === (13 of 86) Merging Binary (media-sound/lame-3.100-r3::/var/cache/binpkgs/media-sound/lame/lame-3.100-r3-1.gpkg.tar)
+1712894364:  >>> AUTOCLEAN: media-sound/lame:0
+1712894366:  === (13 of 86) Post-Build Cleaning (media-sound/lame-3.100-r3::/var/cache/binpkgs/media-sound/lame/lame-3.100-r3-1.gpkg.tar)
+1712894366:  ::: completed emerge (13 of 86) media-sound/lame-3.100-r3 to /
+1712894366:  >>> emerge (14 of 86) dev-libs/fribidi-1.0.13 to /
+1712894366:  === (14 of 86) Merging Binary (dev-libs/fribidi-1.0.13::/var/cache/binpkgs/dev-libs/fribidi/fribidi-1.0.13-1.gpkg.tar)
+1712894368:  >>> AUTOCLEAN: dev-libs/fribidi:0
+1712894370:  === (14 of 86) Post-Build Cleaning (dev-libs/fribidi-1.0.13::/var/cache/binpkgs/dev-libs/fribidi/fribidi-1.0.13-1.gpkg.tar)
+1712894370:  ::: completed emerge (14 of 86) dev-libs/fribidi-1.0.13 to /
+1712894370:  >>> emerge (15 of 86) media-libs/libsoundtouch-2.3.2 to /
+1712894370:  === (15 of 86) Merging Binary (media-libs/libsoundtouch-2.3.2::/var/cache/binpkgs/media-libs/libsoundtouch/libsoundtouch-2.3.2-1.gpkg.tar)
+1712894372:  >>> AUTOCLEAN: media-libs/libsoundtouch:0
+1712894374:  === (15 of 86) Post-Build Cleaning (media-libs/libsoundtouch-2.3.2::/var/cache/binpkgs/media-libs/libsoundtouch/libsoundtouch-2.3.2-1.gpkg.tar)
+1712894374:  ::: completed emerge (15 of 86) media-libs/libsoundtouch-2.3.2 to /
+1712894374:  >>> emerge (16 of 86) media-libs/portaudio-19.07.00-r2 to /
+1712894374:  === (16 of 86) Merging Binary (media-libs/portaudio-19.07.00-r2::/var/cache/binpkgs/media-libs/portaudio/portaudio-19.07.00-r2-4.gpkg.tar)
+1712894377:  >>> AUTOCLEAN: media-libs/portaudio:0
+1712894379:  === (16 of 86) Post-Build Cleaning (media-libs/portaudio-19.07.00-r2::/var/cache/binpkgs/media-libs/portaudio/portaudio-19.07.00-r2-4.gpkg.tar)
+1712894379:  ::: completed emerge (16 of 86) media-libs/portaudio-19.07.00-r2 to /
+1712894379:  >>> emerge (17 of 86) media-libs/portsmf-239 to /
+1712894379:  === (17 of 86) Merging Binary (media-libs/portsmf-239::/var/cache/binpkgs/media-libs/portsmf/portsmf-239-1.gpkg.tar)
+1712894381:  >>> AUTOCLEAN: media-libs/portsmf:0
+1712894383:  === (17 of 86) Post-Build Cleaning (media-libs/portsmf-239::/var/cache/binpkgs/media-libs/portsmf/portsmf-239-1.gpkg.tar)
+1712894383:  ::: completed emerge (17 of 86) media-libs/portsmf-239 to /
+1712894383:  >>> emerge (18 of 86) media-libs/soxr-0.1.3-r1 to /
+1712894383:  === (18 of 86) Merging Binary (media-libs/soxr-0.1.3-r1::/var/cache/binpkgs/media-libs/soxr/soxr-0.1.3-r1-1.gpkg.tar)
+1712894385:  >>> AUTOCLEAN: media-libs/soxr:0
+1712894387:  === (18 of 86) Post-Build Cleaning (media-libs/soxr-0.1.3-r1::/var/cache/binpkgs/media-libs/soxr/soxr-0.1.3-r1-1.gpkg.tar)
+1712894387:  ::: completed emerge (18 of 86) media-libs/soxr-0.1.3-r1 to /
+1712894387:  >>> emerge (19 of 86) app-eselect/eselect-wxwidgets-20230114-r1 to /
+1712894387:  === (19 of 86) Merging Binary (app-eselect/eselect-wxwidgets-20230114-r1::/var/cache/binpkgs/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1-1.gpkg.tar)
+1712894389:  >>> AUTOCLEAN: app-eselect/eselect-wxwidgets:0
+1712894391:  === (19 of 86) Post-Build Cleaning (app-eselect/eselect-wxwidgets-20230114-r1::/var/cache/binpkgs/app-eselect/eselect-wxwidgets/eselect-wxwidgets-20230114-r1-1.gpkg.tar)
+1712894391:  ::: completed emerge (19 of 86) app-eselect/eselect-wxwidgets-20230114-r1 to /
+1712894391:  >>> emerge (20 of 86) media-libs/libjpeg-turbo-3.0.0 to /
+1712894391:  === (20 of 86) Merging Binary (media-libs/libjpeg-turbo-3.0.0::/var/cache/binpkgs/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0-1.gpkg.tar)
+1712894394:  >>> AUTOCLEAN: media-libs/libjpeg-turbo:0
+1712894396:  === (20 of 86) Post-Build Cleaning (media-libs/libjpeg-turbo-3.0.0::/var/cache/binpkgs/media-libs/libjpeg-turbo/libjpeg-turbo-3.0.0-1.gpkg.tar)
+1712894396:  ::: completed emerge (20 of 86) media-libs/libjpeg-turbo-3.0.0 to /
+1712894396:  >>> emerge (21 of 86) dev-libs/icu-74.2 to /
+1712894396:  === (21 of 86) Merging Binary (dev-libs/icu-74.2::/var/cache/binpkgs/dev-libs/icu/icu-74.2-1.gpkg.tar)
+1712894399:  >>> AUTOCLEAN: dev-libs/icu:0
+1712894401:  === (21 of 86) Post-Build Cleaning (dev-libs/icu-74.2::/var/cache/binpkgs/dev-libs/icu/icu-74.2-1.gpkg.tar)
+1712894401:  ::: completed emerge (21 of 86) dev-libs/icu-74.2 to /
+1712894401:  >>> emerge (22 of 86) app-text/hunspell-1.7.2 to /
+1712894402:  === (22 of 86) Merging Binary (app-text/hunspell-1.7.2::/var/cache/binpkgs/app-text/hunspell/hunspell-1.7.2-1.gpkg.tar)
+1712894404:  >>> AUTOCLEAN: app-text/hunspell:0
+1712894407:  === (22 of 86) Post-Build Cleaning (app-text/hunspell-1.7.2::/var/cache/binpkgs/app-text/hunspell/hunspell-1.7.2-1.gpkg.tar)
+1712894407:  ::: completed emerge (22 of 86) app-text/hunspell-1.7.2 to /
+1712894407:  >>> emerge (23 of 86) media-gfx/graphite2-1.3.14_p20210810-r3 to /
+1712894407:  === (23 of 86) Merging Binary (media-gfx/graphite2-1.3.14_p20210810-r3::/var/cache/binpkgs/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3-1.gpkg.tar)
+1712894409:  >>> AUTOCLEAN: media-gfx/graphite2:0
+1712894412:  === (23 of 86) Post-Build Cleaning (media-gfx/graphite2-1.3.14_p20210810-r3::/var/cache/binpkgs/media-gfx/graphite2/graphite2-1.3.14_p20210810-r3-1.gpkg.tar)
+1712894412:  ::: completed emerge (23 of 86) media-gfx/graphite2-1.3.14_p20210810-r3 to /
+1712894412:  >>> emerge (24 of 86) app-eselect/eselect-fontconfig-20220403 to /
+1712894412:  === (24 of 86) Merging Binary (app-eselect/eselect-fontconfig-20220403::/var/cache/binpkgs/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403-1.gpkg.tar)
+1712894414:  >>> AUTOCLEAN: app-eselect/eselect-fontconfig:0
+1712894415:  === (24 of 86) Post-Build Cleaning (app-eselect/eselect-fontconfig-20220403::/var/cache/binpkgs/app-eselect/eselect-fontconfig/eselect-fontconfig-20220403-1.gpkg.tar)
+1712894415:  ::: completed emerge (24 of 86) app-eselect/eselect-fontconfig-20220403 to /
+1712894415:  >>> emerge (25 of 86) x11-libs/libXau-1.0.11 to /
+1712894415:  === (25 of 86) Merging Binary (x11-libs/libXau-1.0.11::/var/cache/binpkgs/x11-libs/libXau/libXau-1.0.11-1.gpkg.tar)
+1712894418:  >>> AUTOCLEAN: x11-libs/libXau:0
+1712894419:  === (25 of 86) Post-Build Cleaning (x11-libs/libXau-1.0.11::/var/cache/binpkgs/x11-libs/libXau/libXau-1.0.11-1.gpkg.tar)
+1712894419:  ::: completed emerge (25 of 86) x11-libs/libXau-1.0.11 to /
+1712894419:  >>> emerge (26 of 86) x11-libs/libXdmcp-1.1.5 to /
+1712894419:  === (26 of 86) Merging Binary (x11-libs/libXdmcp-1.1.5::/var/cache/binpkgs/x11-libs/libXdmcp/libXdmcp-1.1.5-1.gpkg.tar)
+1712894422:  >>> AUTOCLEAN: x11-libs/libXdmcp:0
+1712894424:  === (26 of 86) Post-Build Cleaning (x11-libs/libXdmcp-1.1.5::/var/cache/binpkgs/x11-libs/libXdmcp/libXdmcp-1.1.5-1.gpkg.tar)
+1712894424:  ::: completed emerge (26 of 86) x11-libs/libXdmcp-1.1.5 to /
+1712894424:  >>> emerge (27 of 86) x11-libs/libICE-1.1.1-r1 to /
+1712894424:  === (27 of 86) Merging Binary (x11-libs/libICE-1.1.1-r1::/var/cache/binpkgs/x11-libs/libICE/libICE-1.1.1-r1-1.gpkg.tar)
+1712894426:  >>> AUTOCLEAN: x11-libs/libICE:0
+1712894428:  === (27 of 86) Post-Build Cleaning (x11-libs/libICE-1.1.1-r1::/var/cache/binpkgs/x11-libs/libICE/libICE-1.1.1-r1-1.gpkg.tar)
+1712894428:  ::: completed emerge (27 of 86) x11-libs/libICE-1.1.1-r1 to /
+1712894428:  >>> emerge (28 of 86) dev-libs/lzo-2.10 to /
+1712894428:  === (28 of 86) Merging Binary (dev-libs/lzo-2.10::/var/cache/binpkgs/dev-libs/lzo/lzo-2.10-1.gpkg.tar)
+1712894431:  >>> AUTOCLEAN: dev-libs/lzo:2
+1712894432:  === (28 of 86) Post-Build Cleaning (dev-libs/lzo-2.10::/var/cache/binpkgs/dev-libs/lzo/lzo-2.10-1.gpkg.tar)
+1712894432:  ::: completed emerge (28 of 86) dev-libs/lzo-2.10 to /
+1712894432:  >>> emerge (29 of 86) x11-libs/pixman-0.43.4 to /
+1712894433:  === (29 of 86) Merging Binary (x11-libs/pixman-0.43.4::/var/cache/binpkgs/x11-libs/pixman/pixman-0.43.4-1.gpkg.tar)
+1712894435:  >>> AUTOCLEAN: x11-libs/pixman:0
+1712894437:  === (29 of 86) Post-Build Cleaning (x11-libs/pixman-0.43.4::/var/cache/binpkgs/x11-libs/pixman/pixman-0.43.4-1.gpkg.tar)
+1712894437:  ::: completed emerge (29 of 86) x11-libs/pixman-0.43.4 to /
+1712894437:  >>> emerge (30 of 86) x11-libs/libxshmfence-1.3.2 to /
+1712894437:  === (30 of 86) Merging Binary (x11-libs/libxshmfence-1.3.2::/var/cache/binpkgs/x11-libs/libxshmfence/libxshmfence-1.3.2-1.gpkg.tar)
+1712894439:  >>> AUTOCLEAN: x11-libs/libxshmfence:0
+1712894441:  === (30 of 86) Post-Build Cleaning (x11-libs/libxshmfence-1.3.2::/var/cache/binpkgs/x11-libs/libxshmfence/libxshmfence-1.3.2-1.gpkg.tar)
+1712894441:  ::: completed emerge (30 of 86) x11-libs/libxshmfence-1.3.2 to /
+1712894441:  >>> emerge (31 of 86) x11-libs/libpciaccess-0.18 to /
+1712894441:  === (31 of 86) Merging Binary (x11-libs/libpciaccess-0.18::/var/cache/binpkgs/x11-libs/libpciaccess/libpciaccess-0.18-1.gpkg.tar)
+1712894444:  >>> AUTOCLEAN: x11-libs/libpciaccess:0
+1712894446:  === (31 of 86) Post-Build Cleaning (x11-libs/libpciaccess-0.18::/var/cache/binpkgs/x11-libs/libpciaccess/libpciaccess-0.18-1.gpkg.tar)
+1712894446:  ::: completed emerge (31 of 86) x11-libs/libpciaccess-0.18 to /
+1712894446:  >>> emerge (32 of 86) acct-user/messagebus-0-r3 to /
+1712894446:  === (32 of 86) Merging Binary (acct-user/messagebus-0-r3::/var/cache/binpkgs/acct-user/messagebus/messagebus-0-r3-1.gpkg.tar)
+1712894448:  >>> AUTOCLEAN: acct-user/messagebus:0
+1712894450:  === (32 of 86) Post-Build Cleaning (acct-user/messagebus-0-r3::/var/cache/binpkgs/acct-user/messagebus/messagebus-0-r3-1.gpkg.tar)
+1712894450:  ::: completed emerge (32 of 86) acct-user/messagebus-0-r3 to /
+1712894450:  >>> emerge (33 of 86) media-libs/alsa-lib-1.2.10-r2 to /
+1712894450:  === (33 of 86) Merging Binary (media-libs/alsa-lib-1.2.10-r2::/var/cache/binpkgs/media-libs/alsa-lib/alsa-lib-1.2.10-r2-1.gpkg.tar)
+1712894453:  >>> AUTOCLEAN: media-libs/alsa-lib:0
+1712894455:  === (33 of 86) Post-Build Cleaning (media-libs/alsa-lib-1.2.10-r2::/var/cache/binpkgs/media-libs/alsa-lib/alsa-lib-1.2.10-r2-1.gpkg.tar)
+1712894455:  ::: completed emerge (33 of 86) media-libs/alsa-lib-1.2.10-r2 to /
+1712894455:  >>> emerge (34 of 86) media-libs/flac-1.4.3 to /
+1712894455:  === (34 of 86) Merging Binary (media-libs/flac-1.4.3::/var/cache/binpkgs/media-libs/flac/flac-1.4.3-1.gpkg.tar)
+1712894457:  >>> AUTOCLEAN: media-libs/flac:0
+1712894459:  === (34 of 86) Post-Build Cleaning (media-libs/flac-1.4.3::/var/cache/binpkgs/media-libs/flac/flac-1.4.3-1.gpkg.tar)
+1712894459:  ::: completed emerge (34 of 86) media-libs/flac-1.4.3 to /
+1712894459:  >>> emerge (35 of 86) media-libs/opus-1.5.1-r1 to /
+1712894459:  === (35 of 86) Merging Binary (media-libs/opus-1.5.1-r1::/var/cache/binpkgs/media-libs/opus/opus-1.5.1-r1-1.gpkg.tar)
+1712894462:  >>> AUTOCLEAN: media-libs/opus:0
+1712894464:  === (35 of 86) Post-Build Cleaning (media-libs/opus-1.5.1-r1::/var/cache/binpkgs/media-libs/opus/opus-1.5.1-r1-1.gpkg.tar)
+1712894464:  ::: completed emerge (35 of 86) media-libs/opus-1.5.1-r1 to /
+1712894464:  >>> emerge (36 of 86) dev-libs/libltdl-2.4.7-r1 to /
+1712894464:  === (36 of 86) Merging Binary (dev-libs/libltdl-2.4.7-r1::/var/cache/binpkgs/dev-libs/libltdl/libltdl-2.4.7-r1-1.gpkg.tar)
+1712894466:  >>> AUTOCLEAN: dev-libs/libltdl:0
+1712894468:  === (36 of 86) Post-Build Cleaning (dev-libs/libltdl-2.4.7-r1::/var/cache/binpkgs/dev-libs/libltdl/libltdl-2.4.7-r1-1.gpkg.tar)
+1712894468:  ::: completed emerge (36 of 86) dev-libs/libltdl-2.4.7-r1 to /
+1712894468:  >>> emerge (37 of 86) app-eselect/eselect-mpg123-0.1-r1 to /
+1712894468:  === (37 of 86) Merging Binary (app-eselect/eselect-mpg123-0.1-r1::/var/cache/binpkgs/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1-1.gpkg.tar)
+1712894471:  >>> AUTOCLEAN: app-eselect/eselect-mpg123:0
+1712894472:  === (37 of 86) Post-Build Cleaning (app-eselect/eselect-mpg123-0.1-r1::/var/cache/binpkgs/app-eselect/eselect-mpg123/eselect-mpg123-0.1-r1-1.gpkg.tar)
+1712894472:  ::: completed emerge (37 of 86) app-eselect/eselect-mpg123-0.1-r1 to /
+1712894472:  >>> emerge (38 of 86) dev-libs/elfutils-0.190 to /
+1712894472:  === (38 of 86) Merging Binary (dev-libs/elfutils-0.190::/var/cache/binpkgs/dev-libs/elfutils/elfutils-0.190-1.gpkg.tar)
+1712894475:  >>> AUTOCLEAN: dev-libs/elfutils:0
+1712894477:  === (38 of 86) Post-Build Cleaning (dev-libs/elfutils-0.190::/var/cache/binpkgs/dev-libs/elfutils/elfutils-0.190-1.gpkg.tar)
+1712894477:  ::: completed emerge (38 of 86) dev-libs/elfutils-0.190 to /
+1712894477:  >>> emerge (39 of 86) virtual/ttf-fonts-1-r2 to /
+1712894477:  === (39 of 86) Merging Binary (virtual/ttf-fonts-1-r2::/var/cache/binpkgs/virtual/ttf-fonts/ttf-fonts-1-r2-1.gpkg.tar)
+1712894479:  >>> AUTOCLEAN: virtual/ttf-fonts:0
+1712894481:  === (39 of 86) Post-Build Cleaning (virtual/ttf-fonts-1-r2::/var/cache/binpkgs/virtual/ttf-fonts/ttf-fonts-1-r2-1.gpkg.tar)
+1712894481:  ::: completed emerge (39 of 86) virtual/ttf-fonts-1-r2 to /
+1712894481:  >>> emerge (40 of 86) dev-lang/nasm-2.16.01-r1 to /
+1712894481:  === (40 of 86) Merging Binary (dev-lang/nasm-2.16.01-r1::/var/cache/binpkgs/dev-lang/nasm/nasm-2.16.01-r1-1.gpkg.tar)
+1712894483:  >>> AUTOCLEAN: dev-lang/nasm:0
+1712894485:  === (40 of 86) Post-Build Cleaning (dev-lang/nasm-2.16.01-r1::/var/cache/binpkgs/dev-lang/nasm/nasm-2.16.01-r1-1.gpkg.tar)
+1712894485:  ::: completed emerge (40 of 86) dev-lang/nasm-2.16.01-r1 to /
+1712894485:  >>> emerge (41 of 86) media-libs/freetype-2.13.2 to /
+1712894485:  === (41 of 86) Merging Binary (media-libs/freetype-2.13.2::/var/cache/binpkgs/media-libs/freetype/freetype-2.13.2-1.gpkg.tar)
+1712894488:  >>> AUTOCLEAN: media-libs/freetype:2
+1712894489:  === (41 of 86) Post-Build Cleaning (media-libs/freetype-2.13.2::/var/cache/binpkgs/media-libs/freetype/freetype-2.13.2-1.gpkg.tar)
+1712894489:  ::: completed emerge (41 of 86) media-libs/freetype-2.13.2 to /
+1712894489:  >>> emerge (42 of 86) x11-libs/libxcb-1.16.1 to /
+1712894489:  === (42 of 86) Merging Binary (x11-libs/libxcb-1.16.1::/var/cache/binpkgs/x11-libs/libxcb/libxcb-1.16.1-1.gpkg.tar)
+1712894492:  >>> AUTOCLEAN: x11-libs/libxcb:0
+1712894494:  === (42 of 86) Post-Build Cleaning (x11-libs/libxcb-1.16.1::/var/cache/binpkgs/x11-libs/libxcb/libxcb-1.16.1-1.gpkg.tar)
+1712894494:  ::: completed emerge (42 of 86) x11-libs/libxcb-1.16.1 to /
+1712894494:  >>> emerge (43 of 86) virtual/libelf-3-r1 to /
+1712894494:  === (43 of 86) Merging Binary (virtual/libelf-3-r1::/var/cache/binpkgs/virtual/libelf/libelf-3-r1-1.gpkg.tar)
+1712894496:  >>> AUTOCLEAN: virtual/libelf:0
+1712894498:  === (43 of 86) Post-Build Cleaning (virtual/libelf-3-r1::/var/cache/binpkgs/virtual/libelf/libelf-3-r1-1.gpkg.tar)
+1712894498:  ::: completed emerge (43 of 86) virtual/libelf-3-r1 to /
+1712894498:  >>> emerge (44 of 86) x11-libs/libSM-1.2.4 to /
+1712894498:  === (44 of 86) Merging Binary (x11-libs/libSM-1.2.4::/var/cache/binpkgs/x11-libs/libSM/libSM-1.2.4-1.gpkg.tar)
+1712894500:  >>> AUTOCLEAN: x11-libs/libSM:0
+1712894502:  === (44 of 86) Post-Build Cleaning (x11-libs/libSM-1.2.4::/var/cache/binpkgs/x11-libs/libSM/libSM-1.2.4-1.gpkg.tar)
+1712894502:  ::: completed emerge (44 of 86) x11-libs/libSM-1.2.4 to /
+1712894502:  >>> emerge (45 of 86) x11-libs/libdrm-2.4.120 to /
+1712894502:  === (45 of 86) Merging Binary (x11-libs/libdrm-2.4.120::/var/cache/binpkgs/x11-libs/libdrm/libdrm-2.4.120-1.gpkg.tar)
+1712894504:  >>> AUTOCLEAN: x11-libs/libdrm:0
+1712894506:  === (45 of 86) Post-Build Cleaning (x11-libs/libdrm-2.4.120::/var/cache/binpkgs/x11-libs/libdrm/libdrm-2.4.120-1.gpkg.tar)
+1712894506:  ::: completed emerge (45 of 86) x11-libs/libdrm-2.4.120 to /
+1712894506:  >>> emerge (46 of 86) sys-apps/dbus-1.15.8 to /
+1712894507:  === (46 of 86) Merging Binary (sys-apps/dbus-1.15.8::/var/cache/binpkgs/sys-apps/dbus/dbus-1.15.8-1.gpkg.tar)
+1712894509:  >>> AUTOCLEAN: sys-apps/dbus:0
+1712894511:  === (46 of 86) Post-Build Cleaning (sys-apps/dbus-1.15.8::/var/cache/binpkgs/sys-apps/dbus/dbus-1.15.8-1.gpkg.tar)
+1712894511:  ::: completed emerge (46 of 86) sys-apps/dbus-1.15.8 to /
+1712894511:  >>> emerge (47 of 86) media-libs/libvorbis-1.3.7-r1 to /
+1712894511:  === (47 of 86) Merging Binary (media-libs/libvorbis-1.3.7-r1::/var/cache/binpkgs/media-libs/libvorbis/libvorbis-1.3.7-r1-1.gpkg.tar)
+1712894514:  >>> AUTOCLEAN: media-libs/libvorbis:0
+1712894516:  === (47 of 86) Post-Build Cleaning (media-libs/libvorbis-1.3.7-r1::/var/cache/binpkgs/media-libs/libvorbis/libvorbis-1.3.7-r1-1.gpkg.tar)
+1712894516:  ::: completed emerge (47 of 86) media-libs/libvorbis-1.3.7-r1 to /
+1712894516:  >>> emerge (48 of 86) media-sound/mpg123-base-1.32.3 to /
+1712894516:  === (48 of 86) Merging Binary (media-sound/mpg123-base-1.32.3::/var/cache/binpkgs/media-sound/mpg123-base/mpg123-base-1.32.3-1.gpkg.tar)
+1712894518:  >>> AUTOCLEAN: media-sound/mpg123-base:0
+1712894520:  === (48 of 86) Post-Build Cleaning (media-sound/mpg123-base-1.32.3::/var/cache/binpkgs/media-sound/mpg123-base/mpg123-base-1.32.3-1.gpkg.tar)
+1712894520:  ::: completed emerge (48 of 86) media-sound/mpg123-base-1.32.3 to /
+1712894520:  >>> emerge (49 of 86) x11-libs/libX11-1.8.7 to /
+1712894520:  === (49 of 86) Merging Binary (x11-libs/libX11-1.8.7::/var/cache/binpkgs/x11-libs/libX11/libX11-1.8.7-1.gpkg.tar)
+1712894522:  >>> AUTOCLEAN: x11-libs/libX11:0
+1712894524:  === (49 of 86) Post-Build Cleaning (x11-libs/libX11-1.8.7::/var/cache/binpkgs/x11-libs/libX11/libX11-1.8.7-1.gpkg.tar)
+1712894524:  ::: completed emerge (49 of 86) x11-libs/libX11-1.8.7 to /
+1712894524:  >>> emerge (50 of 86) media-libs/fontconfig-2.14.2-r3 to /
+1712894524:  === (50 of 86) Merging Binary (media-libs/fontconfig-2.14.2-r3::/var/cache/binpkgs/media-libs/fontconfig/fontconfig-2.14.2-r3-1.gpkg.tar)
+1712894527:  >>> AUTOCLEAN: media-libs/fontconfig:1.0
+1712894532:  === (50 of 86) Post-Build Cleaning (media-libs/fontconfig-2.14.2-r3::/var/cache/binpkgs/media-libs/fontconfig/fontconfig-2.14.2-r3-1.gpkg.tar)
+1712894532:  ::: completed emerge (50 of 86) media-libs/fontconfig-2.14.2-r3 to /
+1712894532:  >>> emerge (51 of 86) media-libs/libsndfile-1.2.2-r2 to /
+1712894532:  === (51 of 86) Merging Binary (media-libs/libsndfile-1.2.2-r2::/var/cache/binpkgs/media-libs/libsndfile/libsndfile-1.2.2-r2-1.gpkg.tar)
+1712894534:  >>> AUTOCLEAN: media-libs/libsndfile:0
+1712894536:  === (51 of 86) Post-Build Cleaning (media-libs/libsndfile-1.2.2-r2::/var/cache/binpkgs/media-libs/libsndfile/libsndfile-1.2.2-r2-1.gpkg.tar)
+1712894536:  ::: completed emerge (51 of 86) media-libs/libsndfile-1.2.2-r2 to /
+1712894536:  >>> emerge (52 of 86) x11-libs/xcb-util-keysyms-0.4.1 to /
+1712894536:  === (52 of 86) Merging Binary (x11-libs/xcb-util-keysyms-0.4.1::/var/cache/binpkgs/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1-1.gpkg.tar)
+1712894538:  >>> AUTOCLEAN: x11-libs/xcb-util-keysyms:0
+1712894540:  === (52 of 86) Post-Build Cleaning (x11-libs/xcb-util-keysyms-0.4.1::/var/cache/binpkgs/x11-libs/xcb-util-keysyms/xcb-util-keysyms-0.4.1-1.gpkg.tar)
+1712894540:  ::: completed emerge (52 of 86) x11-libs/xcb-util-keysyms-0.4.1 to /
+1712894540:  >>> emerge (53 of 86) x11-libs/libXext-1.3.6 to /
+1712894540:  === (53 of 86) Merging Binary (x11-libs/libXext-1.3.6::/var/cache/binpkgs/x11-libs/libXext/libXext-1.3.6-1.gpkg.tar)
+1712894543:  >>> AUTOCLEAN: x11-libs/libXext:0
+1712894545:  === (53 of 86) Post-Build Cleaning (x11-libs/libXext-1.3.6::/var/cache/binpkgs/x11-libs/libXext/libXext-1.3.6-1.gpkg.tar)
+1712894545:  ::: completed emerge (53 of 86) x11-libs/libXext-1.3.6 to /
+1712894545:  >>> emerge (54 of 86) x11-libs/libXfixes-6.0.1 to /
+1712894545:  === (54 of 86) Merging Binary (x11-libs/libXfixes-6.0.1::/var/cache/binpkgs/x11-libs/libXfixes/libXfixes-6.0.1-1.gpkg.tar)
+1712894547:  >>> AUTOCLEAN: x11-libs/libXfixes:0
+1712894549:  === (54 of 86) Post-Build Cleaning (x11-libs/libXfixes-6.0.1::/var/cache/binpkgs/x11-libs/libXfixes/libXfixes-6.0.1-1.gpkg.tar)
+1712894549:  ::: completed emerge (54 of 86) x11-libs/libXfixes-6.0.1 to /
+1712894549:  >>> emerge (55 of 86) x11-libs/libXrender-0.9.11 to /
+1712894549:  === (55 of 86) Merging Binary (x11-libs/libXrender-0.9.11::/var/cache/binpkgs/x11-libs/libXrender/libXrender-0.9.11-1.gpkg.tar)
+1712894551:  >>> AUTOCLEAN: x11-libs/libXrender:0
+1712894553:  === (55 of 86) Post-Build Cleaning (x11-libs/libXrender-0.9.11::/var/cache/binpkgs/x11-libs/libXrender/libXrender-0.9.11-1.gpkg.tar)
+1712894553:  ::: completed emerge (55 of 86) x11-libs/libXrender-0.9.11 to /
+1712894553:  >>> emerge (56 of 86) x11-libs/libXcomposite-0.4.6 to /
+1712894553:  === (56 of 86) Merging Binary (x11-libs/libXcomposite-0.4.6::/var/cache/binpkgs/x11-libs/libXcomposite/libXcomposite-0.4.6-1.gpkg.tar)
+1712894556:  >>> AUTOCLEAN: x11-libs/libXcomposite:0
+1712894558:  === (56 of 86) Post-Build Cleaning (x11-libs/libXcomposite-0.4.6::/var/cache/binpkgs/x11-libs/libXcomposite/libXcomposite-0.4.6-1.gpkg.tar)
+1712894558:  ::: completed emerge (56 of 86) x11-libs/libXcomposite-0.4.6 to /
+1712894558:  >>> emerge (57 of 86) x11-libs/libXdamage-1.1.6 to /
+1712894558:  === (57 of 86) Merging Binary (x11-libs/libXdamage-1.1.6::/var/cache/binpkgs/x11-libs/libXdamage/libXdamage-1.1.6-1.gpkg.tar)
+1712894560:  >>> AUTOCLEAN: x11-libs/libXdamage:0
+1712894562:  === (57 of 86) Post-Build Cleaning (x11-libs/libXdamage-1.1.6::/var/cache/binpkgs/x11-libs/libXdamage/libXdamage-1.1.6-1.gpkg.tar)
+1712894562:  ::: completed emerge (57 of 86) x11-libs/libXdamage-1.1.6 to /
+1712894562:  >>> emerge (58 of 86) x11-libs/libXxf86vm-1.1.5 to /
+1712894562:  === (58 of 86) Merging Binary (x11-libs/libXxf86vm-1.1.5::/var/cache/binpkgs/x11-libs/libXxf86vm/libXxf86vm-1.1.5-1.gpkg.tar)
+1712894564:  >>> AUTOCLEAN: x11-libs/libXxf86vm:0
+1712894566:  === (58 of 86) Post-Build Cleaning (x11-libs/libXxf86vm-1.1.5::/var/cache/binpkgs/x11-libs/libXxf86vm/libXxf86vm-1.1.5-1.gpkg.tar)
+1712894566:  ::: completed emerge (58 of 86) x11-libs/libXxf86vm-1.1.5 to /
+1712894566:  >>> emerge (59 of 86) x11-libs/libXi-1.8.1 to /
+1712894566:  === (59 of 86) Merging Binary (x11-libs/libXi-1.8.1::/var/cache/binpkgs/x11-libs/libXi/libXi-1.8.1-1.gpkg.tar)
+1712894569:  >>> AUTOCLEAN: x11-libs/libXi:0
+1712894571:  === (59 of 86) Post-Build Cleaning (x11-libs/libXi-1.8.1::/var/cache/binpkgs/x11-libs/libXi/libXi-1.8.1-1.gpkg.tar)
+1712894571:  ::: completed emerge (59 of 86) x11-libs/libXi-1.8.1 to /
+1712894571:  >>> emerge (60 of 86) media-libs/libglvnd-1.7.0 to /
+1712894571:  === (60 of 86) Merging Binary (media-libs/libglvnd-1.7.0::/var/cache/binpkgs/media-libs/libglvnd/libglvnd-1.7.0-1.gpkg.tar)
+1712894573:  >>> AUTOCLEAN: media-libs/libglvnd:0
+1712894575:  === (60 of 86) Post-Build Cleaning (media-libs/libglvnd-1.7.0::/var/cache/binpkgs/media-libs/libglvnd/libglvnd-1.7.0-1.gpkg.tar)
+1712894575:  ::: completed emerge (60 of 86) media-libs/libglvnd-1.7.0 to /
+1712894575:  >>> emerge (61 of 86) x11-libs/libXcursor-1.2.2 to /
+1712894575:  === (61 of 86) Merging Binary (x11-libs/libXcursor-1.2.2::/var/cache/binpkgs/x11-libs/libXcursor/libXcursor-1.2.2-1.gpkg.tar)
+1712894578:  >>> AUTOCLEAN: x11-libs/libXcursor:0
+1712894579:  === (61 of 86) Post-Build Cleaning (x11-libs/libXcursor-1.2.2::/var/cache/binpkgs/x11-libs/libXcursor/libXcursor-1.2.2-1.gpkg.tar)
+1712894579:  ::: completed emerge (61 of 86) x11-libs/libXcursor-1.2.2 to /
+1712894579:  >>> emerge (62 of 86) x11-libs/libXrandr-1.5.4 to /
+1712894580:  === (62 of 86) Merging Binary (x11-libs/libXrandr-1.5.4::/var/cache/binpkgs/x11-libs/libXrandr/libXrandr-1.5.4-1.gpkg.tar)
+1712894582:  >>> AUTOCLEAN: x11-libs/libXrandr:0
+1712894584:  === (62 of 86) Post-Build Cleaning (x11-libs/libXrandr-1.5.4::/var/cache/binpkgs/x11-libs/libXrandr/libXrandr-1.5.4-1.gpkg.tar)
+1712894584:  ::: completed emerge (62 of 86) x11-libs/libXrandr-1.5.4 to /
+1712894584:  >>> emerge (63 of 86) x11-libs/libXtst-1.2.4 to /
+1712894584:  === (63 of 86) Merging Binary (x11-libs/libXtst-1.2.4::/var/cache/binpkgs/x11-libs/libXtst/libXtst-1.2.4-1.gpkg.tar)
+1712894586:  >>> AUTOCLEAN: x11-libs/libXtst:0
+1712894588:  === (63 of 86) Post-Build Cleaning (x11-libs/libXtst-1.2.4::/var/cache/binpkgs/x11-libs/libXtst/libXtst-1.2.4-1.gpkg.tar)
+1712894588:  ::: completed emerge (63 of 86) x11-libs/libXtst-1.2.4 to /
+1712894588:  >>> emerge (64 of 86) dev-libs/glib-2.78.3 to /
+1712894588:  === (64 of 86) Merging Binary (dev-libs/glib-2.78.3::/var/cache/binpkgs/dev-libs/glib/glib-2.78.3-1.gpkg.tar)
+1712894591:  >>> AUTOCLEAN: dev-libs/glib:2
+1712894594:  === (64 of 86) Post-Build Cleaning (dev-libs/glib-2.78.3::/var/cache/binpkgs/dev-libs/glib/glib-2.78.3-1.gpkg.tar)
+1712894594:  ::: completed emerge (64 of 86) dev-libs/glib-2.78.3 to /
+1712894594:  >>> emerge (65 of 86) x11-misc/shared-mime-info-2.4-r1 to /
+1712894594:  === (65 of 86) Merging Binary (x11-misc/shared-mime-info-2.4-r1::/var/cache/binpkgs/x11-misc/shared-mime-info/shared-mime-info-2.4-r1-1.gpkg.tar)
+1712894596:  >>> AUTOCLEAN: x11-misc/shared-mime-info:0
+1712894599:  === (65 of 86) Post-Build Cleaning (x11-misc/shared-mime-info-2.4-r1::/var/cache/binpkgs/x11-misc/shared-mime-info/shared-mime-info-2.4-r1-1.gpkg.tar)
+1712894599:  ::: completed emerge (65 of 86) x11-misc/shared-mime-info-2.4-r1 to /
+1712894599:  >>> emerge (66 of 86) dev-util/desktop-file-utils-0.27 to /
+1712894599:  === (66 of 86) Merging Binary (dev-util/desktop-file-utils-0.27::/var/cache/binpkgs/dev-util/desktop-file-utils/desktop-file-utils-0.27-1.gpkg.tar)
+1712894601:  >>> AUTOCLEAN: dev-util/desktop-file-utils:0
+1712894603:  === (66 of 86) Post-Build Cleaning (dev-util/desktop-file-utils-0.27::/var/cache/binpkgs/dev-util/desktop-file-utils/desktop-file-utils-0.27-1.gpkg.tar)
+1712894603:  ::: completed emerge (66 of 86) dev-util/desktop-file-utils-0.27 to /
+1712894603:  >>> emerge (67 of 86) x11-libs/cairo-1.18.0 to /
+1712894603:  === (67 of 86) Merging Binary (x11-libs/cairo-1.18.0::/var/cache/binpkgs/x11-libs/cairo/cairo-1.18.0-1.gpkg.tar)
+1712894606:  >>> AUTOCLEAN: x11-libs/cairo:0
+1712894608:  === (67 of 86) Post-Build Cleaning (x11-libs/cairo-1.18.0::/var/cache/binpkgs/x11-libs/cairo/cairo-1.18.0-1.gpkg.tar)
+1712894608:  ::: completed emerge (67 of 86) x11-libs/cairo-1.18.0 to /
+1712894608:  >>> emerge (68 of 86) app-text/enchant-2.6.1 to /
+1712894608:  === (68 of 86) Merging Binary (app-text/enchant-2.6.1::/var/cache/binpkgs/app-text/enchant/enchant-2.6.1-1.gpkg.tar)
+1712894610:  >>> AUTOCLEAN: app-text/enchant:2
+1712894612:  === (68 of 86) Post-Build Cleaning (app-text/enchant-2.6.1::/var/cache/binpkgs/app-text/enchant/enchant-2.6.1-1.gpkg.tar)
+1712894612:  ::: completed emerge (68 of 86) app-text/enchant-2.6.1 to /
+1712894612:  >>> emerge (69 of 86) dev-libs/gobject-introspection-1.78.1 to /
+1712894612:  === (69 of 86) Merging Binary (dev-libs/gobject-introspection-1.78.1::/var/cache/binpkgs/dev-libs/gobject-introspection/gobject-introspection-1.78.1-1.gpkg.tar)
+1712894615:  >>> AUTOCLEAN: dev-libs/gobject-introspection:0
+1712894617:  === (69 of 86) Post-Build Cleaning (dev-libs/gobject-introspection-1.78.1::/var/cache/binpkgs/dev-libs/gobject-introspection/gobject-introspection-1.78.1-1.gpkg.tar)
+1712894617:  ::: completed emerge (69 of 86) dev-libs/gobject-introspection-1.78.1 to /
+1712894617:  >>> emerge (70 of 86) media-libs/portmidi-2.0.4 to /
+1712894617:  === (70 of 86) Merging Binary (media-libs/portmidi-2.0.4::/var/cache/binpkgs/media-libs/portmidi/portmidi-2.0.4-1.gpkg.tar)
+1712894620:  >>> AUTOCLEAN: media-libs/portmidi:0
+1712894622:  === (70 of 86) Post-Build Cleaning (media-libs/portmidi-2.0.4::/var/cache/binpkgs/media-libs/portmidi/portmidi-2.0.4-1.gpkg.tar)
+1712894622:  ::: completed emerge (70 of 86) media-libs/portmidi-2.0.4 to /
+1712894622:  >>> emerge (71 of 86) x11-libs/gdk-pixbuf-2.42.10-r1 to /
+1712894622:  === (71 of 86) Merging Binary (x11-libs/gdk-pixbuf-2.42.10-r1::/var/cache/binpkgs/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1-1.gpkg.tar)
+1712894624:  >>> AUTOCLEAN: x11-libs/gdk-pixbuf:2
+1712894627:  === (71 of 86) Post-Build Cleaning (x11-libs/gdk-pixbuf-2.42.10-r1::/var/cache/binpkgs/x11-libs/gdk-pixbuf/gdk-pixbuf-2.42.10-r1-1.gpkg.tar)
+1712894627:  ::: completed emerge (71 of 86) x11-libs/gdk-pixbuf-2.42.10-r1 to /
+1712894627:  >>> emerge (72 of 86) media-libs/harfbuzz-8.3.0 to /
+1712894627:  === (72 of 86) Merging Binary (media-libs/harfbuzz-8.3.0::/var/cache/binpkgs/media-libs/harfbuzz/harfbuzz-8.3.0-1.gpkg.tar)
+1712894629:  >>> AUTOCLEAN: media-libs/harfbuzz:0
+1712894632:  === (72 of 86) Post-Build Cleaning (media-libs/harfbuzz-8.3.0::/var/cache/binpkgs/media-libs/harfbuzz/harfbuzz-8.3.0-1.gpkg.tar)
+1712894632:  ::: completed emerge (72 of 86) media-libs/harfbuzz-8.3.0 to /
+1712894632:  >>> emerge (73 of 86) app-accessibility/at-spi2-core-2.50.2 to /
+1712894632:  === (73 of 86) Merging Binary (app-accessibility/at-spi2-core-2.50.2::/var/cache/binpkgs/app-accessibility/at-spi2-core/at-spi2-core-2.50.2-1.gpkg.tar)
+1712894634:  >>> AUTOCLEAN: app-accessibility/at-spi2-core:2
+1712894637:  === (73 of 86) Post-Build Cleaning (app-accessibility/at-spi2-core-2.50.2::/var/cache/binpkgs/app-accessibility/at-spi2-core/at-spi2-core-2.50.2-1.gpkg.tar)
+1712894637:  ::: completed emerge (73 of 86) app-accessibility/at-spi2-core-2.50.2 to /
+1712894637:  >>> emerge (74 of 86) x11-libs/pango-1.52.1 to /
+1712894637:  === (74 of 86) Merging Binary (x11-libs/pango-1.52.1::/var/cache/binpkgs/x11-libs/pango/pango-1.52.1-1.gpkg.tar)
+1712894640:  >>> AUTOCLEAN: x11-libs/pango:0
+1712894642:  === (74 of 86) Post-Build Cleaning (x11-libs/pango-1.52.1::/var/cache/binpkgs/x11-libs/pango/pango-1.52.1-1.gpkg.tar)
+1712894642:  ::: completed emerge (74 of 86) x11-libs/pango-1.52.1 to /
+1712894642:  >>> emerge (75 of 86) dev-util/gtk-update-icon-cache-3.24.40 to /
+1712894642:  === (75 of 86) Merging Binary (dev-util/gtk-update-icon-cache-3.24.40::/var/cache/binpkgs/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40-1.gpkg.tar)
+1712894645:  >>> AUTOCLEAN: dev-util/gtk-update-icon-cache:0
+1712894647:  === (75 of 86) Post-Build Cleaning (dev-util/gtk-update-icon-cache-3.24.40::/var/cache/binpkgs/dev-util/gtk-update-icon-cache/gtk-update-icon-cache-3.24.40-1.gpkg.tar)
+1712894647:  ::: completed emerge (75 of 86) dev-util/gtk-update-icon-cache-3.24.40 to /
+1712894647:  >>> emerge (76 of 86) gnome-base/librsvg-2.57.0 to /
+1712894647:  === (76 of 86) Merging Binary (gnome-base/librsvg-2.57.0::/var/cache/binpkgs/gnome-base/librsvg/librsvg-2.57.0-1.gpkg.tar)
+1712894650:  >>> AUTOCLEAN: gnome-base/librsvg:2
+1712894652:  === (76 of 86) Post-Build Cleaning (gnome-base/librsvg-2.57.0::/var/cache/binpkgs/gnome-base/librsvg/librsvg-2.57.0-1.gpkg.tar)
+1712894652:  ::: completed emerge (76 of 86) gnome-base/librsvg-2.57.0 to /
+1712894652:  >>> emerge (77 of 86) x11-themes/adwaita-icon-theme-45.0 to /
+1712894652:  === (77 of 86) Merging Binary (x11-themes/adwaita-icon-theme-45.0::/var/cache/binpkgs/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0-1.gpkg.tar)
+1712894655:  >>> AUTOCLEAN: x11-themes/adwaita-icon-theme:0
+1712894658:  === (77 of 86) Post-Build Cleaning (x11-themes/adwaita-icon-theme-45.0::/var/cache/binpkgs/x11-themes/adwaita-icon-theme/adwaita-icon-theme-45.0-1.gpkg.tar)
+1712894658:  ::: completed emerge (77 of 86) x11-themes/adwaita-icon-theme-45.0 to /
+1712894658:  >>> emerge (78 of 86) sys-devel/llvm-17.0.6 to /
+1712894658:  === (78 of 86) Merging Binary (sys-devel/llvm-17.0.6::/var/cache/binpkgs/sys-devel/llvm/llvm-17.0.6-1.gpkg.tar)
+1712894664:  >>> AUTOCLEAN: sys-devel/llvm:17
+1712894670:  === (78 of 86) Post-Build Cleaning (sys-devel/llvm-17.0.6::/var/cache/binpkgs/sys-devel/llvm/llvm-17.0.6-1.gpkg.tar)
+1712894670:  ::: completed emerge (78 of 86) sys-devel/llvm-17.0.6 to /
+1712894670:  >>> emerge (79 of 86) sys-devel/llvmgold-17 to /
+1712894670:  === (79 of 86) Merging Binary (sys-devel/llvmgold-17::/var/cache/binpkgs/sys-devel/llvmgold/llvmgold-17-1.gpkg.tar)
+1712894672:  >>> AUTOCLEAN: sys-devel/llvmgold:0
+1712894674:  === (79 of 86) Post-Build Cleaning (sys-devel/llvmgold-17::/var/cache/binpkgs/sys-devel/llvmgold/llvmgold-17-1.gpkg.tar)
+1712894674:  ::: completed emerge (79 of 86) sys-devel/llvmgold-17 to /
+1712894674:  >>> emerge (80 of 86) sys-devel/llvm-toolchain-symlinks-17 to /
+1712894674:  === (80 of 86) Merging Binary (sys-devel/llvm-toolchain-symlinks-17::/var/cache/binpkgs/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17-1.gpkg.tar)
+1712894676:  >>> AUTOCLEAN: sys-devel/llvm-toolchain-symlinks:17
+1712894678:  === (80 of 86) Post-Build Cleaning (sys-devel/llvm-toolchain-symlinks-17::/var/cache/binpkgs/sys-devel/llvm-toolchain-symlinks/llvm-toolchain-symlinks-17-1.gpkg.tar)
+1712894678:  ::: completed emerge (80 of 86) sys-devel/llvm-toolchain-symlinks-17 to /
+1712894678:  >>> emerge (81 of 86) media-libs/mesa-24.0.4 to /
+1712894678:  === (81 of 86) Merging Binary (media-libs/mesa-24.0.4::/var/cache/binpkgs/media-libs/mesa/mesa-24.0.4-1.gpkg.tar)
+1712894681:  >>> AUTOCLEAN: media-libs/mesa:0
+1712894684:  === (81 of 86) Post-Build Cleaning (media-libs/mesa-24.0.4::/var/cache/binpkgs/media-libs/mesa/mesa-24.0.4-1.gpkg.tar)
+1712894684:  ::: completed emerge (81 of 86) media-libs/mesa-24.0.4 to /
+1712894684:  >>> emerge (82 of 86) media-libs/libepoxy-1.5.10-r2 to /
+1712894684:  === (82 of 86) Merging Binary (media-libs/libepoxy-1.5.10-r2::/var/cache/binpkgs/media-libs/libepoxy/libepoxy-1.5.10-r2-1.gpkg.tar)
+1712894686:  >>> AUTOCLEAN: media-libs/libepoxy:0
+1712894688:  === (82 of 86) Post-Build Cleaning (media-libs/libepoxy-1.5.10-r2::/var/cache/binpkgs/media-libs/libepoxy/libepoxy-1.5.10-r2-1.gpkg.tar)
+1712894688:  ::: completed emerge (82 of 86) media-libs/libepoxy-1.5.10-r2 to /
+1712894688:  >>> emerge (83 of 86) x11-libs/gtk+-3.24.39 to /
+1712894688:  === (83 of 86) Merging Binary (x11-libs/gtk+-3.24.39::/var/cache/binpkgs/x11-libs/gtk+/gtk+-3.24.39-1.gpkg.tar)
+1712894692:  >>> AUTOCLEAN: x11-libs/gtk+:3
+1712894696:  === (83 of 86) Post-Build Cleaning (x11-libs/gtk+-3.24.39::/var/cache/binpkgs/x11-libs/gtk+/gtk+-3.24.39-1.gpkg.tar)
+1712894696:  ::: completed emerge (83 of 86) x11-libs/gtk+-3.24.39 to /
+1712894696:  >>> emerge (84 of 86) app-text/gspell-1.12.2 to /
+1712894696:  === (84 of 86) Merging Binary (app-text/gspell-1.12.2::/var/cache/binpkgs/app-text/gspell/gspell-1.12.2-1.gpkg.tar)
+1712894699:  >>> AUTOCLEAN: app-text/gspell:0
+1712894701:  === (84 of 86) Post-Build Cleaning (app-text/gspell-1.12.2::/var/cache/binpkgs/app-text/gspell/gspell-1.12.2-1.gpkg.tar)
+1712894701:  ::: completed emerge (84 of 86) app-text/gspell-1.12.2 to /
+1712894701:  >>> emerge (85 of 86) x11-libs/wxGTK-3.2.2.1-r3 to /
+1712894701:  === (85 of 86) Merging Binary (x11-libs/wxGTK-3.2.2.1-r3::/var/cache/binpkgs/x11-libs/wxGTK/wxGTK-3.2.2.1-r3-1.gpkg.tar)
+1712894704:  >>> AUTOCLEAN: x11-libs/wxGTK:3.2-gtk3
+1712894707:  === (85 of 86) Post-Build Cleaning (x11-libs/wxGTK-3.2.2.1-r3::/var/cache/binpkgs/x11-libs/wxGTK/wxGTK-3.2.2.1-r3-1.gpkg.tar)
+1712894707:  ::: completed emerge (85 of 86) x11-libs/wxGTK-3.2.2.1-r3 to /
+1712894707:  >>> emerge (86 of 86) media-sound/audacity-3.3.3-r1 to /
+1712894707:  === (86 of 86) Cleaning (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712894708:  === (86 of 86) Compiling/Packaging (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712895209:  === (86 of 86) Merging (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712895212:  >>> AUTOCLEAN: media-sound/audacity:0
+1712895216:  === (86 of 86) Updating world file (media-sound/audacity-3.3.3-r1)
+1712895216:  === (86 of 86) Post-Build Cleaning (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712895216:  ::: completed emerge (86 of 86) media-sound/audacity-3.3.3-r1 to /
+1712895216:  *** Finished. Cleaning up...
+1712895216:  *** exiting successfully.
+1712895217:  *** terminating.
