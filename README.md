@@ -356,9 +356,9 @@ Head of Gentoo's repo: [gentoo/gentoo#be766b5](https://github.com/gentoo/gentoo/
 
 ### media-sound/audacity-3.4.2-r1
 
-USE="-alsa -audiocom -ffmpeg -flac -id3tag -ladspa -lv2 -mpg123 -ogg -opus -portmixer -sbsms -test -twolame -vamp -vorbis -wavpack" ABI_X86="(64)"
-
 __[SUCCESS](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r1/1/)__
+
+USE="-*" ABI_X86="(64)"
 
 ```
 emerge =media-sound/audacity-3.4.2-r1
@@ -366,18 +366,21 @@ emerge =media-sound/audacity-3.4.2-r1
 
 __[FAILURE](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r1/2/)__
 
+USE="-*" ABI_X86="(64)"
+
 ```
 emerge --unmerge media-sound/audacity
 emerge --depclean
+nano /var/cache/binpkgs/Packages # remove audacity-3.4.2-r1 entries
 rm /var/cache/binpkgs/media-sound/audacity/audacity-3.4.2-r1-*
 emerge -k =media-sound/audacity-3.4.2-r1
 ```
 
 ### media-sound/audacity-3.4.2-r2
 
-USE="-alsa -audiocom -ffmpeg -flac -id3tag -ladspa -lv2 -mpg123 -ogg -opus -portmixer -sbsms -test -twolame -vamp -vorbis -wavpack" ABI_X86="(64)"
-
 __[SUCCESS](results/PR_35903/head_05d838a28b1c2516741f7ff25b2c4e89984e76e8/media-sound/audacity/audacity-3.4.2-r2/3/)__
+
+USE="-*" ABI_X86="(64)"
 
 ```
 cd /var/db/repos/localrepo/media-sound/audacity
@@ -386,5 +389,7 @@ patch -p1 < .../audacity-3.4.2-r2-3.patch
 ebuild audacity-3.4.2-r2.ebuild manifest
 emerge --unmerge media-sound/audacity
 emerge --depclean
+nano /var/cache/binpkgs/Packages # remove audacity-3.4.2-r2 entries
+rm /var/cache/binpkgs/media-sound/audacity/audacity-3.4.2-r2-*
 emerge -k =media-sound/audacity-3.4.2-r2
 ```
