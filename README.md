@@ -294,6 +294,22 @@ rm /var/cache/binpkgs/media-sound/audacity/audacity-3.3.3-r1-*
 emerge -k =media-sound/audacity-3.3.3-r1
 ```
 
+__[SUCCESS](results/PR_35903/head_512e17d21024862b7e2f58025fe72354863ee345/media-sound/audacity/audacity-3.3.3-r1/3/)__
+
+USE="-* audiocom" ABI_X86="(64)"
+
+Applied audacity-3.4.2-audiocom-std-string.patch from PR 35414.
+
+References:
+- [bug#920363](https://bugs.gentoo.org/920363)
+- [gentoo/gentoo#35414](https://github.com/gentoo/gentoo/pull/35414)
+
+Resuming from a previous failure, after the aforementioned patch.
+
+```
+emerge =media-sound/audacity-3.3.3-r1
+```
+
 ## PR 35903 HEAD 05d838a
 
 __LXC container__: _Gentoo amd64 (openrc) (20240406_16:07)_

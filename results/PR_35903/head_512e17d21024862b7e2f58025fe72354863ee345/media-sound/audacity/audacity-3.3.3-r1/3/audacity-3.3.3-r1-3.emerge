@@ -1,0 +1,13 @@
+1712881178: Started emerge on: Apr 12, 2024 00:19:37
+1712881178:  *** emerge --ask --binpkg-respect-use=y --regex-search-auto=y --verbose =media-sound/audacity-3.3.3-r1
+1712881182:  >>> emerge (1 of 1) media-sound/audacity-3.3.3-r1 to /
+1712881183:  === (1 of 1) Cleaning (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712881185:  === (1 of 1) Compiling/Packaging (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712881781:  === (1 of 1) Merging (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712881784:  >>> AUTOCLEAN: media-sound/audacity:0
+1712881790:  === (1 of 1) Updating world file (media-sound/audacity-3.3.3-r1)
+1712881790:  === (1 of 1) Post-Build Cleaning (media-sound/audacity-3.3.3-r1::/var/db/repos/localrepo/media-sound/audacity/audacity-3.3.3-r1.ebuild)
+1712881790:  ::: completed emerge (1 of 1) media-sound/audacity-3.3.3-r1 to /
+1712881790:  *** Finished. Cleaning up...
+1712881790:  *** exiting successfully.
+1712881790:  *** terminating.
