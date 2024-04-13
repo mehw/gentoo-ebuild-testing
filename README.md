@@ -190,6 +190,21 @@ rm /var/cache/binpkgs/media-sound/audacity/audacity-3.3.3-r1-*
 emerge -k =media-sound/audacity-3.3.3-r1
 ```
 
+__[SUCCESS](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-3.3.3-r1/21/)__
+
+USE="* -mad -test" ABI_X86="(64)"
+
+PS: The '*' here is a non-functional pseudo wildcard, meaning all;
+    media-sound/audacity[alsa] requires media-libs/portaudio[alsa].
+
+```
+emerge --unmerge media-sound/audacity
+emerge --depclean
+nano /var/cache/binpkgs/Packages # remove audacity-3.3.3-r1 entries
+rm /var/cache/binpkgs/media-sound/audacity/audacity-3.3.3-r1-*
+emerge -k =media-sound/audacity-3.3.3-r1
+```
+
 ## PR 35903 HEAD 512e17d
 
 Resume from [PR 35903 HEAD 05d838a](#user-content-pr-35903-head-05d838a).
