@@ -1,0 +1,45 @@
+INFO: setup
+Package:    media-sound/audacity-3.3.3-r1:0
+Repository: localrepo
+Maintainer: proaudio@gentoo.org richard@audacityteam.org,mehw.is.me@inventati.org
+USE:        abi_x86_64 amd64 elibc_glibc id3tag kernel_linux
+FEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
+INFO: prepare
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3_build"
+Applying audacity-3.2.3-disable-ccache.patch ...
+Applying audacity-3.3.3-fix-rpaths.patch ...
+Applying audacity-3.2.3-allow-overriding-alsa-jack.patch ...
+Applying audacity-3.3.3-local-threadpool-libraries.patch ...
+Applying audacity-3.3.3-upstream-fix-rapidjson.patch ...
+Applying audacity-3.3.3-Findlibmad.patch ...
+Applying audacity-3.3.3-fix-includes.patch ...
+Applying audacity-3.3.3-gettext-0.22.patch ...
+Applying audacity-3.3.3-remove-conan-test-dependency.patch ...
+Applying audacity-3.4.2-audiocom-std-string.patch ...
+Hardcoded definition(s) removed in CMakeLists.txt:
+    set( CMAKE_BUILD_TYPE "Debug" )
+INFO: configure
+
+Requested wxWidgets:        3.2-gtk3
+Using wxWidgets:            gtk3-unicode-3.2-gtk3
+
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3_build"
+INFO: compile
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3_build"
+INFO: test
+Skipping make test/check due to ebuild restriction.
+INFO: install
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-3.3.3-r1/work/audacity-Audacity-3.3.3_build"
+Final size of build directory: 270100 KiB (263.7 MiB)
+Final size of installed tree:   41600 KiB ( 40.6 MiB)
+INFO: postinst
+Updating .desktop files database ...
+Updating icons cache ...
+Updating shared mime info database ...
+QA: postinst
+VDB: detected possibly incorrect RDEPEND (media-sound/audacity-3.3.3-r1)
+[31mmedia-sound/lame < [0m
