@@ -2,6 +2,11 @@ __THIS REPO IS SUBJECT TO FORCED PUSH__
 
 # media-sound/audacity
 
+__NOTES:__
+
+1. <a id="main-note-1" />Will later use `media-libs/libsndfile[minimal]` to not install dependencies beyond `media-sound/audacity` strict
+   requirements ([`media-sound/audacity-2.4.2-r3[doc]: PR 35903 HEAD 911aff1 SUCCESS`](#user-content-success-pr-35903-head-911aff1-2.4.2-r3-7)).
+
 ## PR 35903 HEAD 911aff1
 
 Summary of [512e17d..911aff1](https://github.com/gentoo/gentoo/compare/512e17d21024862b7e2f58025fe72354863ee345..911aff12f7fe07a527a7faa15c78156b1a15b8f7), see also [35903#issuecomment-2050869857](https://github.com/gentoo/gentoo/pull/35903#issuecomment-2050869857):
@@ -42,6 +47,21 @@ Head of Gentoo's repo: [gentoo/gentoo#9428b7b](https://github.com/gentoo/gentoo/
 - <a id="success-pr-35903-head-911aff1-2.4.2-r3-5" />[`media-sound/audacity-2.4.2-r3[ogg]: PR 35903 HEAD 911aff1 SUCCESS`](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-2.4.2-r3/5/)
 
 - <a id="success-pr-35903-head-911aff1-2.4.2-r3-6" />[`media-sound/audacity-2.4.2-r3[vorbis]: PR 35903 HEAD 911aff1 SUCCESS`](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-2.4.2-r3/6/)
+
+- <a id="success-pr-35903-head-911aff1-2.4.2-r3-7" />[`media-sound/audacity-2.4.2-r3[doc]: PR 35903 HEAD 911aff1 SUCCESS`](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-2.4.2-r3/7/)
+
+  _FROM HERE ON <sup>[[main note 1]](#user-content-main-note-1)</sup>_
+
+  Use `media-libs/libsndfile[minimal]` to not install dependencies
+  beyond `media-sound/audacity` strict requirements.
+
+  `media-libs/libsndfile-1.2.2-r2[!minimal]` would install:
+  - `media-libs/flac`
+  - `media-libs/libogg`
+  - `media-libs/libvorbis`
+  - `media-libs/opus`
+  - `media-sound/lame`
+  - `media-sound/mpg123-base`
 
 ### <a id="pr-35903-head-911aff1-3.3.3-r1" />media-sound/audacity-3.3.3-r1
 
