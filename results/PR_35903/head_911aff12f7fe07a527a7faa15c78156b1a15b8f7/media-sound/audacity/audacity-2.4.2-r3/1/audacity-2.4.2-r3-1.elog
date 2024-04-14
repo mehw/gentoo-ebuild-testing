@@ -1,0 +1,48 @@
+INFO: setup
+Package:    media-sound/audacity-2.4.2-r3:0
+Repository: localrepo
+Maintainer: proaudio@gentoo.org richard@audacityteam.org,mehw.is.me@inventati.org
+USE:        abi_x86_64 amd64 elibc_glibc kernel_linux
+FEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
+INFO: prepare
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+Applying audacity-2.3.3-Fix-building-against-system-portaudio.patch ...
+Applying audacity-2.4.2-fix-vertical-track-resizing.patch ...
+Applying audacity-2.4.2-fix-gettimeofday.patch ...
+Applying audacity-2.4.2-fix-metainfo.patch ...
+Applying audacity-2.4.2-add-missing-include-limits.patch ...
+Applying audacity-2.4.2-add-missing-include-portaudio.patch ...
+Applying audacity-2.4.2-disable-ccache.patch ...
+Hardcoded definition(s) removed in lib-src/portaudio-v19/CMakeLists.txt:
+     SET(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build." FORCE
+INFO: configure
+
+Requested wxWidgets:        3.0-gtk3
+Using wxWidgets:            gtk3-unicode-3.0-gtk3
+
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+INFO: compile
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+ERROR: compile
+ERROR: media-sound/audacity-2.4.2-r3::localrepo failed (compile phase):
+  ninja -v -j8 -l8 failed
+
+Call stack:
+    ebuild.sh, line  136:  Called src_compile
+  environment, line 2296:  Called cmake_src_compile
+  environment, line  954:  Called cmake_build
+  environment, line  921:  Called eninja
+  environment, line 1392:  Called die
+The specific snippet of code:
+      "$@" || die -n "${*} failed"
+
+If you need support, post the output of `emerge --info '=media-sound/audacity-2.4.2-r3::localrepo'`,
+the complete build log and the output of `emerge -pqv '=media-sound/audacity-2.4.2-r3::localrepo'`.
+The complete build log is located at '/var/log/portage/build/media-sound/audacity-2.4.2-r3:20240413-184500.log.gz'.
+For convenience, a symlink to the build log is located at '/var/tmp/portage/media-sound/audacity-2.4.2-r3/temp/build.log.gz'.
+The ebuild environment file is located at '/var/tmp/portage/media-sound/audacity-2.4.2-r3/temp/environment'.
+Working directory: '/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build'
+S: '/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2'
