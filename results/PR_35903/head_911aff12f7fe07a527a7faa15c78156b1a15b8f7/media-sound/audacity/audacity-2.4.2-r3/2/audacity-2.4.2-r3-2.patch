@@ -1,0 +1,11 @@
+diff -Nuar a/audacity-2.4.2-r3.ebuild b/audacity-2.4.2-r3.ebuild
+--- a/audacity-2.4.2-r3.ebuild	2024-04-08 08:46:13.038864921 +0000
++++ b/audacity-2.4.2-r3.ebuild	2024-04-14 05:10:20.119372126 +0000
+@@ -68,6 +68,7 @@
+ 	"${FILESDIR}/${P}-add-missing-include-limits.patch"
+ 	"${FILESDIR}/${P}-add-missing-include-portaudio.patch"
+ 	"${FILESDIR}/${P}-disable-ccache.patch"
++	"${FILESDIR}/${P}-fix-libflac-undefined-references.patch"
+ )
+ 
+ src_prepare() {

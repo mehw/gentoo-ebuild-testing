@@ -24,6 +24,17 @@ Head of Gentoo's repo: [gentoo/gentoo#9428b7b](https://github.com/gentoo/gentoo/
   Triggers: [bug#741969](https://bugs.gentoo.org/741969)  
   Triggers: [bug#884747](https://bugs.gentoo.org/884747)
 
+  Fixed in [`media-sound/audacity-2.4.2-r3[-*]: PR 35903 HEAD 911aff1 SUCCESS (patch)`](#user-content-success-pr-35903-head-911aff1-2.4.2-r3-2)
+  via suggested patch.
+
+- <a id="success-pr-35903-head-911aff1-2.4.2-r3-2" />[`media-sound/audacity-2.4.2-r3[-*]: PR 35903 HEAD 911aff1 SUCCESS (patch)`](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-2.4.2-r3/2/)
+
+  Fixes [`media-sound/audacity-2.4.2-r3[-*]: PR 35903 HEAD 911aff1 FAILURE`](#user-content-failure-pr-35903-head-911aff1-2.4.2-r3-1)
+  via suggested [audacity-2.4.2-fix-libflac-undefined-references.patch](results/PR_35903/head_911aff12f7fe07a527a7faa15c78156b1a15b8f7/media-sound/audacity/audacity-2.4.2-r3/2/files/audacity-2.4.2-fix-libflac-undefined-references.patch).
+
+  Closes: [bug#741969](https://bugs.gentoo.org/741969)  
+  Closes: [bug#884747](https://bugs.gentoo.org/884747)
+
 ### <a id="pr-35903-head-911aff1-3.3.3-r1" />media-sound/audacity-3.3.3-r1
 
 Resume from [PR 35903 HEAD 512e17d](#user-content-pr-35903-head-512e17d-3.3.3-r1).

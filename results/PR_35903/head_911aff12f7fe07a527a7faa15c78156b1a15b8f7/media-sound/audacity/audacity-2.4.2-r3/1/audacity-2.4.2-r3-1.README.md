@@ -7,6 +7,9 @@ via configure.
 Triggers: [bug#741969](https://bugs.gentoo.org/741969)  
 Triggers: [bug#884747](https://bugs.gentoo.org/884747)
 
+Fixed in [`media-sound/audacity-2.4.2-r3[-*]: PR 35903 HEAD 911aff1 SUCCESS (patch)`](https://github.com/mehw/gentoo-ebuild-testing/tree/media-sound/audacity#user-content-success-pr-35903-head-911aff1-2.4.2-r3-2)
+via suggested patch.
+
 ---
 
 LXC container: Gentoo amd64 openrc 20240408_16:07
