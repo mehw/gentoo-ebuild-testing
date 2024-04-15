@@ -1,0 +1,61 @@
+INFO: setup
+Package:    media-sound/audacity-2.4.2-r3:0
+Repository: localrepo
+Maintainer: proaudio@gentoo.org richard@audacityteam.org,mehw.is.me@inventati.org
+USE:        abi_x86_64 amd64 elibc_glibc kernel_linux twolame
+FEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
+INFO: prepare
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+Applying audacity-2.3.3-Fix-building-against-system-portaudio.patch ...
+Applying audacity-2.4.2-fix-vertical-track-resizing.patch ...
+Applying audacity-2.4.2-fix-gettimeofday.patch ...
+Applying audacity-2.4.2-fix-metainfo.patch ...
+Applying audacity-2.4.2-add-missing-include-limits.patch ...
+Applying audacity-2.4.2-add-missing-include-portaudio.patch ...
+Applying audacity-2.4.2-disable-ccache.patch ...
+Applying audacity-2.4.2-fix-libflac-undefined-references.patch ...
+Hardcoded definition(s) removed in lib-src/portaudio-v19/CMakeLists.txt:
+     SET(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build." FORCE
+INFO: configure
+
+Requested wxWidgets:        3.0-gtk3
+Using wxWidgets:            gtk3-unicode-3.0-gtk3
+
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+INFO: compile
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+INFO: test
+Skipping make test/check due to ebuild restriction.
+INFO: install
+Source directory (CMAKE_USE_DIR): "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2"
+Build directory  (BUILD_DIR):     "/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-2.4.2_build"
+Final size of build directory: 264332 KiB (258.1 MiB)
+Final size of installed tree:   30456 KiB ( 29.7 MiB)
+INFO: postinst
+Updating .desktop files database ...
+Updating icons cache ...
+Updating shared mime info database ...
+QA: postinst
+VDB: detected possibly incorrect RDEPEND (media-sound/audacity-2.4.2-r3)
+[32m                     > dev-libs/glib:2[0m
+[31mmedia-libs/portaudio < [0m
+[31mmedia-sound/lame     < [0m
+[32m                     > x11-libs/gdk-pixbuf:2[0m
+[32m                     > x11-libs/gtk+:3[0m
+QA: other
+QA Notice: Package triggers severe warnings which indicate that it
+           may exhibit random runtime failures.
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/cmt/midifile.c:382:1: warning: type of ‘type’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/cmt/midifile.c:512:1: warning: type of ‘c1’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/cmt/midifile.c:512:1: warning: type of ‘c2’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/cmt/midifile.c:512:1: warning: type of ‘c3’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/cmt/midifile.c:512:1: warning: type of ‘c4’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/nyqsrc/handlers.c:9:6: warning: type of ‘pitch’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/nyqsrc/handlers.c:9:6: warning: type of ‘dur’ defaults to ‘int’ [-Wimplicit-int]
+/var/tmp/portage/media-sound/audacity-2.4.2-r3/work/audacity-Audacity-2.4.2/lib-src/libnyquist/nyquist/xlisp/security.c:89:10: warning: implicit declaration of function ‘getcwd’; did you mean ‘getw’? [-Wimplicit-function-declaration]
+Please do not file a Gentoo bug and instead report the above QA
+issues directly to the upstream developers of this software.
+Homepage: https://www.audacityteam.org/
